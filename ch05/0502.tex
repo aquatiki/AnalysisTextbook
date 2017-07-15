@@ -1,0 +1,86 @@
+%!TEX root =  ../main.tex
+
+\objective{Solve arbitrary equations involving rational powers.}
+
+
+Fractional exponents are nothing too special.  It is simply important to remember that in the
+fraction, the numerator is what we've been thinking of as powers ($\frac{5}{1}=5$) and the
+denominators are roots, i.e. $2^{\frac{1}{2}}=\sqrt{2}$.  As we will see next section, this isn't 
+a watertight definition, but it will do for now.
+
+\subsection{Multiplying}\index{Exponents!rules of}
+In situations where exponents abound, it may become confusing when one can and cannot
+multiply, and what to do with exponents.  What do we mean when we write $5^2\cdot5^3$? 
+Is that $5^5$ or $5^6$?  Expanding the notation should help clear it up.  $5^2$ means 
+``multiply by five twice'', i.e. $5\cdot 5$.  $5^3$ means ``multiply by five three times'', $5\cdot
+5\cdot 5$.  So we can see that $5^2\cdot5^3=5\cdot 5\cdot 5\cdot 5\cdot 5=5^5$.
+
+
+
+\begin{derivation}{Multiplying with the Same Base}
+$b^m\cdot b^n=b^{m+n}$.  Notice that $b$ must be consistent.
+\end{derivation}
+
+
+Students sometimes want to combine in impossible ways.  $2\cdot5^3$ becomes $10^3$ 
+somehow, in their minds.  When we consider what the notation means, the contradiction
+becomes clear.  $2\cdot5^3$ means ``two times this: five-times-five-times-five'', which is in no
+way the same as ``ten times ten times ten''.
+
+\subsection{Dividing}
+If the exponents can be added when multiplying powers of the same base, what would you
+expect when dividing?  Yes, it is subtraction.
+
+
+\begin{derivation}{Dividing with the Same Base}
+$\cfrac{b^m}{b^n}=b^{m-n}$.  Notice that $b$ must be consistent.
+\end{derivation}
+
+
+This is a good explanation for negative exponents.  For example, $\cfrac{2^3}{2^8}=2^{-5}$.
+There are more two's in the denominator than the numerator.  This is the same as $\frac{1}{2^5}$,
+which is a far more useful way to write the fraction.  When cancelling and simplifying are done,
+it is conventional to expand the exponent, in this case writing $\frac{1}{32}$.
+
+This also explains the origin of $b^0=1$, unless $b=0$.  Zero exponent arrises when there
+are as many of the base in the denominator as there are in the numerator.  Anything
+divided by itself is 1.
+
+\subsection{Exponents}
+What happens when there is an exponent on an exponent?  Easier than a dream within a
+dream, the exponents continue to mean what they have always meant: ``have this many
+of this bases be multiplied against themselves''.  For example, $(2^3)^4$ means ``four
+groups of two-times-two-times-two'', or $2^12$.
+
+\begin{derivation}{Distribution of Exponents over Multiplication}
+$(b^m\cdot c^n)^p=b^{m\cdot p}\cdot c^{n\cdot p}$ and so for, on each element under
+the power
+\end{derivation}
+
+
+\begin{example}
+\exProblem
+Solve $x^{\frac{3}{2}}=27$.
+
+\exSolution
+To get $x$ to have a simple exponent of 1, raise both sides to the two-third.\\
+$\left(x^\frac{3}{2}\right)^{\frac{2}{3}}=27^{\frac{2}{3}}$
+$x=\left(\sqrt[3]{27}\right)^2$\\
+$x=3^2=9$
+\end{example}
+
+Notice too, there is no distributive property of exponents over addition.  $\sqrt{x^2+1}$
+is irreducible, not $x+1$.  We would need to know what $x$ was to be able to proceed.
+
+\subsection{Rational Exponents}\index{exponents!rational}
+Fractional exponents must be the same as roots.  For example, we know from
+the multiplication property that $4^\frac{1}{2}\cdot 4^\frac{1}{2}$ must equal $4^1$.
+That must mean we are looking for a number times itself to equal 4, so $4^\frac{1}{2}$
+must equal 2.  This means $\sqrt{4}=4^\frac{1}{2}$.  By the same logic, we would 
+find that $4^\frac{1}{3}=\sqrt[3]{4}$, $4^\frac{1}{4}=\sqrt[4]{4}$, etc.  By the power
+rule above, $4^\frac{3}{2}$ must be the same as $(4^\frac{1}{2})^3$.  This could also
+be written as $4^{1.5}$.
+
+We must be careful with even rational exponents, because they can hide the sign of the base.
+For example, $((-5)^2)^\frac{1}{2}=5$.  The safe answer then to $\sqrt[n]{x^n}$ for any
+even $n$ is $|x|$.

@@ -1,0 +1,412 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Introduction}{i}{chapter*.1}
+\ttl@starttoc {chapters@1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.1}Motivation}{i}{section.0.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.2}Prerequisites}{i}{section.0.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.3}Worldview}{ii}{section.0.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.4}Method}{iii}{section.0.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.5}To the Student}{iv}{section.0.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.6}To the Teacher}{iv}{section.0.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Index}}{ix}{section.0.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\@mypartnumtocformat {I}{Linear Transformations}}{1}{part.1}
+\ttl@starttoc {default@1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Functions}{3}{chapter.1}
+\ttl@stoptoc {chapters@1}
+\ttl@starttoc {chapters@2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Representations}{5}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.1}}{5}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{}{5}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.2}Numerical, Graphical, Algebraic, and Verbal}{7}{subsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Numerically}{7}{subsubsection*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Graphical}{7}{subsubsection*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Algebraically}{8}{subsubsection*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Verbally}{8}{subsubsection*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Mathematical Models}{8}{subsubsection*.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.3}Exercises}{10}{subsection.1.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Types}{15}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Pick x, Find y}{15}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Linear}{18}{subsubsection*.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Quadratic}{18}{subsubsection*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Power}{18}{paragraph*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Polynomial}{19}{paragraph*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Exponential}{19}{subsubsection*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Periodic}{19}{subsubsection*.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Exercises}{20}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Translations and Dilations}{21}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.1}Multiplying and Adding Functions}{21}{subsection.1.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.2}Inside vs. Outside}{26}{subsection.1.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{``Outside'' Operations}{26}{subsubsection*.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Addition}{26}{paragraph*.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Multiplication}{26}{paragraph*.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{``Inside'' Operations}{26}{subsubsection*.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.3}Exercises}{28}{subsection.1.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Reflections and Symmetries}{29}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.1}Through the Looking Glass}{29}{subsection.1.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.2}Reflection}{30}{subsection.1.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{``Outside''}{30}{paragraph*.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{``Inside''}{30}{paragraph*.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.3}Symmetry}{30}{subsection.1.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Even}{30}{paragraph*.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Rotational}{31}{paragraph*.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.4}Exercises}{32}{subsection.1.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}Regressions}{32}{section.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5.1}Graphical Patterns}{32}{subsection.1.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5.2}STATS in the TI}{37}{subsection.1.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Windows}{37}{subsubsection*.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Table}{38}{subsubsection*.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Linear Regression}{38}{paragraph*.39}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Solution}{38}{paragraph*.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Quadratic Regression}{39}{paragraph*.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Exponential and Logarithmic Regression}{39}{paragraph*.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Sinusoidal Regression}{39}{paragraph*.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5.3}Exercises}{40}{subsection.1.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.6}Review}{41}{section.1.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.6.1}Chapter Review}{41}{subsection.1.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.6.2}Chapter Test}{44}{subsection.1.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\@mypartnumtocformat {II}{Appendices}}{47}{part.2}
+\ttl@stoptoc {default@1}
+\ttl@starttoc {default@2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Prerequisites}{49}{appendix.A}
+\ttl@stoptoc {chapters@2}
+\ttl@starttoc {chapters@3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Sets}{51}{section.A.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.1}Union and Intersection}{52}{subsection.A.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Exercises}{53}{figure.caption.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Kinds of Numbers}{54}{section.A.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.1}Irrationals}{55}{subsection.A.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Exercises}{56}{subsection.A.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Number Line}{57}{section.A.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.3.1}Negative Numbers}{57}{subsection.A.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.3.2}Absolute Value}{57}{subsection.A.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.3.3}Inequalities}{58}{subsection.A.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Exercises}{59}{subsection.A.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Analytic Geometry}{60}{section.A.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.4.1}Cartesian Plane}{60}{subsection.A.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Quadrants}{60}{subsubsection*.67}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.4.2}Triangles}{60}{subsection.A.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.4.3}Functions and Relations}{61}{subsection.A.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Exercises}{62}{subsection.A.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Properties and Operators}{63}{section.A.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.5.1}Closure}{63}{subsection.A.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.5.2}Identity and Invertibility}{63}{subsection.A.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.5.3}Associativity}{64}{subsection.A.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.5.4}Commutativity}{64}{subsection.A.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.5.5}Distributivity}{64}{subsection.A.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.6}Factoring and Primes}{65}{section.A.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Prime Number}{65}{paragraph*.74}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Fundamental Theorem of Arithmetic}{65}{paragraph*.75}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.6.1}Patterns of Distribution}{65}{subsection.A.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.6.2}Factoring Quadratics}{65}{subsection.A.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Split the middle}{66}{paragraph*.76}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Complete the Square and the Quadratic Formula}{66}{paragraph*.77}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Quadratic Formula}{66}{paragraph*.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Exercises}{67}{paragraph*.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.7}Matrices}{68}{section.A.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Matrix}{68}{paragraph*.81}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Size, Entries}{68}{paragraph*.82}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.7.1}Addition and Scalars}{68}{subsection.A.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.7.2}Matrix Multiplication}{68}{subsection.A.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.7.3}Square Matrices}{69}{subsection.A.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.7.4}Gaussian Elimination}{69}{subsection.A.7.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Matrices}{71}{appendix.B}
+\ttl@stoptoc {chapters@3}
+\ttl@starttoc {chapters@4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.1}Transformations}{74}{section.B.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.1.1}Shifts}{75}{subsection.B.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.1.2}Reflections}{75}{subsection.B.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.1.3}Rotations}{75}{subsection.B.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.1.4}Derivatives}{75}{subsection.B.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.1.5}Exercises}{75}{subsection.B.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.2}Walks}{77}{section.B.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.2.1}Adjacency Maps}{78}{subsection.B.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.2.2}Unidirectional Lines}{78}{subsection.B.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.2.3}Exercises}{78}{subsection.B.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.3}Vector-Spaces}{79}{section.B.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.3.1}Null Space}{79}{subsection.B.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.3.2}Dependent Systems}{79}{subsection.B.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.3.3}Exercises}{79}{subsection.B.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.4}Determinants}{80}{section.B.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.4.1}Eigenvalues}{80}{subsection.B.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.4.2}Eigenvectors}{80}{subsection.B.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.4.3}Exercises}{80}{subsection.B.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.5}Fractals}{82}{section.B.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.5.1}Text}{83}{subsection.B.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.5.2}Exercises}{85}{subsection.B.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.6}Review}{86}{section.B.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.6.1}Chapter Review}{86}{subsection.B.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.6.2}Chapter Test}{86}{subsection.B.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Vectors}{87}{appendix.C}
+\ttl@stoptoc {chapters@4}
+\ttl@starttoc {chapters@5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.1}Addition and Scalars}{90}{section.C.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.1.1}Unit Vectors}{91}{subsection.C.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.1.2}Magnitude}{91}{subsection.C.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.1.3}Octants}{91}{subsection.C.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.2}Dot Products}{93}{section.C.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.2.1}angles}{94}{subsection.C.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.2.2}projection}{94}{subsection.C.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.2.3}Components}{94}{subsection.C.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.3}Plane, Lines, Parametric}{96}{section.C.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.3.1}Normal vectors}{97}{subsection.C.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.3.2}plane equations}{97}{subsection.C.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.4}Cross Products}{99}{section.C.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.4.1}Right Hand Rule}{100}{subsection.C.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.5}Quaternions}{101}{section.C.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.5.1}Non-Commutative}{101}{subsection.C.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.6}Review}{101}{section.C.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.6.1}Chapter Review}{101}{subsection.C.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.6.2}Chapter Test}{101}{subsection.C.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {D}Conics}{103}{appendix.D}
+\ttl@stoptoc {chapters@5}
+\ttl@starttoc {chapters@6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.1}Introduction to Conics}{106}{section.D.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.1.1}Graphing form}{107}{subsection.D.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.1.2}Algebra General Form}{107}{subsection.D.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.1.3}Using a Calculator}{107}{subsection.D.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.2}Algebra Manipulations}{109}{section.D.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.2.1}Discriminant}{110}{subsection.D.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.2.2}Completing the Square}{110}{subsection.D.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.2.3}Cartesian Forms}{110}{subsection.D.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.2.4}Parametric Forms}{110}{subsection.D.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.2.5}Polar Forms}{110}{subsection.D.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.3}Rotated Conics}{111}{section.D.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.3.1}Rotated Polar Conics}{111}{subsection.D.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.3.2}Cartesian Rotation Equations}{111}{subsection.D.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.3.3}Parametric Rotation by Matrix}{111}{subsection.D.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.4}Eccentricity}{112}{section.D.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.4.1}Range of Eccentricity}{112}{subsection.D.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.4.2}Foci}{112}{subsection.D.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.4.3}Directrices}{112}{subsection.D.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.4.4}Distance Formulae}{112}{subsection.D.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.5}3D Conics}{114}{section.D.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.5.1}2.5D}{115}{subsection.D.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.5.2}$x, y, z$}{115}{subsection.D.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.5.3}$r, \theta , z$}{115}{subsection.D.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.5.4}$\rho , \phi , \theta $}{115}{subsection.D.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.6}Chapter Review}{115}{section.D.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {E}Solutions}{117}{appendix.E}
+\ttl@stoptoc {chapters@6}
+\ttl@starttoc {chapters@7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {E.1}Unit 1}{117}{section.E.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.1.1}Chapter 1}{117}{subsection.E.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\IeC {\textsection }1.5}{117}{subsubsection*.83}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.1.2}Chapter 2}{119}{subsection.E.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\IeC {\textsection }2.1}{119}{subsubsection*.84}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.1.3}Chapter 3}{119}{subsection.E.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\IeC {\textsection }3.1}{119}{subsubsection*.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {E.2}Unit 2}{119}{section.E.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.2.1}Chapter 5}{119}{subsection.E.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\IeC {\textsection }5.1}{119}{subsubsection*.86}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.2.2}Chapter 7}{119}{subsection.E.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\IeC {\textsection }7.1}{119}{subsubsection*.87}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\IeC {\textsection }7.3}{119}{subsubsection*.88}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.2.3}Chapter 8}{119}{subsection.E.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\IeC {\textsection }8.2}{119}{subsubsection*.89}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\@mypartnumtocformat {III}{Addenda}}{121}{part.3}
+\ttl@stoptoc {default@2}
+\ttl@starttoc {default@3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{123}{appendix*.90}
+\ttl@stoptoc {chapters@7}
+\ttl@starttoc {chapters@8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {E.3}Books}{123}{section.E.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {E.4}Articles}{123}{section.E.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {E.5}Media}{123}{section.E.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {E.6}Internet}{125}{section.E.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Glossary}{127}{appendix*.91}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Glossary}{127}{section*.92}
+\contentsfinish 

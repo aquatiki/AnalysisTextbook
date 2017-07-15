@@ -1,0 +1,52 @@
+%!TEX root =  ../main.tex
+
+\subsection{Babylonian Method}
+\begin{objective}
+Graph and understand the slope of root functions.
+\end{objective}
+Square roots are useful whenever someone tell you the square footage of an area.  If it 
+were a square, how long would each side be?  Cube roots are similar for volume. 
+
+Dealing with square roots without calculator can be rather intimidating.  But it doesn't have
+to be.  3,000 years ago, the Babylonians found a method that truly repays the effort put into it:
+each iteration double the number of digits in the estimate!  Few formula converge so quickly.
+
+The square root of $A$:
+
+$R_{n+1}=\cfrac{R_n + \frac{A}{R_n}}{2}$
+
+In short:
+\begin{enumerate}
+\item Pick the best number you can.
+\item Divide the original by ``the number''
+\item Average the answer with ``the number''
+\item Return to step 2 with this as ``the number''
+\end{enumerate}
+
+
+\subsection{Even vs. Odd}
+OK, so you found the square or cube root of some number to as many decimal places as
+you need.  Rather than doing \emph{that} more than once, wouldn't it be preferable to find
+out how much adding to the inside of a square root changes the output?  In other words,
+what is the rate of change, or the derivative?
+
+You will need to multiply top and bottom of the difference quotient by the conjugate of the
+numerator.
+
+
+\begin{example}
+A woman rode a train where the cost of train ride is directly proportional to the square 
+root of the distance ridden.  Her ticket to ride 140 miles cost \$24.40.  
+Find the final per mile rate of a man who got off after 35 miles, 
+compared the woman's final rate.
+
+\paragraph{Solution}
+Directly proportional means we can set up an equation $c = k \sqrt{d}$, where $c$ and $d$
+are the cost and distance.  If $24.4 = k\sqrt{140}$ then $k=\frac{24.4}{\sqrt{140}}$.  The
+derivative of $\frac{24.4}{\sqrt{140}}\sqrt{x} = \frac{12.2}{\sqrt{140x}}$.  At 35, the
+derivative is equal to $\frac{24.4}{sqrt{140}} \approx 0.17$, and at 140 it is 
+$\frac{12.2}{\sqrt{140}} \approx 0.09$.  This means the woman exited paying over
+\$0.08 less per mile than the man.
+\end{example}
+
+~\vfill

@@ -1,0 +1,85 @@
+%!TEX root =  ../main.tex
+
+\subsection{$xy\theta$}
+
+\objective{Produce and derive trigonometric function graphs}
+
+
+On a piece of paper or on the screen of an electronic device, we typically graph only two
+variables.  3D graphs are usually ``faked'', as in orthographic projections or the like.  The 
+Unit Circle is actually three things graphed at once, and so somewhat obscures each:
+the height (sine), the width (cosine), and the angle turned ($\theta$).  We will tease apart
+various attributes of the Unit Circle and their relationships to $\theta$, in order to understand
+each more clearly.
+
+\subsubsection{$y\theta$}
+\marginfig[-0in]{TIsinx}{$y=\sin(x)$ on the TI-8*}
+If we graph the height we have ascended to as the dependent variable, and the angle we
+have turned as the independent variable, this corresponds to $y=\sin(x)$.  This is a good
+beginning, because we are graphing the $y$ of the Unit Circle as a our $y$, but we have
+changed the $x$ to $\theta$.  Enter this equation in your TI-8* and hit ZOOM-TRIG, begin
+sure to be in radians mode.
+
+The graph has not been shifted up or down at all, so its midline or \textbf{axis} is the line
+$y=0$.  The graph oscillates as much as one up or one down from that axis, so 1
+is the \textbf{amplitude}.  We know that the pattern of the Unit Circle (relative to
+the angle turned) takes $360^\circ$ or $\tau$ radians to repeat, so that should
+be the \textbf{period}.  What has the calculator done to make us get back to the
+same point on the way in four tick marks?  Press WINDOW, and you will see that
+the Xscl is $1.57\dots$, a.k.a. $\frac{\tau}{4}$.
+
+Notice how the graph spends a great deal of time near the origin looking like $y=x$.
+In other words, its derivative at 0 is 1.  Practice moving your writing hand in a smooth
+wave, tracing the unit circle at a consistent pace, but focusing your attention on your
+height above and below the $x$-axis.  This should feel that same as tracing $y=\sin(x)$.
+Because this graph is so ubiquitous in nature, anything like it is described with the
+adjective \textbf{sinusoidal}, and anything which moves as it does is said to be in 
+\textbf{simple harmonic motion}.
+
+\subsubsection{$x\theta$}
+A cosine graph is very, very similar.  Tracing the Unit Circle while focusing on your
+$x$ position is nearly identical, except the cycle begins on 1.  Change you TI-8* to
+$y=\cos(x)$ but change nothing else.  Now you are graphing $x$ from the Unit Circle
+on $y$, and $\theta$ from the Unit Circle on $x$.
+
+\begin{example}{Watermill}
+\exProblem
+A mill is powered by a water-wheel in a river, which is 12 feet in diameter.  You observe
+that it takes 20 seconds to complete a rotation and only the bottom 1ft is in the water.
+There is a flag or marker at the top of the wheel right now.
+Create an equation to model the water-wheels behavior, graph it, and determine the
+time the flag will go into the water, and how long it spends underwater each rotation.
+
+
+\exSolution
+
+We begin by reasoning from the Unit Circle to the water-wheel.  Unit Circle graphs have an
+amplitude of 1 because the are waves on a circle of radius 1.  The water-wheel has
+a radius of 6 ft, so that will be our amplitude.  Graphically, that would make our wave
+six times taller than normal, so we need a vertical dilation of 6.  So far we have
+$$
+y=6\sin(x)
+$$
+\marginfig[-0in]{6sinx}{$y=6\sin(x)$}
+Which produces a graph as in Fig.~\ref{fig:6sinx}.  The water-wheel must have its axis
+translated, if only the bottom 1ft is in the water.  With an amplitude of 6ft, our current
+version is 5ft too low, so we can revise our equation to $y=6\sin(x)+5$.  We also note
+that as a sine wave, our graph begins in the middle and is rising, whereas we need to
+model an object beginning at the top.  Therefore, we switch our equation to a cosine 
+function.
+
+The normal period of a sinusoidal wave is $\tau$, but we need the period to be 20.
+Horizontal dilation is accomplished by dividing --- not multiplying, as in vertical
+dilation --- so we must ask what to divide $\tau$ by in order to get 20.  The answer is
+$\frac{\tau}{20}$.  Our final equation is (including the form we must use in the TI-8*):
+$$
+y=6\cos\frac{\tau}{20}(x)+5 = 6\cos\frac{\pi}{10}(x)+5
+$$
+
+According to the zero function of the grapher, the height is zero at $x=8.135705$
+and again at $x=11.864295$, meaning the flag will go under just after 8 seconds
+from now, and be underwater for a little less than 4 seconds.
+
+\marginfig[1in]{waterwheelgraph}{The entire mill setup visualized}
+\end{example}
+

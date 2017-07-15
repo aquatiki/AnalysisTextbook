@@ -1,0 +1,84 @@
+%!TEX root =  ../main.tex
+\subsection{Growth}
+
+\objective{Model and predict year-over-year percentile growth}
+
+
+In linear equations, everything is relative to the number 0.  Have a derivative or slope 
+of 0 constitutes a flat line.  Numbers greater than 0 are called positive slope, while
+numbers less than it are called negative slope.  If the initial value is not 0, then it is
+added to the equation, unlike the slope, which is multiplied against the independent
+variable.
+
+Everything about exponential equations is moved to the next level of operators.  We saw
+back in §1.4 that the standard form of an exponential equation is $y=a\cdot{}b^x$.
+All such equations begin at the point $(0,a)$, because plugging in 0 yields $b^0$
+and regardless of what $b$ is, anything to the zero power is 1.  Multiplying by $a$ 
+therefore changes our initial value.  And because powers are simply repeated multiplication,
+have $b$ as a base means the equation multiplies by $b$ every unit step of $x$.
+
+What if $b=1$?  No matter what exponent we put on 1, it will remain 1.  If $b>1$,
+then every increment of $x$ will grow the output.  If $b<1$, then every increment
+of $x$ will reduce the output.  Because exponential equations are build off of 
+multiplication --- not addition --- everything is relative to 1, not 0.
+
+Hopefully, you are very familiar with percentages, and how even the word comes
+from the Latin \textit{``out of one hundred''}.  This give us the clue to convert
+percentages to decimals: divide by 100.  So if a mathematical model verbally says a 
+system is growing at 5\%, means that any given year, the value is 105\% of the
+value from the year before.  This means $b$ in our equation is $1.05$.  Were we 
+to use a $b$ of $0.05$, that would be a 95\% loss year-over-year!
+
+\subsubsection{TI-8*}
+The TI-8* is a very useful tool for modeling exponential growth.  In many 
+real-life situations, everything takes place in QI, but the $y$-scale often
+varies greatly from problem to problem.  For example, what is a good
+window for the following problem?  A house was purchases for \$500,000
+and appreciates 3.2\% per year.  What is its future value in 5, 10, and 30
+years?  When will it exceed 2 million dollars?
+
+Because this is a strictly increasing function, the value at the beginning will be 
+the lowest.  This means our Xmin and Ymin should be 0 and 500000 respectively.
+We know we need to see at least to the year 30, so our Xmax must be at least that,
+and our Ymax must be at least 2000000.  These turn out to be overly conservative
+estimates, but they help us see how to guess.  The TABLE is also very useful in
+setting up windows.
+
+\subsection{Compound Interest}
+In most banking institutions, money moves hands and changes more often than once
+a year, so interest is compounds (or calculated) more often.  If you are making
+five percent per annum, but the bank compounds monthly, that does not mean you
+make 5\% twelve times a year!   Instead, they give you a twelfth of 5\% twelve times
+per year.  This makes our equation more complicated:
+
+$$
+A = P\left(1+\frac{r}{n}\right)^{n\cdot{}t}
+$$
+
+$A$ is the amount at the end of the term, $P$ is the principle which the investment began
+at (the initial amout of money), $r$ is the interest rate, $n$ is the number of times per year
+it is compounded, and $t$ is the number of years the investment is left in.  If banks think
+in terms of periods (be they month, quarters, years, etc.) then the exponent is the number
+of periods the money is left in.
+
+
+\subsection{Doubling Time}
+How can we build an equation when we don't know the rate of growth, except as a time?
+For example, suppose your grandfather noticed that movie theater prices have doubled 
+every eight years.  When he was a kid, it was a quarter!  One way would be to generate
+numerical data and run a regression on them.  Let $x$ be years since your grandfather
+was a kid.  You know $a$ is 0.25, a quarter dollar.  So far, we have $y=\frac{1}{4}b^x$.
+We know every eight years, the price has doubled, so that makes points (8,0.5) ; (16,1)
+; (24,2), etc.  The TI-8*'s EXPREG yields $y=0.25(1.090507733)^x$.
+
+Another way might be to recognize that we want to be multiplying by 2 every time (since
+we are talking about doubling) but that only every 8 years should it happen.
+$y=\frac{1}{4}2^x$ would double every day, so dilate the function to be 8 times wider:
+$y=\frac{1}{4}2^\frac{x}{12}$.  This shows us that the same exponential function
+can have multiple (in fact, infinite number of) representations.
+
+\paragraph{e}
+We will not explain its origin until next chapter, but you should know that many (if not most)
+exponential equations involve the number $e$.  Like $\pi$, it is around 3, only $e$ is a little less,
+not a little more.  You can find $e$ on your TI-8* as 2ND $\div$, or the more useful $e^x$
+as 2ND-LN.

@@ -1,0 +1,175 @@
+%!TEX root =  main.tex
+
+%
+%		Chapter image boolean
+%
+\newif\ifusechapterimage
+\usechapterimagetrue
+\newcommand{\thechapterimage}{}%
+\newcommand{\chapterimage}[1]{\ifusechapterimage\renewcommand{\thechapterimage}{#1}\fi}%
+
+%
+%		 Specifies the directories where pictures are stored
+%
+\graphicspath{{ch00/pics/}{ch01/pics/}{ch02/pics/}{ch03/pics/}{ch04/pics/}{ch05/pics/}{ch06/pics/}{ch07/pics/}{ch08/pics/}{ch09/pics/}{ch10/pics/}{ch11/pics/}{ch12/pics/}{ch13/pics/}{ch14/pics/}{ch15/pics/}{ch16/pics/}{chAA/pics/}{chBB/pics/}{chCC/pics/}{chDD/pics/}} 	
+		
+
+\newcommand{\mychapter}[2]{					% Start chapters and demarcate mini TOCs
+\chapter{#1}
+\label{ch:#2}
+\startcontents[chapters]
+}
+
+\newcommand{\marginlessinput}[1]{%			% marginless input
+\newgeometry{left=2cm,right=2cm,bottom=1cm,top=2cm}%
+\input{#1}%
+\restoregeometry%
+}
+
+\newcommand{\marginlesspdf}[1]{
+\newgeometry{left=2cm,right=2cm,bottom=2cm,top=2cm}
+\noindent\makebox[\textwidth]{\includegraphics[width=\paperwidth]{#1}}
+\restoregeometry
+}
+
+%									mini toc
+\newcommand\chapterminitoc{%
+\printcontents[chapters]{}{1}{\setcounter{tocdepth}{2}}%
+}
+
+%									objective
+\newcommand\objective[1]{%
+\vspace{0.2cm}
+\begin{derivation}{Objective}
+#1
+\end{derivation}
+\vspace{0.2cm}
+}
+
+\newcommand\invisiblesection[1]{%
+  \refstepcounter{section}%
+  \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}%
+  \sectionmark{#1}}
+
+%----------------------------------------------------------------------------------------
+%	Math specific stuff
+%----------------------------------------------------------------------------------------
+%
+% https://tex.stackexchange.com/questions/37912/how-to-draw-the-parallel-circuits-sign
+%
+\newcommand{\pplus}{\mathbin{\!/\mkern-5mu+\mkern-5mu/\!}}
+\newcommand{\pminus}{\mathbin{\!/\mkern-5mu-\mkern-5mu/\!}}
+
+
+% Copyleft
+\newcommand{\copyleft}{\reflectbox{\copyright}}
+
+% long division
+\newcommand\longdiv[2]{%
+$\strut#1$\kern.25em\smash{\raise.3ex\hbox{$\big)$}}$\mkern-8mu
+        \overline{\enspace\strut#2}$}
+        
+        
+% new decimal symbols
+\def\0{\mbox{\begin{picture}(11,12)(0,0)
+\put(5.5,5){\circle{9}}
+\end{picture}
+}}
+\def\6{\mbox{\begin{picture}(11,12)(0,0)
+\put(1,0){\line(1,0){10}}
+\put(1,0){\line(0,1){10}}
+\put(1,10){\line(1,-1){10}}
+\end{picture}
+}}
+\def\7{\mbox{\begin{picture}(11,12)(0,0)
+\put(1,10){\line(1,0){10}}
+\put(11,10){\line(0,-1){10}}
+\end{picture}
+}}
+\def\8{\mbox{\begin{picture}(11,12)(0,0)
+\put(1,0){\line(0,1){10}}
+\put(1,0){\line(1,1){10}}
+\put(1,10){\line(1,0){10}}
+\end{picture}
+}}
+\def\9{\mbox{\begin{picture}(11,12)(0,0)
+\put(1,0){\line(1,0){10}}
+\put(11,0){\line(0,1){10}}
+\end{picture}
+}}
+\def\5{\mbox{\begin{picture}(11,12)(0,0)
+\put(5.5,0){\oval(8,20)[t]}
+\end{picture}
+}}
+\def\1{\mbox{\begin{picture}(11,12)(0,0)
+\put(1,0){\line(1,0){10}}
+\put(1,0){\line(0,1){10}}
+\end{picture}
+}}
+\def\2{\mbox{\begin{picture}(11,12)(0,0)
+\put(1,10){\line(1,0){10}}
+\put(11,10){\line(0,-1){10}}
+\put(1,10){\line(1,-1){10}}
+\end{picture}
+}}
+\def\3{\mbox{\begin{picture}(11,12)(0,0)
+\put(1,0){\line(0,1){10}}
+\put(1,10){\line(1,0){10}}
+\end{picture}
+}}
+\def\4{\mbox{\begin{picture}(11,12)(0,0)
+\put(1,0){\line(1,0){10}}
+\put(11,0){\line(0,1){10}}
+\put(1,0){\line(1,1){10}}
+\end{picture}
+}}
+
+%%%%%%%%%%%%%%%%
+%
+%        TRIANGLE OF POWER
+%
+% https://tex.stackexchange.com/questions/307833/how-to-represent-the-triangle-of-power-in-latex
+% 
+%%%%%%%%%%%%%%%
+
+\newcommand{\dotriangle}[1]{%
+  \raisebox{-.7ex}{$\vcenter{#1\kern.2ex\hbox{$\triangle$}\kern.2ex}$}%
+}
+
+\newcommand{\tripow}[3]{% Syntax: \tripow{#1}{#2}{#3} gives you #1 ^ {#2} = #3
+   \mathop{% We want it to an operator
+      \mathchoice% We want different functionality in text and display mode
+         {% DISPLAY MODE
+            \vphantom{\dotriangle\LARGE}% \vphantom off-set: places the bottom entries.
+            \rule[-1.4ex]{0.1em}{0pt}% Syntax: [<vetical drop #1>]{<left margin>}{<Should be 0>}
+            _{\scriptstyle #1}% style of #1 entry
+            {\overset{\scriptstyle #2}% style of #2 entry
+            {\dotriangle\LARGE}}% Size of the displayed operator - should match the \vphantom off-set.
+            \rule[-1.4ex]{0em}{0pt}% Syntax: [<vetical drop #3>]{<Should be 0>}{<Should be 0>} 
+            _{\scriptstyle #3}% style of #3 entry
+            \rule[0ex]{0.1em}{0pt}% Syntax: [<Should be 0>]{<right margin>}{<Should be 0>}
+          }%
+        {% TEXT MODE
+            \vphantom{\dotriangle\normalsize}%
+            \rule[-1.05ex]{-0.7ex}{0pt}%
+            _{#1}% 
+            \overset{#2}% 
+            {\dotriangle\normalsize}% size in text mode
+            \rule[-1.05ex]{0pt}{0pt}%
+            _{#3}%
+            \rule[0ex]{-0.2em}{0pt}%
+          }%
+        {% SCRIPT MODE
+            \vphantom{\dotriangle\normalsize}%
+            \rule[-1.05ex]{-0.8ex}{0pt}%
+            _{\scriptstyle #1}%
+            {\overset{\scriptstyle #2}%
+            {\dotriangle\normalsize}}% size in script mode
+            \rule[-1.05ex]{0pt}{0pt}%
+            _{\scriptstyle #3}%
+            \rule[0ex]{-0.3em}{0pt}%
+         }%
+        {}% SCRIPTSCRIPT MODE
+   }%
+}
+

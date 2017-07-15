@@ -1,0 +1,159 @@
+%!TEdddX TS-program = latex
+%!TEX encoding = UTF-8 Unicode
+% !BIB TS-program = biber
+% !BIB program = biber
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{BYUTextbookRMM} 
+
+%----------------------------------------------------------------------------------------
+\input{packages}
+\input{ch00/glossary}
+\input{macros}
+\input{aesthetics}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+\begingroup
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+\coordinate [below=12cm] (midpoint) at (current page.north);
+\node at (current page.north west)
+{\begin{tikzpicture}[remember picture,overlay]
+\node[anchor=north west,inner sep=0pt] at (0,0) {\includegraphics[width=\paperwidth]{hilbert.png}}; % Background image
+\draw[anchor=north] (midpoint)  node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering Elementary Mathematical Analysis\\[15pt] % Book title
+{\Large Precalculus / Derivatives}\\[20pt] % Subtitle
+{\huge Robert Marshall Murphy}}}; % Author name
+\end{tikzpicture}};
+\end{tikzpicture}
+\vfill
+\endgroup
+
+
+%----------------------------------------------------------------------------------------
+%	COPYRIGHT PAGE
+%----------------------------------------------------------------------------------------
+\newpage
+~\vfill
+\thispagestyle{empty}
+
+\noindent Copyleft \copyleft\ {\the\year}  Robert Marshall Murphy\\ % Copyright notice
+
+\noindent \textsc{Westminster Christian Academy}\\ % URL
+
+\noindent Licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported License (the ``License''). You may not use this file except in compliance with the License. You may obtain a copy of the License at \url{http://creativecommons.org/licenses/by-nc/4.0}. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \textsc{``as is'' basis, without warranties or conditions of any kind}, either express or implied. See the License for the specific language governing permissions and limitations under the License.\\ % License information
+
+Book cover by Aldo Cortesi, \textit{A portrait of the Hilbert curve as a young fruit salad}, which is
+``a Hilbert curve traversal of the three-dimensional RGB colour space, projected onto a 
+two-dimensional Hilbert curve covering the plane.\\
+\noindent \textit{First printing, July 2017} 
+
+
+
+\frontmatter
+\include{ch00/0000}		%		Prolegomena/Introduction
+\newpage
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+
+%\usechapterimagefalse % can be enabled later with \usechapterimagetrue
+\chapterimage{city-night-explosion-firework}
+
+\pagestyle{empty} % No headers
+%\par\vspace*{150pt}
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+\cleardoublepage
+
+\chapterimage{paul-gilmore-192469}
+\addcontentsline{toc}{chapter}{\textcolor{ocre}{Index}}
+\label{ch:index}
+\printindex
+
+\cleardoublepage 
+\pagestyle{fancy} % Print headers again
+
+
+%----------------------------------------------------------------------------------------
+%	Main Sections
+%----------------------------------------------------------------------------------------
+\mainmatter
+\part{Linear Transformations}\label{pt:linear}
+\include{ch01/0100}
+%\include{ch02/0200} 
+%\include{ch03/0300}
+%\include{ch04/0400}
+
+%\part{Exponential Powers}\label{pt:exponential}
+%\include{ch05/0500}
+%\include{ch06/0600}
+%\include{ch07/0700}
+%\include{ch08/0800}
+
+%\part{Around Triangles}\label{pt:trig}
+%\include{ch09/0900}
+%\include{ch10/1000}
+%\include{ch11/1100}
+%\include{ch12/1200}
+
+%\part{Discrete Infinities}\label{pt:discrete}
+%\include{ch13/1300}
+%\include{ch14/1400}
+%\include{ch15/1500}
+%\include{ch16/1600}
+
+
+\appendix
+\part{Appendices}\label{pt:appendix}
+\include{chAA/appendix}
+\include{chBB/BB00}
+\include{chCC/CC00}
+\include{chDD/DD00}
+\include{chZZ/ZZSolutions}
+
+\backmatter
+\part{Addenda}\label{pt:addenda}%				Addenda
+
+% ----------------------------------------------------------------------------------------
+% 	BIBLIOGRAPHY
+% ----------------------------------------------------------------------------------------
+
+\chapterimage{Tubifera_dudkae-4}
+\chapter{Bibliography}\label{ch:bibliography}
+\startcontents[chapters]
+\nocite{*}
+\section{Books}
+\printbibliography[heading=bibempty,type=book]
+\section{Articles}
+\printbibliography[heading=bibempty,type=article]
+\section{Media}
+\printbibliography[heading=bibempty,type=misc]
+\section{Internet}
+\printbibliography[heading=bibempty,type=online]
+
+%----------------------------------------------------------------------------------------
+%	GLOSSARY
+%----------------------------------------------------------------------------------------
+\chapterimage{quino-al-101314}
+\chapter{Glossary}\label{ch:glossary}
+\glossarystyle{listgroup}
+\setglossarysection{subsubsection}
+\begin{multicols}{2}
+\printglossaries
+\end{multicols}
+%----------------------------------------------------------------------------------------
+
+
+
+
+\end{document}

@@ -1,0 +1,78 @@
+%!TEX root =  ../main.tex
+
+
+\section{Analytic Geometry}\label{sec:AG}
+
+
+\objective{Calculate distances and midpoints on the Cartesian coordinate plane for order pairs from
+functions and relations.}
+
+
+\subsection{Cartesian Plane}
+Descartes did many strange things in philosophy, but he was a real boon for mathematics.  The idea
+of graphing values of one variable ($x$) to the left and right, while simultaneously graphing another
+variable ($y$) on the up and down is credited to him.  This is called the \gls{Cartesian plane} 
+or ``Rectangular Coordinates''.
+
+\subsubsection{Quadrants}
+It is customary to split the coordinate system into four quadrants, numbered with Roman numerals.
+Quadrant I is where $x$ and $y$ are both positive, to the upper right.  Quadrant II is where $x$ is negative
+but $y$ is positive, to the upper left.  Quadrant III is where both are negative, to the lower left.  Quadrant
+IV is where $x$ is positive and $y$ is negative, to the lower right.
+
+\subsection{Triangles}
+Just as we might find the middle between two numbers on the number line, 
+so too we can find a point midway 
+between two other points, simply by taking the average of their $x$s and the average of their $y$s.
+
+\begin{derivation}{Midpoint}
+Given two points $(x_1,y_1)$ and $(x_2,y_2)$ the arithmetic mean of the $x$'s is $x$ of the midpoint,
+and the same for $y$.
+
+Midpoint $(x,y)=(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})$
+\end{derivation}
+
+If we draw a right-triangle with its hypotenuse being the shortest path between two points, and its legs going
+strictly left-to-right and up-to-down, then calculating their distance is simply the Pythagorean Theorem.
+
+\begin{derivation}{Pythagorean Theorem}
+The distance from $(x_1,y_1)$ to $(x_2,y_2)$ is the hypotenuse of a right triangle with legs
+$|x_2-x_1|$ and $|y_2-y_1|$.
+
+\begin{equation}
+d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}
+\end{equation}
+\end{derivation}
+
+\subsection{Functions and Relations}
+
+Chapter 1 proper of this textbook is about functions, but even more basic are relations.  
+For number, it will suffice
+to say that any equation with $x$s and $y$s in it is a 
+relation\footnote{Note that these need not be ``nice''.  For example,
+$x^2y^2=4$ produces an infinite, four-pointed star, but must be put into the TI-8* as \texttt{Y1=sqrt(4/x\^2)} and 
+\texttt{Y2=-sqrt(4/x\^2)}.}.  
+
+like 
+\begin{derivation}{Relation}
+A relation between two sets is a collection of ordered pairs containing one object from each set. 
+If the object $x$ is from the first set and the object $y$ is from the second set, then the objects are said to be related if the ordered pair $(x,y)$ is in the relation.
+\end{derivation}
+
+\ExSection[Exercises]
+\begin{exercises}{sec:AG}
+\index{Absolute Value!of y}
+\prob{}Graph the relation $x=|y|$.  How could we put this into our TI-8*?
+
+
+
+\prob{}Use the Pythagorean theorem to find 12 lattice points 5 units from the origin.
+
+\prob{}Find the relation describing all the ordered pairs 5 units from the origin.
+
+\prob{}What are the points 5 units away from 4,2 with a y value of 10?
+
+\prob{}What are the points 6 units away from -2,-1 with a x value of -10
+
+\prob{}What are the points root 10 units away from 0,2 and root 10 units away from 2,0?
+\end{exercises}

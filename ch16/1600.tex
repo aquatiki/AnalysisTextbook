@@ -1,0 +1,125 @@
+%!TEX root =  ../main.tex
+
+
+\chapterimage{All_In_A_Spin_Star_trail} 
+\mychapter{Radices}{radix}
+
+\newpage
+\chapterminitoc
+
+%									16 - 1
+\newpage
+\section{Base 10}\label{sec:base10}
+\subsection{Problems}
+Harry Potter money
+inch, feet, yard, mile
+cm, m, km, pole-to-pole
+\subsection{Bases}
+We don't often evaluate our number system, unless we encounter another one.  The Chinese, for
+example, have no symbol for zero, and historically did not have ``places''.  234 is not written just
+with the characters for 2, 3, and 4, but as ``2-hundred-3-ten-4''.  Anyone who has studied French
+is to be pitied for the effort they had to extend in understanding French numerals, which involve
+20's and subtraction!  There are even languages from around the world that keep counting past
+their 10 fingers onto various body parts, up the arm and all around.
+
+Before we delve into other systems, we need to understand our own.  What does 593.81 mean, 
+and how is it related to 5, 9, 3, 8, and 1?  Single-digit numbers are not hard to comprehend, but
+have you thought through how many of them there are?  You might have said nine, but there are
+in fact ten.  Zero is often forgotten but plays a crucial role in our system.  Commas are common
+outside of mathematics, but are there to break up large numbers and make them easier to read,
+not distinguish numbers from numbers.  But there is one other symbol which is vital: the decimal
+place.
+
+Our numeral system is based on 10.  Once we've used all our numbers counting from zero to nine,
+we resort to adding another digit to the left, to indicate how many times we have completed a cycle
+of ten.  For example, 56 means $5\times10 + 6\times1$.  Each new digit to the left tells you about 
+the next power of 10.  Obviously, 100 is $10\times10$, 1000 is $10\times100$, etc.  An eight-digit
+number, therefore, uses its left-most digit to indicate how many $10^7$s it has.
+
+\subsection{New Symbols}
+Before we get to other bases, it will be good practice to loosen up our rigid obedience to Arabic 
+numerals.  We, therefore, propose the following new symbols for 0 to 9:
+
+\0, \1, \2, \3, \4, \5, \6, \7, \8, \9
+
+\ExSection[Exercises]
+Requires logs
+\begin{exercises}{sec:base10}
+\prob{}Find the number of digits in $2^{123}$
+\prob{}find the pattern in the times tables, modulo 10
+\prob{}find the pattern in the exponents table, modulo 10
+\end{exercises}
+
+%									16 - 2
+\newpage
+\section{Powers of 2}
+\subsection{Problems}
+Bits of computer number
+\newpage
+
+Computers are made out of circuitry which has only two possible states: electricity-flowing or
+electricity-not-following.  These are represented via the symbols 0 and 1, called `binary'.  
+To indicate whether we are using these symbols in their traditional, base-10 way, or in 
+this new, binary way, we write which base we are using as a base.
+
+How can a computer add $1_2+1_2$?  There is no third state --- nothing other than 1's and 0's
+to use --- so it must resort to another columns of numbers, namely $10_2$.  
+
+\subsection{Binary, Quaternary, Octal }
+Some aboriginal tribes in South America count not with their fingers, but with the spaces between
+their fingers.  This can result in a number system that is not base-5, but base-4, called quaternary.
+It has a lot in common with binary, only twice as many symbols.
+
+The next power of two produces a system called octal, and the one after that is called hexadecimal
+(16).  This system use more than the 10 symbols we have, and commonly uses A-F to extend the
+count.  This leads to counting like 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F,$10_{16}$.
+
+\subsection{Exercise}
+tetrasexigesimal
+\subsubsection{Ternary}
+We have said that binary became popular as a result of computer circuitry, in which 
+electricity can either flow or not.  But in the Soviet Union, an attempt was made to build
+computers on another system, one where electricity might flow, not flow, or \emph{flow
+backwards}.  This was called ``balanced ternary'', with `ternary' meaning base-3.
+
+
+
+
+%									16 - 3
+\newpage
+\section{Duodecimal and Sexagesimal}
+Our clocks are base-12 because it is the number with the most divisors under 50.  Our minutes, 
+seconds, and degrees are base-60, because the babylonians knew it was the number with the most
+number of divisors under 100.
+\subsection{Exercises}
+Clock math progressing into modular arithmetic
+
+
+
+%									16 - 4
+\newpage
+\section{Phi and 2i}
+Donald Knuth invented a system of base 2i.
+
+The golden ratio, $\dfrac{1+\sqrt{5}}{2}$ as a base?  It has the most amazing property, that $\phi^2
+=\phi+1$.
+\subsection{Exercises}
+Constructing 2i numbers
+constructing phi numbers
+
+
+%									16 - 5
+\newpage
+\section{Diophantine Equations}
+\subsection{Euclid's Algorithm}
+\subsection{Exercises}
+
+%									16 - 6
+\newpage
+\section{Review}
+\subsection{Chapter Review}
+\subsection{Chapter Test}
+\subsection{Cumulative Review}
+\subsection{Cumulative Test}
+
+

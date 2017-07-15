@@ -1,0 +1,145 @@
+%!TEX root =  ../main.tex
+
+\subsection{Polynomial Long Division}
+
+\objective{Use and known when to use polynomial and synthetic division}
+
+
+First, we recall long division.  Surprisingly, it can actually be more difficult than polynomial long division at times, so we should pick an easy example:
+
+\vspace{5mm}
+
+\longdiv{11}{3678}
+
+We restrict our vision to the left two digits of the dividend, as we know that 11 will go 3 times into
+36.  We write a 3 above the 6, write 33 below the 36 and subtract it.  Next, we bring down the 7
+and do the same manner of work on 37.  The process repeats, but moves progressively right
+and we get an answer of 334, but with a remainder of 4.  Since we most want a number that
+when multiplied by 11 obtains 3678, we should write the answer as $334+\frac{4}{11}$ because
+$\left(334+\frac{4}{11}\right)(11) = 3678$.
+
+
+Now, polynomial long division is no different.  We start at the left edge of the dividend, and use 
+only the leading term of the divisor.
+
+\polylongdiv[stage=3]{x^3-x^2+x-1}{x+1}
+
+We only regarded the leading (left) edge of the larger polynomial.  In this case, that is $x^3$.  
+We might ask ourselves, ``What do I need to multiply $x$ by to get to $x^3$?''.  The answer is $x^2$.  
+That term is the first in our quotient, and we multiply it by the entire divisor.  We subtract, 
+and bring down the next term.
+
+\polylongdiv[stage=4]{x^3-x^2+x-1}{x+1}
+
+This process continues, only working on the left-edge as we go down.  
+
+\polylongdiv[stage=13]{x^3-x^2+x-1}{x+1}
+
+The final answer is $x^3-x^2+x-1 = (x+1)\left(x^2-2x+3-\cfrac{4}{x+1}\right)$.
+
+\subsection{Synthetic Division}
+One might ask, ``Isn't there a faster way?'' and indeed there is.  Let us first consider
+how we might compactify the polynomial.  Consider the first two terms, and look for
+a common factor:
+$$
+(x^3-x^2)+x-1
+$$
+Obviously, we can take out an $x^2$ from the first two terms.  Having condensed the
+first two terms into one (because multiplication does not increase the term count),
+now consider the greatest common factor of the new first two term:
+$$
+\left[x^2(x-1)+x\right]-1
+$$
+Every term has at least one $x$, so that can be safely factored out.  Look at what we have made,
+called \textbf{nested form}:
+$$
+x\left[(x-1)x+1\right]-1
+$$
+Substituting any value into this function now only involves multiplication and addition/subtraction,
+ever exponents.  This process can be represented in half-box, called \textbf{synthetic division}
+
+\polyhornerscheme[showvar=true,resultbottomrule=true,resultleftrule=true,resultrightrule=true,x=-1]{x^3-x^2+x-1}
+
+Study this carefully, and notice how it is the same answer as the coefficients of the polynomial
+long division problem.  There are lots of things to notice.  The technique with synthetic division is
+to remember that the first number falls straight down, but from then on we  ``multiply up, add down''.  
+It is helpful to draw a box around the final number, to remember that it is special: it is the remainder.  
+Reading right-to-left: 3 is the $x^0$ coefficient, $-2$ is on $x^1$, 1 is on $x^2$.  
+In the long division, we divided by $x + 1$.  Here, we are plugging in a value, so it's $x + 1 = 0$, 
+which is $x=-1$. 
+
+\begin{example}[Synthetic Division]
+Given $g(x) = x^3-7x+6$, find $g(2)$.  What does this tell you about $\frac{g(x)}{x-2}$?
+
+\paragraph{Solution}
+First, we write our box and the $x=$ we want to test:\\
+
+
+\polyhornerscheme[showvar=true,stage=1,x=2]{x^3-7x+6}
+(Note the zero.  Failure to notice this is crucial mistake!)
+
+
+The first number passes down freely:
+\polyhornerscheme[showvar=true,tutor=true,stage=2,x=2]{x^3-7x+6}
+
+
+Then we ``multiply up...
+\polyhornerscheme[showvar=true,tutor=true,stage=3,x=2]{x^3-7x+6}
+
+
+..., add down''
+\polyhornerscheme[showvar=true,tutor=true,stage=4,x=2]{x^3-7x+6}
+
+
+and so on and so forth:
+\polyhornerscheme[showvar=true,resultbottomrule=true,resultleftrule=true,resultrightrule=true,x=2]{x^3-7x+6}
+
+The fact that the remainder is 0 is significant.  $(x-2)$ is a factor in $x^3-7x+6$.  We can write
+this as $(x-2)(x^2+2x-3)=x^3-7x+6$.  The quadratic factors easily into (x+3)(x-1), leaving the
+entire cubic equation solved.
+\end{example}
+
+\subsection{Complex Zeros}
+What if nothing so need exists as a solution?  We might slightly alter our $g(x)$ to be
+$x^3-2x^2-7x+2$.  There is no easy factorization (grouping won't work).  We are forced
+to use more complicated algorithms.  In the past, mathematicians invented very complicated
+methods for find, eliminating, and testing solutions to polynomial equations.  You will research
+one of these in problem number one of the exercises.  But in our age, why not use a computer?
+If done intelligently, we can get the same level of precision as in the past.
+
+For example, if you take our new $g(x)$ and put it in your TI-8*, you can see --- either in the
+TABLE or on the graph --- that it passes through (-3,0), which should lead you to want to
+factor out (x+3).  You can use synthetic division as so:
+
+
+\polyhornerscheme[showvar=true,resultbottomrule=true,resultleftrule=true,resultrightrule=true,x=-3]{x^3-2x^2-7x+24}
+
+This proves that $(x+3)(x^2-5x+8)=x^3-2x^2-7x+24$.  However, now we have a new problem: how
+can we solve $x^2-5x+8=0$?  It is not factorable.  Well, any quadratic can be solved with
+the quadratic formula, so that will have to do.
+
+$$
+x=\frac{5\pm\sqrt{(-5)^2-4(1)(8)}}{2\cdot{}1}
+=\frac{5\pm i\sqrt{7}}{2}
+$$
+
+As you can see, unfactorable quadratics will always have some quantity inside the square root,
+once plugged into the quadratic formula.  This means they will produce either a pair of
+irrational solutions, or else a pair of complex (imaginary) ones.  This has other to prove
+(elsewhere) that such solutions \emph{always} occur in pairs.
+
+For example, if we are building a polynomial, and we know solutions include 2 and $3+2i$,
+then we can be sure that $3-2i$ is also a solution.  What factor would produce such zeros?
+Well, x-2 is an obvious one, but what about the more difficult one?  If $x=3 \pm 2i$, what
+would have lead to two possibilities like that?
+
+\begin{align*}
+  x & = 3 \pm 2i\\
+  x - 3 & =  2i \\
+  (x-3)^2 & = -5\\
+  x^2-6x+9 &= -5\\
+  x^2-6x+14 &= 0
+\end{align*}
+
+Since plus-or-minus solution come from square rooting, the inverse operation must be to
+square both sides.  $(+2i)(+2i) = (-2i)(-2i) = -5$, so writing plus or minus does not matter.

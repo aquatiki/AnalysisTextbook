@@ -1,0 +1,112 @@
+%!TEX root =  ../main.tex
+
+\objective{Understand and simplify the relationships between logs, powers, and roots.}
+
+\subsection{The Three Components}
+Our modern mathematical notation obfuscates one relationship with three, different notations. 
+The following equations all express the same things:
+\begin{enumerate}
+\item $\log_2{8}=3$
+\item $2^3=8$
+\item $\sqrt[3]{8}=2$
+\end{enumerate}
+
+All three embody the same relationship: 2 is the base, 3 is the exponent, and 8 is result.  
+Three elements suggest a three-sided shape, a \emph{triangle of power}.
+$\tripow{2}{3}{8}$
+
+Leaving off any side of the triangle of power suggests that the missing number is needed.
+\begin{enumerate}
+\item $\log_2{8}$ can be represented as $\tripow{2}{}{8}$
+\item $2^3$ can be represented as $\tripow{2}{3}{}$
+\item $\sqrt[3]{8}$ can be represented as $\tripow{}{3}{8}$
+\end{enumerate}
+
+Some people complain that this new notation ruins the line height, that is is too tall.
+But these pedants rarely write\\ 
+$(2\div(3+4))\div((5+6)\div(7+8))$.  Indeed, it is preferable to see:
+
+$$\frac{\frac{2}{3+4}}{\frac{5+6}{7+8}}$$
+
+In the same way, one might write $2\triangle^3$, $2\triangle_8$, and $\triangle^3_8$,
+but expand in two-dimensions when the occasion permits.
+
+\subsection{Inverses}
+The true usefulness of the triangle of power is revealed when we try to present more
+complicated relationships.  Some students immediately grasp what $e^{\ln{x}}$ is saying,
+others struggle for years with the notation.  \emph{There is a power we can put on \emph{e}
+to get \emph{x}.  Raise \emph{e} to that power.}  If you get it, the answer is obviously $x$.
+But the symbols certainly don't help you see it.  Instead, triangles make the relationship 
+more obvious: 
+
+\begin{equation}
+\tripow{e}{ \tripow{e}{}{x}}{}=x \quad \text{vs} \quad e^{\ln{x}}
+\end{equation}
+
+The top triangle is blank in the same place it occupies in the larger triangle.  Because the
+$e$'s are in the same place, everything cancels, leaving only the $x$.  
+Other hard expressions which are simple inverses are equally obscure in traditional notation,
+and quite clear in triangle form:
+\begin{equation}
+\tripow{}{e}{\scriptstyle \tripow{x}{e}{}} = x \quad \text{vs} \quad \sqrt[e]{x^e} = x
+\end{equation}
+\begin{equation}
+\tripow{\tripow{}{e}{x}}{2}{} = x \quad \text{vs} \quad \sqrt[e]{x}^e = x
+\end{equation}
+\begin{equation}
+\tripow{e}{}{\tripow{e}{x}{}} = x \quad \text{vs} \quad \ln{e^x} = x
+\end{equation}
+\begin{equation}
+\tripow{}{\tripow{x}{}{e}}{e} = x \quad \text{vs} \quad \sqrt[\log_x{e}]{e} = x
+\end{equation}
+\begin{equation}\tripow{\tripow{}{x}{e}}{}{e} = x \quad \text{vs} \quad \log_{\sqrt[x]{e}}{e} = x
+\end{equation}
+
+
+\subsection{P-Plus}
+The properties of logs, exponents, and roots become much more transparent in triangle notation.
+For example, the sum of exponents look like this:
+$$\tripow{b}{m}{}\cdot{}\tripow{b}{n}{}=\tripow{b}{m+n}{}$$
+
+We shall see that this bears a strong resemblance to a similar property of logs:
+$$\tripow{b}{}{m} + \tripow{b}{}{n} = \tripow{b}{}{m+n}$$
+
+Graphically, keeping the base the same but switching from exponent to result changes where
+the addition and multiplication happen.  You will make all the various versions of the rules in the
+exercises and problems, but there is one relationship which might appear overly perplexing at first.
+Consider the products of roots:
+
+$$
+\tripow{}{x}{z} \cdot{} \tripow{}{y}{z}
+$$
+
+We have not had occasion to contemplate this before.  What operation should govern this 
+relationship?  Given the thorough treatment of rational exponents in chapter 5, perhaps it would
+be more clear for you to rewrite this problem as fractional powers:
+
+{\Large
+$$z^{\frac{1}{x}} \cdot z^{\frac{1}{y}}$$
+}
+
+The answer is a root which is the sum of the reciprocals of $x$ and $y$, or a power which is the
+reciprocal of that!  This unusual operation is actually rather common in practical applications and
+deserving of its own symbol in this book, $\pplus$.  This symbol was chosen because
+the reciprocal of the sum of reciprocal is used in parallel resistance, whose symbol is $\parallel$.
+
+
+\begin{derivation}{P-plus}
+$$x\pplus y = \cfrac{1}{\frac{1}{x}+\frac{1}{y}} = \cfrac{1}{\frac{y}{xy}+\frac{x}{xy}} = 
+\cfrac{1}{\frac{x+y}{xy}} = \frac{xy}{x+y}$$
+\end{derivation}
+
+
+This strange operation is necessary in a world where power and roots are reciprocals of
+each other:
+$$
+\tripow{a}{x}{} = \tripow{}{\frac{1}{x}}{a}
+$$
+
+There are many more intriguing relationship that can be written clearly and intuitively
+on the Triangle of Power, e.g. $\tripow{m}{}{x}\pplus\tripow{n}{}{x} = \tripow{m\cdot{}n}{}{x}$
+or $\tripow{x}{}{a}\cdot{}\tripow{a}{}{y} = \tripow{x}{}{y}$  You are encouraged to experiment
+and tinker with this powerful tool.

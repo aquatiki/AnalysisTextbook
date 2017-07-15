@@ -1,0 +1,101 @@
+%!TEX root =  ../main.tex
+
+\section{Properties and Operators}
+\subsection{Closure}
+Suppose you attempted to help a young child with some mathematic problems.  
+Suppose further this child knew next
+to nothing about fractions yet.  Perhaps they understand the notion of debt --- 
+negative numbers --- but no greater
+sets of numbers.  What can you talk to them about?  What must you avoid?  
+Consider the following list of procedures you know:
+
+\begin{itemize}
+\item Addition
+\item Subtraction
+\item Multiplication
+\item Division
+\item Distribution of Multiplication over Addition
+\item Squaring
+\item Square roots
+\end{itemize}
+
+The question before us is one of \gls{closure}.  A set is closed under an operator 
+if doing the operation on any member of
+the set produces another member of the set.  For example, the integers are closed under addition, subtraction, and multiplication, but not division.
+
+\begin{example}
+\exProblem
+Are the Real numbers closed under square rooting?
+
+\exSolution
+No.  Disproof by counterexample: $\sqrt{-4} = 4i$
+\end{example}
+
+\subsection{Identity and Invertibility}
+Over a given set, most operators have an \textbf{identity element} that leaves 
+them unchanged.  For example, the
+identity of addition is 0, because adding zero does not change a number.  
+Similarly, multiplication has
+the identity element of 1, because multiplying by one leaves a number unchanged.
+
+\begin{example}
+\exProblem
+What is the identity of set union?
+
+\exSolution
+$\varnothing$ when joined to any set will not change the set in any way.
+\end{example}
+
+It is possible to have more than one identity for a given operator over a particular set.  
+One effect of having an
+identity element is that it becomes possible to define ``undoing'' a particular operator.  For instance,
+multiplicative inverse of every number except 0 is one, which shows that multiplication by $m$ can be
+undo by multiplying by $\frac{1}{m}$.  The additive inverse of some number $x$ is $-x$, because together
+they add to the additive identity 0.  An operation may be invertible without being commutative (see below)
+
+\subsection{Associativity}
+Suppose we have one operator and three operands.  In what order do we proceed?  Many times,
+it does not matter.  Addition and multiplication are associative over most numbers, so $(3+2)+1$ 
+is the same as $3+(2+1)$ and $(2\cdot 3) \cdot 4$ is the same as $2\cdot(3\cdot 4)$.  Division is
+not associative, and neither are powers.
+
+
+\reminder{\lefthand}{A cute way to remember this property is to think of friends associating together.  If three girls are friend --- call them Jill, Sandra, and Bree --- then it doesn't matter which we we draw the association.  Jill and Sandra are friends, and together they're friends with Bree.  That is the same as Sandra and Bree being friends, and  together being friends with Jill.  $(J \cup S) \cup B = J \cup (S \cup B)$.}
+
+
+\begin{example}
+\exProblem
+Is rock-paper-scissors\footnote{Or even better, rock-paper-scissors-lizard-Spock!} associative?
+
+\exSolution
+No.  Disproof by counterexample:\\
+(rock vs. paper) vs. scissors $\rightarrow$ paper vs. scissors $\rightarrow$ scissors\\
+rock vs. (paper vs. scissors) $\rightarrow$ rock vs scissors $\rightarrow$ rock
+\end{example}
+
+\subsection{Commutativity}
+Many operators do not care in which order the operands come.  Addition and multiplication are the same
+forwards and backwards!  But subtraction and division yield very different results when done in the
+reverse.  This property is called commutativity.
+
+\subsection{Distributivity}
+A very complicated property, yet a very well known one, is the distributive property.  This property
+requires \emph{two} operators to be performed on a set.  For example, multiplication \emph{is}
+distributive over addition.  e.g. $2(3+4) = 2\cdot7 = 2\cdot3 + 2\cdot4 = 6 + 8 = 14$.
+
+\begin{example}
+\exProblem
+Is division distributive over addition?  Are powers distributive over multiplication?
+
+\exSolution
+No and yes.
+
+No.  $2\div(3+4) \ne 2\div3 + 2\div4$.
+Yes.  $(3\cdot4)^2 = 12^2 = 3^2\cdot4^2 = 9\cdot16 = 144$
+\end{example}
+
+Exercise: clock-math closure
+
+
+
+

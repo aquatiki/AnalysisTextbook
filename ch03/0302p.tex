@@ -1,0 +1,72 @@
+\renewcommand{\columnseprule}{1.5pt}
+\begin{multicols*}{2}
+\noindent
+\rule[0.5\baselineskip]{0.5\textwidth}{1pt}
+
+\noindent
+\subsection{Zoomed Straight}
+\noindent
+1. Input the function $f(x)=\frac{4}{x}$ into your TI-8* and view
+it under ZOOM-STANDARD.  Press \Touche[style=function,principal={2ND}]
+\Touche[style=function,principal={ZOOM}] and FORMAT your
+window to have the GRID ON.  What lattice points (i.e., where
+$x$ and $y$ are both integers) does the graph pass through?
+
+\vspace{2cm}
+\noindent
+2. What do you estimate the rate of change of the function is around 
+$f(2)$? Record you guess here.
+
+\vspace{1cm}
+\noindent
+3.  Using the ZOOM-BOX feature, outline a new window from (0,0) to
+approximately (4,4).  Again, draw a ZOOM-BOX, now from about  (1,1)
+to (3,3).  Change your \texttt{Xscl} and \texttt{Yscl} to 0.2.  Sketch the 
+resultant graph here.
+
+\begin{tikzpicture}[scale=0.5]
+    \foreach \x in {0,1,2,3,4,5,6,7,8,9,10}
+    \foreach \y in {0,1,2,3,4,5,6,7,8,9,10}
+    {
+    \draw [gray] (\x,\y) circle (0.1cm);
+    }
+    \draw [black, -] (-1,-1) -- (-1,11) -- (11,11) -- (11,-1) -- cycle;
+  \end{tikzpicture}
+  
+\noindent
+4. Manually zoom in this time, by adjusting the WINDOW so that your
+$x$ and $y$ min and max are, respectively, 1.5 and 2.5.  Change both scales
+to 0.1.  Press TRACE and move left and right along the graph.  What 
+grid points does the equation pass through?  
+
+\vspace{3cm}
+\noindent
+5.  Make your window 1.99 to 2.01 and your scale 0.002 in both directions.
+You should see an almost completely straight line.  TRACE a pair of coordinate,
+one just a little left and up from (2,2) and one just a little right and down.  Find
+the slope of the line through them, rounding to the nearest integer.  
+Record the equation in slope-intercept form,
+with that slope, passing through (2,2).
+
+\vspace{3cm}
+\noindent
+6. Moving the $y_1$ term to the other side, enter your line as another equation
+on your TI-8*.  Turn off the GRID and change your scales to 1.  ZOOM-OUT
+from the point (2,2) repeatedly, until you approximate ZOOM-STANDARD.
+What have you drawn?
+
+\vspace{3cm}
+\noindent
+7. Using the different quotient, work out the derivative of $f(x)=\frac{4}{x}$ below.
+What is $f'(2)$?
+
+\vspace{3cm}
+8. It appears that --- on a small enough scale --- inversely proportional graphs
+are \textbf{locally linear}.  What other functions do you think might display 
+this property?  Experiment on the calculator.  Where you right?
+
+\vspace{4cm}
+\noindent
+9. Describe what you think the point of this problem set is, using technical vocabulary in complete
+sentences.
+\end{multicols*}

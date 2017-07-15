@@ -1,0 +1,120 @@
+%!TEX root =  ../main.tex
+
+\subsection{Deriving}
+
+\objective{Prove the Power Rule, Product Rule, and Quotient Rule, and apply them to arbitrary derivatives}
+
+
+Coming back to Earth for a section from all this contemplation of infinities, we see the
+extreme usefulness of it all.  The number $e$ is not the answer to any algebraic 
+expression.  That is, one cannot build a polynomial --- even an irregular one with
+rational coefficients and rational exponents --- that has $e$ as a solution.  $e$ is a
+transcendental number, the result of an infinite process, though it itself is a finite number.
+There is a very important sense in which $e$ contains an infinity within itself.
+
+It takes a system like calculus to create $e$, and it returns the favor by unleashing a
+vast reservoir of new waters for calculus to navigate.  The derivative of $e^x$ is $e^x$,
+and its inverse --- $\ln{x}$ --- is just as amazing.  The inverse of $y=e^x$ can be written
+as $x=e^y$.  By implicit differentiation, $dx = e^ydy$, and therefore $\frac{dy}{dx} =
+\frac{1}{e^x}$.  Well, we began by saying $e^y=x$, so the derivative of $\ln{x}$ must
+be $\frac{1}{x}$.  Hopefully, you have been curious for several chapters what
+could ever have the derivative of $\frac{1}{x}$, since nothing could ever make that
+via the Power Rule.
+
+\subsection{Proofs}
+Speaking of the Power Rule, we have been using it as we made it via Induction for 
+some time now.  Not that Induction is a bad thing, but ln affords us a more elegant 
+proof.  Suppose $y$ is defined as some function to a power:
+$$
+y = \left(f(x)\right)^n
+$$
+There is no immediately obvious way to differentiate the left side of this identity, but
+what if we take the log of both sides first?  This is called the \textbf{logarithmic deriviative}.
+$$
+\ln{y} = \ln{\left(f(x)\right)^n}
+$$
+A happy consequence comes from the fact that a log of a power is the same as the
+log times the power.
+$$
+\ln{y} = n\cdot\ln{f(x)}
+$$
+Now we can take the derivative of both sides implicitly.
+$$
+\frac{1}{y} \cdot y' = n \cdot \frac{1}{f(x)}
+$$
+Solving for $y'$, we get
+$$
+y' = n \frac{y}{f(x)}
+$$
+If we substitute back in the original definition of $y$ (i.e. $\left(f(x)\right)^n$) and simplify,
+we see
+$$
+y' = n\cdot{}\left(f(x)\right)^{n-1}
+$$
+the generalized Power Rule.
+
+
+\subsection{Product and Quotient Rule}
+The Product Rule can also be proven by Logarithmic Derivative, without limits, for any 
+$y = f\cdot{}g$.
+\begin{align*}
+\ln{y} &= \ln{f \cdot{} g} \\
+\frac{1}{y}y' &= \left(\ln(f)\right)' + \left(\ln(g)\right)' \\
+y' &= y(\frac{1}{f}f' + \frac{1}{g}g') \\
+ &= f\cdot{}g(\frac{1}{f}f' + \frac{1}{g}g') \\
+ &= g\cdot{}f' + f\cdot{}g'
+\end{align*}
+
+The same goes for the Quotient Rule, for any $y=\frac{f}{g}$.
+\begin{align*}
+\ln{y} &= \ln{\frac{f}{g}} \\
+\frac{1}{y}y' &= \left(\ln{f} - \ln{g}\right)' \\
+y' &= y\left(\frac{1}{f}f' - \frac{1}{g}g'\right) \\
+  &= \frac{f}{g}\left(\frac{f'}{f} - \frac{g'}{g}\right) \\
+  &= \frac{f'}{g} - \frac{g\cdot{}f'}{g^2}\\
+  &= \frac{g\cdot{}f' - g\cdot{}f'}{g^2}
+\end{align*}
+
+
+\subsection{Derivative Review}
+Let us summarize all of the derivative shortcuts we have discerned.  You are 
+responsible to prove without assistance all of these
+
+We will use $u$ as a variable of differentiation because there might be a
+(nested?) set of Chain Rules to apply before we get down to $x$.  Assuming
+$u$ is a function of $x$:
+\begin{equation}
+\frac{d}{dx}u = u\cdot{}\frac{du}{dx}
+\end{equation}
+
+We have been given a looping cycle of trigonometric derivatives without proof:
+\begin{equation}
+\left(\sin{u}\right)' = \cos{u}\frac{du}{dx}
+\end{equation}
+\begin{equation}
+\left(\cos{u}\right)' = -\sin{u}\frac{du}{dx}
+\end{equation}
+\begin{equation}
+\left(-\sin{u}\right)' = -\cos{u}\frac{du}{dx}
+\end{equation}
+\begin{equation}
+\left(-\cos{u}\right)' = \sin{u}\frac{du}{dx}
+\end{equation}
+Any polynomial or power function can be differentiated with the Power Rule:
+\begin{equation}
+\left(u^n\right)' = n\cdot{}u^{n-1}\frac{du}{dx}
+\end{equation}
+Any exponential function can be differentiated as follows:
+\begin{equation}
+(b^u)' = b^u\cdot{}\ln{u}\frac{du}{dx}
+\end{equation}
+Any logarithmic function can be differentiated as follows:
+\begin{equation}
+\left(\log_a{u}\right)' = \frac{1}{\ln{a}}\cdot{}\frac{1}{u}\cdot{}\frac{du}{dx}
+\end{equation}
+
+Together with the Product and Quotient Rule above, almost any major
+function should be differentiable for you now.
+
+
+

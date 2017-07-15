@@ -1,0 +1,88 @@
+%!TEX root =  ../main.tex
+
+\subsection{Definition}
+
+\objective{Interpret piece-wise functions and their limits}
+
+
+In human observations, there is almost nothing which follows one equation for the 
+entirety of its domain.  The only constant in the universe is change!  For example, 
+population of the world, the stock market, or even one stock might generally follow one
+equation for a significant stretch of time, but not forever.  So it is that most functions are 
+defined in pieces, and are therefore called piece-wise functions.
+
+For example, the absolute value function which you have been using for some time now is
+actually a piecewise function.\index{Absolute Value!piece-wise}
+
+We should formally define the nomenclature of a ``sided'' limit:
+
+\begin{derivation}{Right-sided limit}\index{limit!right-sided}
+``The limit as $x$ approaches $c$ from the right is $L$'' is true if and only if for every $\epsilon > 0$, there exists a $\delta > 0$ such that
+$|f(x)-L|<\epsilon$ whenever $0<x-c<\delta$.
+
+$$\lim_{x \to c^+}f(x) = L$$
+\end{derivation}
+
+
+\begin{derivation}{Left-sided limit}\index{limit!left-sided}
+Similarly, ``The limit as $x$ approaches $c$ from the left is $L$'' is true if and only if for every $\epsilon > 0$, there exists a $\delta > 0$ such that
+$|f(x)-L|<\epsilon$ whenever $0<c-x<\delta$.
+
+$$\lim_{x \to c^-}f(x) = L$$
+\end{derivation}
+
+
+\personfeature[-3in]{George_Boole_color}{George
+    Boole}{1815-1864, French}{was an English mathematician
+    who said, ``No general method for the solution of questions 
+    in the theory of probabilities can be established which does 
+    not explicitly recognise, not only the special numerical bases 
+    of the science, but also those universal laws of thought which 
+    are the basis of all reasoning, and which, whatever they 
+    may be as to their essence, are at least mathematical as to their form.''
+    \href{https://en.wikipedia.org/wiki/George_Boole}{(Wikipedia)}}
+
+\subsubsection{Boolean Variables}\index{booleans}
+Perhaps surprisingly, your TI-8* can graph piece-wise functions.  We will start with a simple
+piecewise-function :
+
+$$
+f(x)=
+\begin{cases}
+x, x<1\\
+x^2,x\ge 1
+\end{cases}
+$$
+
+\index{TI-8*!piece-wise}
+
+
+If we wanted to graph the sections separately, we could make $Y_1=(X^2)/(X\ge{}1)$ and
+$Y_2=(X)/(X<1)$.  (The equality and inequality signs are under 2ND-MATH --- TEST.)  This will 
+allow you to make the different sections different colors or different shading, but that might be
+what you want.  To graph everything in $Y_1$, use $(X^2)*(X\ge{}1)+(X)*(X<1)$.
+
+
+
+\subsection{Other Discontinuities}
+\reminder{\lefthand}{The different TI-8* behave differently around holes.  Newer calculators will attempt to make a hole apparent, while older models do not show it.
+
+Only the new models draw points visibly, but even then they are very small.  We recommend
+against even trying to represent them in the TI-8*.}
+
+
+All together, there are five kinds of discontinuities.  We are only responsible to rigorously prove
+instanes of the first two and the last:
+
+\subsubsection{Removable}
+Here the limit exist.  The graph has a hole in it, which may or may not be defined as a point somewhere unexpected.
+\subsubsection{Jump}
+The limits does not exist.  The graph is not continuous, but ``leaps'' from one output to another without passing in between, at one or more points.
+\subsubsection{Infinite} 
+The limit may or may not exist.  The function itself goes up and/or down without limit.  The most common example is a vertical asymptote.
+\subsubsection{Oscillating} 
+The limit does not exist.  The graph varies between outputs in way that never resolves.
+\subsubsection{Domain} 
+The limits does not exist because on one side, the function ceases to exist.
+
+

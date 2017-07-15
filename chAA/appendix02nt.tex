@@ -1,0 +1,113 @@
+%!TEX root =  ../main.tex
+
+\section{Kinds of Numbers}\index{Kinds}\label{sec:AAKinds}
+
+\objective{Explain the Reals and how to build them.}
+
+
+Numbers are abstract entities which represent quantities, measurements, or arrangements.  
+There are various kinds of numbers, and thinking about the sizes and definitions of these
+kinds is a surprisingly vast and complicated field.  Perhaps this enterprise is as old as 
+mathematics, beginning when someone thought, ``There is no number so large that
+one cannot be added to it''. 
+
+It is assumed that all human cultures with counting began with the \gls{natural numbers}, 
+that is $\{1, 2, 3, ...  \}$.  The symbols for ``natural numbers'' is $\mathbb{N}$.  For many areas of life,
+analyses need proceed no further.  But, various cultures at various times have needed to 
+distinguish zero from an actual lack of an answer.  More formally, $0 \ne \varnothing$.
+, and it plays an important role in mathematics as a number.  We call
+0, 1, 2, 3, ... the whole numbers, or $\mathbb{W}$. 
+
+
+\begin{example}
+\exProblem
+If $A \in \mathbb{N}$ and $B \in \mathbb{W}$, does $(A \cap \{0\} ) \cap B = \varnothing$?
+
+\exSolution
+$A \cap \{0\}$ is asking that the natural numbers and zero have in common, which is nothing.
+$B$ and nothing have nothing in common.  Therefore, yes, $(A \cap \{0\} ) \cap B = \varnothing$
+\end{example}
+
+
+Many mathematics textbooks discuss negative numbers next, but we will save that discussion
+for the next section.  Suffice it to say, whole numbers and their negative counterparts make up
+the \gls{integers} ($\mathbb{Z}$).
+
+Most cultures have a need to portion out large things, and these portions are typically thought of
+as proportional.  That is, we imagine a ratio of possessed pieces to overall divisions.  The most
+common fraction is $\frac{1}{2}$, which means division into two pieces and existence of only one
+of those pieces.  Quite plainly, we can call these numbers \gls{rational numbers} because they 
+can be expressed as ratios.  The mathematical symbol is $\mathbb{Q}$, because the Latinate
+word for a ratio is `quotient'.
+
+\begin{derivation}{Positive Rational Number}
+A positive rational number may be written as $\frac{a}{b}$, where $\{a | a \in \mathbb{W}\}$ and
+$\{b | b \in \mathbb{N}\}$.  That is, the denominator may not be zero.
+\end{derivation}
+
+
+%${1+\cfrac{1}{2+\cfrac{1}{3+\cfrac{1}{4+\cfrac{1}{5+\cfrac{1}{6+\ddots}}}}}}$
+
+\begin{derivation}{Decimal to Fraction}
+Any repeating or terminating decimal may be written as a rational number and visa versa.
+\end{derivation}
+
+
+\begin{example}
+\exProblem
+Convert $1.\overline{126}$ into a ratio.
+
+\exSolution
+Let $x = 1.\overline{126}$.  Because there are three repeating digits, we multiply by $10^3$.
+
+\begin{align*}
+1000x & = & 1126.\overline{126}\\
+- x & = & -1.\overline{126}\\
+\hline
+999x & = & 1125.000
+\end{align*}
+$$
+\therefore x = \frac{1125}{999} = \frac{125}{111}
+$$
+\end{example}
+
+\reminder{\lefthand}{You calculator can help save time by reducing fractions for you.   
+\Touche[style=function,principal={MATH},]
+($\blacktriangleright$FRAC) is a powerful tool.
+}
+
+
+
+
+\subsection{Irrationals}
+Some numbers may not be expressed as fractions.  They are called \gls{irrational numbers} and 
+their symbol is $\mathbb{I}$.  Some irrational numbers are nevertheless solutions to algebra problems, 
+such as $\sqrt{2}$ or $10^{2.3}$.  These are called the \gls{algebraic} numbers and are symbolized
+with a $\mathbb{A}$.  Others may be described, but are not the result of arithmetic, numbers such 
+as $\pi$ or $e$.  Such values are called \gls{transcendental} numbers, and they are proven to be the
+vast majority of numbers.
+
+
+
+
+\ExSection[Exercises]
+Convert repeating decimals to fractions
+\begin{exercises}{sec:AAKinds}
+\prob{} Convert $0.11111...$ into a fraction
+\begin{answer}
+$\frac{1}{9}$
+\end{answer}
+
+\prob{}Convert $1.212121212...$ into a fraction
+
+\prob{}Convert $0.123123123123...$ into a fraction
+
+\prob{}Convert $0.123456789$ into a fraction
+
+\prob{}Convert $0.12345678901234567890123...$ into a fraction
+
+\end{exercises}
+
+\begin{exercises}{sec:AAKinds}
+\prob{} Put in order without a calculator $\sqrt{10}, \pi, \frac{22}{7}, 3.14$
+\end{exercises}

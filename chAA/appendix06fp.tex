@@ -1,0 +1,100 @@
+%!TEX root =  ../main.tex
+
+
+\section{Factoring and Primes}\label{sec:primes}
+Humans seeks to understand the fundamental nature of numbers.  We have learned
+many things, but the underlying, deep structure is not fully known.  We believe will know
+a great deal more if we can understand the distribution of Prime Numbers.
+
+\paragraph{Prime Number}
+A natural number greater than 1 that has no positive divisors other than 1 and itself.
+
+
+\paragraph{Fundamental Theorem of Arithmetic}
+Every integer greater than 1 either is prime itself or is the unique product of prime numbers.
+
+Factorizing numbers show the algebraic nature of all natural numbers.  As we seek 
+to simplify algebraic expression through factorization, we find many helpful patterns which 
+are important to know both forwards (distribution of multiplication over addition) and 
+backwards.
+
+\subsection{Patterns of Distribution}
+The square of a binomial always follows a pattern, which can be seen algebraically or
+via algebra block.  A binomial multiplied by its conjugate produces the difference of squares.
+When the first element of two binomial is the same, the result will have like terms that combine
+as a sum.
+
+\begin{equation}
+\begin{array}[b]{l}
+(a + b)^2 = a^2 + 2ab + b^2\\
+(a + b) (a - b) = a^2 - b^2\\
+(x + a) (x + b) = x^2 + (a+b)x + ab\\
+\end{array}
+\end{equation}
+
+\subsection{Factoring Quadratics}
+When factoring, the first check should always be for a common factor to take out.  Then,
+the above techniques seen in distribution work in reverse for factoring.  If a quadratic expression
+is of the form $ax^2+bx+c$, there are two very different techniques, depending upon whether
+$a=1$ of not.  
+
+\begin{derivation}{Simple Squared Term}
+After checking for a GCF,\\
+Perfect Square Binomial: $a^2 + 2ab + b^2 = (a+b)^2$\\
+Difference of Squares: $a^2 - b^2 = (a+b)(a-b)$\\
+``Adds to, Multiplies to'': $x^2 + (a+b)x + ab = (x + a)(x + b)$\\
+\end{derivation}
+
+\paragraph{Split the middle}
+When $a\ne1$, more elaborate techniques are called for.  Typically, working with $a<0$ is much
+more difficult, so factoring out a negative is helpful.  Next, splitting the linear term in two may
+yield results.  Looking at $ax^2+bx+c$, seek to find factors of $a\cdot c$ which add to $b$.  
+Factor the terms, two at a time (called ``factoring by grouping''.  In large polynomials, groups of
+arbitrary size are possible.)  You will know you have succeed when you have two different
+terms multiplied agains the same term in parentheses.
+
+\begin{example}
+\exProblem
+Factor $15x^2-11x-14$.
+
+\exSolution
+Begin by multiplying $15\cdot(-14)=-210$.  We are looking for factors of $-210$ which are 11 apart.
+Only 10 and and $-21$ fit the bill.
+
+$15x^2-11x-14$\\
+$15x^2+10x-21x-14$\\
+$5x(3x+2)-7(3x+2)$\\
+$(5x-7)(3x+2)$
+\end{example}
+
+Sometimes, none of the above techniques yields any results.  There are two equally valid
+moves at that point, but one of which is made from the other.
+
+\paragraph{Complete the Square and the Quadratic Formula}
+First, if $a\ne1$, factor it out of the terms with an unknown.  
+Second, use the definition of a Perfect Square Binomial
+to discover what constant would be needed to ``complete the square''.  Insert this term and its
+additive inverse (which is like adding zero) and factor to a square.
+
+\begin{example}
+\exProblem
+Rewrite by completing the square: $3x^2 + 12x + 7$
+
+\exSolution
+$3(x^2+4x) + 7$\\
+$3(x^2+4x+4-4) + 7$\\
+$3[(x+2)^2-4] + 7$\\
+$3(x+2)^2-5$
+\end{example}
+
+\paragraph{Quadratic Formula}
+For any quadratic $y=ax^2+bx+c$, the values of $x$ where $y=0$ may be are the two solutions
+$x=\dfrac{-b\pm\sqrt{b^2-4ac}}{2a}$
+
+
+\ExSection[Exercises]
+\begin{exercises}{sec:primes}
+\prob{}sum and difference of cubes
+\prob{}prove q.f. by completing the square
+
+\end{exercises}

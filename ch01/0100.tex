@@ -1,0 +1,131 @@
+%!TEX root =  ../main.tex
+
+\chapterimage{Mountain-type_Woodland_Caribou}
+\mychapter{Functions}{functions}
+
+
+Functions are the central objects of investigation in many subdivision of mathematics today, and
+are very effective means of representing real-life phenomena. For example, in any given year, 
+there is one population of
+deer in a certain forest.  Would it make sense for a forest ranger to answer you two numbers when
+you ask how many \textit{Rangifer tarandus} (caribou) exist in a given range, at a certain time?
+
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}
+    \begin{axis}%
+    [
+        %grid=major,     
+        xmin=0,
+        xmax=12,
+        axis x line=bottom,
+        ytick={0,10,...,100},
+        ymax=110
+       % axis y line=middle,
+    ]
+        \addplot%
+        [
+            blue,%
+            mark=none,
+            samples=100,
+            domain=0:12,
+        ]
+        (x,{1+100/(1+exp(-x+5))});
+    \end{axis}
+\end{tikzpicture}
+\caption{Population of caribou over time}
+\end{figure}
+
+How do we model phenomena in the world?  Is it reasonable to expect
+caribou population to follow a curve such as the above figure?  How can we 
+extract information from a graph like this?  If actual measurements diverge some
+from the expectation established by the curve, are they \emph{wrong}?  Are functions
+better tools than relations?  What else could there be?
+
+\newpage
+\chapterminitoc
+
+
+
+
+%								1 - 1
+\newpage
+\invisiblesection{Representations}
+\marginlessinput{ch01/0101p}
+\newpage
+\input{ch01/0101}
+\newpage
+\subsection{Exercises}
+\marginlesspdf{ch01/0101xA.pdf}
+\marginlesspdf{ch01/0101xB.pdf}
+\marginlesspdf{ch01/0101xC.pdf}
+
+
+
+%								1 -2
+\newpage
+\invisiblesection{Types}
+\subsection{Pick x, Find y}
+\marginlesspdf{ch01/0102p.pdf}
+\newpage
+\input{ch01/0102}
+\newpage
+\subsection{Exercises}
+in Kuta
+~\vfill
+
+
+%								1 - 3
+\newpage
+\invisiblesection{Translations and Dilations}
+\subsection{Multiplying and Adding Functions}
+\marginlesspdf{ch01/0103pA.pdf}
+%\newpage
+\marginlesspdf{ch01/0103pB.pdf}
+\newpage
+\input{ch01/0103}
+\newpage
+\subsection{Exercises}
+in Kuta
+~\vfill
+
+
+%								1 - 4
+\newpage
+\invisiblesection{Reflections and Symmetries}%
+\marginlessinput{ch01/0104p}
+\newpage
+\input{ch01/0104}
+\newpage
+\subsection{Exercises}
+in Kuta
+~\vfill
+
+
+%								1 - 5
+%\newpage
+\invisiblesection{Regressions}
+\subsection{Graphical Patterns}
+\marginlesspdf{ch01/0105pA.pdf}
+\newpage
+\marginlesspdf{ch01/0105pB.pdf}
+\input{ch01/0105}
+\newpage
+\subsection{Exercises}
+%\loadallproblems[0105]{problems/0105x}
+%\begin{multicols}{2}
+%\renewcommand{\theenumi}{\thesection.\arabic{enumi}}
+%\begin{enumerate}[leftmargin=0cm,itemindent=.5cm,labelwidth=\itemindent,labelsep=0cm,align=left]
+%\foreachproblem[0105]{\item\label{prob:\thisproblemlabel}\thisproblem}
+%\end{enumerate}
+%\end{multicols}
+%\renewcommand{\theenumi}{\arabic{enumi}}
+
+
+
+
+%								1 - 6
+\newpage
+\section{Review}
+\input{ch01/0106}

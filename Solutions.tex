@@ -1,0 +1,83 @@
+\documentclass[10pt,twoside]{book}
+\usepackage[T1]{fontenc}
+\usepackage{fourier}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{ragged2e}
+\usepackage{relsize}
+%\usepackage{xr}
+
+\usepackage{siunitx}
+
+%Check if we are compiling under latex or pdflatex
+\usepackage{ifpdf}
+\ifpdf
+  \usepackage[pdftex]{graphicx}
+\else
+  \usepackage[dvips]{graphicx}
+\fi
+
+\usepackage{pdfpages}
+
+% Set the margins
+  \setlength{\marginparwidth}{0pt}
+  \setlength{\marginparsep}{0pt}
+  \setlength{\oddsidemargin}{0in}
+  \setlength{\evensidemargin}{0in}
+  \setlength{\textwidth}{6.5in}
+  \setlength{\topmargin}{0in}
+  \setlength{\headheight}{0.125in}
+  \setlength{\headsep}{0.25in}
+  \setlength{\textheight}{8.75in}
+  \setlength{\footskip}{0.35in}
+%  \setlength{\headwidth}{\textwidth}
+  \raggedbottom
+
+% This package sets the page header style
+\usepackage{calc}
+\usepackage{fancyhdr}
+  \fancyhf{}
+  \pagestyle{fancy}
+  \fancyheadoffset[LE,RO]{\marginparsep+\marginparwidth}
+  \fancyhead[LE,RO]{\bfseries\thepage}
+  \fancyhead[LO]{\bfseries\rightmark}
+  \fancyhead[RE]{\bfseries\leftmark}
+  \fancyfoot[LO,RE]{\scriptsize{Duplication in any form, electronic or otherwise, is prohibited.}}
+  \renewcommand{\chaptermark}[1]{\markboth{Solutions}{\chaptername \ \thechapter \ \ #1}}
+
+\usepackage[labelfont=bf,labelsep=none]{caption}
+ \DeclareCaptionFormat{suggested}{{\small #1#2 #3}}
+ \captionsetup{format=suggested}
+
+% This package makes hyperlinks for the index and bookmarks for the pdf
+\usepackage{xr-hyper}
+\usepackage[bookmarksnumbered,pdfpagelabels=true,plainpages=false,pdfstartview=FitH,colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue]{hyperref}
+\externaldocument{main}
+
+
+\renewcommand\theequation{\arabic{equation}}
+
+\allowdisplaybreaks
+
+\begin{document}
+ \frontmatter
+
+ \chapter*{Solutions for \emph{Elementary Mathematical Analysis}}
+
+ You'll need to create a new file for the solution of each problem in the
+ solutions subdirectory.  Also, if you rename your main file,
+ change TextbookExample in this document (two places) to your new name.
+
+ \cleardoublepage
+
+ \addcontentsline{toc}{chapter}{Table of Contents}
+ \tableofcontents
+
+ \mainmatter
+ \pagestyle{fancy}
+
+\setcounter{chapter}{-1}
+
+\input{main.sln}
+
+\end{document}

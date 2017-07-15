@@ -1,0 +1,91 @@
+%!TEX root =  ../main.tex
+
+\subsection{Real Analysis}
+
+\objective{Apply the basic principles of Analysis to solve improper integral and use hyperreal numbers}
+
+
+An \textbf{improper integral} is a definite limit where one and/or the other bound is
+an infinity.  For example, 
+$$
+\int_0^\infty e^{-x}dx
+$$
+In this case, we integrate like normal, but take the upper bound to be a limit, 
+written more simply.  (No one wanted to write a limit on top of an integral!)  
+$$
+\int_0^\infty e^{-x}dx = \left.-e^{-x}\right|_0^\infty = \lim_{x\rightarrow\infty} -e^{-x} - -e^0
+$$
+The limit approaches 0 while the function evaluates to -1.  We say, therefore, that
+the entire integral is assigned a value of 1.  What are we saying?  The area under
+an infinite curve is a finite number?  Remarkable.
+
+\subsubsection{Special Functions}
+Some functions come up so often in higher mathematics that they are given
+their own name, often involving Greek letters.  Many of them have wildly 
+complicated definitions, and not a few are improper integrals.  One such
+function is the Gamma function, which is defined thus:
+
+$$
+\Gamma(z)=\int_{0}^{\infty}x^{z-1}e^{-x}dx
+$$
+We shall see in chapter 14 that there is very common function in math called
+\textbf{factorial}.  The Gamma function is the \textbf{analytic continuation} of
+the factorial function, such that $\Gamma(n) = (n-1)!$.  This has many uses in
+probability theory, allowing us to calculate values in between the integers.
+
+
+\subsection{Non-Standard Analysis}
+When Leibniz and Newton invented Calculus in the mid-17th century, their discoveries were
+a culmination of two centuries of fierce debate over the idea of infinitesimals.  Was the
+continuum (we might use the were ``number line'' or Reals) made up on indivisible, smallest
+elements or not?  Leibniz called the infinitesimals and Newton called them fluxions.  
+The assumption of their existence had made it possible to grow beyond a dependence
+upon Euclid and the Classics, and enabled the ability to make new discoveries in 
+mathematics, along the lines of Analytic Geometry (the algebra of Geometry).
+
+
+Unfortunately, Newton and Leibniz did not cultivate a rigor science of infinitesimals,
+and later centuries have much preferred the work of Cauchy and Weierstrauss, 
+because of its consistency and explanatory power.  However, given the antiquity of
+the method of \textbf{exhaustion} and current understand of Planck Length, 
+Planck Time, Planck Mass, etc., this textbook has attempted to keep some measure
+of the method of infinitesimals at its core.  These methods were made rigorous in
+the 1960s by Abraham Robinson and codified in a system of numbers known as 
+\textbf{Hyperreal} Numbers, or simply, the Hyperreals.
+
+The hyperreals are an extension of the reals, as the name implies.  We need only
+posit two numbers: $\omega$ and $\epsilon$.  $\omega$ (the last letter of the
+Greek alphabet, only always lowercase, pronounced oh-MEG-uh or oh-MAY-guh)
+is analogous to infinity as most people think of it.  Infinity is \emph{supposed}
+to be a concept, not a number, the idea of going on without end.  $\omega$ is
+a number bigger than any real number, just smaller than infinity.  $\epsilon$ is
+its reciprocal, a positive number smaller than any real number but not zero.
+
+This leads to a system where numbers may be composed of two (even three)
+parts.  For example, $3+2\epsilon$ may not be simplified any further.  But 
+$\omega(3+2\epsilon)$ can be: $3\omega + 2$.  What good is such an arbitrary,
+new system.  Well actually, its quite old and caused the invention of calculus!
+
+\subsubsection{Old Definitions}
+The Difference Quotient can be stated without limits using hyperreals as
+$$
+f'(x) = \frac{f(x+\epsilon) - f(x)}{x+\epsilon -x}
+$$
+
+e can be stated without limits as follows:
+$$
+e = (1+\epsilon)^\omega
+$$
+
+\subsubsection{Derivative}
+Let us do one example, with several others in the exercises, finding the derivative of 
+$x^2$.
+$$
+(x^2)' = \frac{(x+\epsilon)^2-x^2}{\epsilon} = \frac{x^2+2x\epsilon+\epsilon^2-x^2}{\epsilon}
+= 2x+\epsilon
+$$
+Unlike limits notation, the infinitesimal does not disappear.  Every $\epsilon$ step in
+the $x$-direction produces a jump of $2x$ in the $y$-direction.  According to quantum
+mechanics (and Zeno's Paradox), the jumps are done without intervening steps,
+that at the smallest level, elementary particles proceed in a way quite unlike
+our macroscopic world.

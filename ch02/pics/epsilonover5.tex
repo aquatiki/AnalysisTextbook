@@ -1,0 +1,11 @@
+\begin{tikzpicture}[yscale=2,xscale=7]
+	\draw [->] (-.3,0) -- (1.5,0) node[anchor=west]{$x$};
+	\draw [->] (0,-1) -- (0,3) node[anchor=south]{$y$};
+	\path[fill=black!30] (0,1.5) node[anchor=east]{$2-\epsilon$}
+	           --(0.9,1.5) -- (0.9,0) node[anchor=north]{$1-\frac{\epsilon}{5}$} 
+	           -- (1.1,0) node[anchor=north]{$1+\frac{\epsilon}{5}$} 
+	           -- (1.1,2.5) -- (0,2.5) node[anchor=east]{$2+\epsilon$} -- cycle;
+	\draw [ultra thick,->] (0.4,-1) -- (1.2,3);
+	\draw [dotted,black,thick] (1,0) -- (1,2) -- (0,2);
+	\draw [thick,fill=white](1,2) ellipse (.015 and 0.05) node[anchor=west]{$(c,L)$} ;
+\end{tikzpicture}

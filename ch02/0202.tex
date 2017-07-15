@@ -1,0 +1,116 @@
+%!TEX root =  ../main.tex
+
+\subsection{Epsilon-Delta}
+
+\objective{Use the definition to evaluate limits.}
+
+
+In the last section, you experiment with finding the values that \emph{would have}
+occurred in a series of functions, if there had not been a \textbf{discontinuity} at a given
+point.  The value that the function approaches is called a \textbf{limit}.  Because all the
+examples to date have been \textbf{removable discontinuities}, it has simply been a matter
+of algebra manipulation to produce a \emph{nearly} identical version of the function, but
+simply one without the hole.
+
+In the beginning, it was sufficient to define limits as casually as we have done, which is why
+2.1 is laid out the way it is.  Later, mathematicians named Cauchy and Weierstrauss created
+much more rigorous definitions to meet demand.  Let us built up such rigor.
+\marginfig[-1in]{tricky}{The function appears to be a decreasing exponential ... or does it?}
+
+\index{TI-8*!zoom box}
+Here is a negative example: $f(x)=\dfrac{|x-3|\cdot1.2^x}{(x-3)\cdot12^x}+2$.  Enter the 
+function as $Y_1$ and begin with ZOOM-STANDARD.  You should have a decreasing
+exponential function, with a horizontal asymptote at $y=2$.  Now you should become
+suspicious.  What did the $x-3$ terms produce?  Is there something going on at $x=3$,
+when both terms are 0 and the entire function is $\frac{0}{0}$?  If you consult the
+TABLE, you will see there is an ERROR at 3.  Let us investigate.
+
+Practice using the ZOOM-BOX feature, drawing new windows around (3,2) until the 
+discontinuity becomes clear.  Here is our window and graph:
+
+insert figure Xmin=2.999 Xmax=3.001 Xscl=5E-4 Ymin=1.9985 Ymax=2.0015 
+
+
+How can we avoid being fooled like this?  What does it mean to say ``the limit as
+$f(x)$ approaches $c$ is $L$''?
+
+\marginfig[-1in]{epsilondelta.png}{Whenever a point $x$ is within $\delta$ units of $c$, $f(x)$ is within $\epsilon$ units of $L$ \cite{epsilondelta}.}
+
+
+
+\begin{derivation}{Definition of a Limit}\index{Limit!definition}
+$$\lim_{x\rightarrow c} f(x)=L$$
+
+
+The limit as $x$ approaches $c$ of $f(x)$ is $L$, if and only if
+for any $\epsilon>0$ no matter how small, there is a $\delta>0$ such that
+$x$ is with $\delta$ units of $c$ but $x\ne c$, that $f(x)$ is with $\epsilon$ units of $L$.
+\end{derivation}
+
+
+
+In less compact terms, this means for \emph{any} radius $\delta$ around $c$, there is exists
+a radius $\epsilon$ around $L$ that $f(x)$ stays with in.  This definition, developed by
+Cauchy, is the successor to Leibniz's idea of ``infinitesimals''\footnote{
+See \cite{Alexander12}.}.
+
+
+\subsubsection{Continuity}
+It would certainly save a lot of time if we could classify functions by whether they will
+ever fail to have a limit or not.  Smooth functions, where every minuscule change in the
+input results in a minuscule change in the output are called \textbf{continuous}.  A function
+$f(x)$ is continuous at point $a$, if and only if:\index{continuity}
+\begin{enumerate}
+\item $\displaystyle \lim_{x\rightarrow a} f(x)$ exists,
+\item $f(a)$ exist, and
+\item $\displaystyle \lim_{x\rightarrow a} f(x) = f(a)$.
+\end{enumerate}
+A function that is continuous at every point in its domain is said to be a \textbf{continuous
+function}.  Continuous functions whose domain is all Real numbers are said to be ``continuous
+over the Reals'' or ``continuous for Reals''.
+
+
+\begin{example}{Discontinuous}
+	\exProblem
+Is the function $f(x)=\frac{1}{x}$ continuous for Reals?
+
+	\exSolution
+No.  In fact, there is \emph{no} $\epsilon$ we could pick that the
+output would stay within for any $\delta$ around 0.  The asymptote at $x=0$ shows that the
+graph increases \emph{without limit}.
+
+
+\marginfig[-1.5in]{Function-1_x.png}{Function $y=\frac{1}{x}$\cite{function1x}.}
+\end{example}
+
+
+\begin{example}{Testing the Definition}
+	\exProblem
+Show that
+$$
+\lim_{x\rightarrow 1} (5x-3)=2
+$$
+	\exSolution
+According the definition of a limit, we set $c=1$, $f(x)=5x-3$ and let
+$L=2$.  To show that $\displaystyle \lim_{x\rightarrow 1}(5x-3)=2$, we need to show that for
+any number $\epsilon>0$, there exists a number $\delta>0$ such that for all $x$,
+
+$$
+0<|x-1|<\delta \quad \Rightarrow \quad |(5x-3)-2|<\epsilon 
+$$
+
+(The symbol $\Rightarrow$ is read ``implies''.)  If we can transform our second equation to 
+contain the middle term of the first, we have succeeded:
+
+\marginfig[-1in]{epsilonover5}{$\epsilon-\delta$ around (1,2)}
+\begin{align*}
+|(5x-3)-2| & < \epsilon \\
+|5x-5| & <\epsilon \\
+5|x-1| & <\epsilon \\
+|x-1| & < \epsilon \div 5\\
+\end{align*}
+The last line tells us that the original $\epsilon$-inequality will hold is we choose
+$\delta < \epsilon \div 5$.
+
+
+\end{example}

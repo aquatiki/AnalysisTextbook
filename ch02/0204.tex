@@ -1,0 +1,71 @@
+%!TEX root =  ../main.tex
+
+\subsection{At Infinities}
+
+\objective{Determine when a limit does and does not exist, or is infinite.}
+
+Because limits are asking questions that need not have simple number inputs and
+need not have simple number outputs, we can evaluate limits involving infinities.
+``Infinity'' simply means ``without end''.  Asking what a function approaches as
+$x$ approaches infinity, graphically means ``what value is the output tending
+towards as the input grows without bound?''.  Negative infinity is a term describing
+the leftward trend of function.
+
+
+\begin{derivation}{Limit at Infinity}
+For $f(x)$ a real function, the limit of $f$ as $x$ approaches infinity is L, 
+means that for all  $\varepsilon >0$, there exists $c$ such 
+that $|f(x) - L| < \varepsilon \text{whenever} x > c$. \footnote{$\forall \varepsilon > 
+0 \; \exists c \; \forall x > c :\; |f(x) - L| < \varepsilon$}
+
+$$\lim _{x\to \infty }f(x)=L$$
+
+\end{derivation}
+
+
+The same applies at negative infinity:
+
+
+\begin{derivation}{Limit at Negative Infinity}\index{limit!at infinities}
+For $f(x)$ a real function, the limit of $f$ as $x$ approaches negative infinity is L, 
+means that for all $\varepsilon >0$ there exists $c$ such that 
+$ |f(x) - L| < \varepsilon \text{whenever} x < c$.  \footnote{$\forall \varepsilon > 
+0 \; \exists c \; \forall x < c :\; |f(x) - L| < \varepsilon$}
+
+
+$$ \lim_{x \to -\infty}f(x) = L$$
+
+\end{derivation}
+
+
+\begin{example}
+	\exProblem
+Evaluate $\displaystyle \lim_{x \to -\infty}2^x$
+	\exSolution
+We can observe the graph or compute numerically that $2^x$ is getting closer
+and closer to 0 as we move leftward.  We can get arbitrarily close to 0 by picking
+whatever large, negative exponent we wish.  Hence, the answer is 0
+\end{example}
+
+
+
+
+\subsection{Infinite Forms}
+Not only can we ``plug in'' infinities in limits problems, but we can also get
+$\pm\infty$ as an answer.  Recall, however, that the left and right sided limits
+must agree for the limit to exist.  Hence, we can say that the limit as $x$ 
+approaches 0 of $x^{-2}$ is infinity, while the same limit taken on $\frac{1}{x}$
+does not exist.
+
+
+the limit of f as x approaches a is infinity, denoted
+
+$$\lim_{x \to a} f(x) = \infty$$
+means that for all $\varepsilon >0 \text{there exists}  \delta >0 \text{such that}  f(x) > \varepsilon \text{whenever}  |x - a| < \delta$.
+
+These ideas can be combined in a natural way to produce definitions for different combinations, such as
+
+$$f(x)=  \lim_{x \to \infty} f(x) = \infty, \lim_{x \to a^+}f(x) = -\infty$$.
+For example:
+
+$$ \lim_{x \to 0^+} \ln x = -\infty$$

@@ -1,0 +1,66 @@
+%!TEX root =  ../main.tex
+\subsection{Inside vs. Outside}
+
+
+\objective{Produce and decipher translations and dilations of functions.}
+
+
+\subsubsection{``Outside'' Operations}
+How would you triple the output of a function?  How would you add four the output of a function?
+Because function notation means ``perform the operation of the function upon the input'', we must
+write the operators we described \emph{to the right} of the function operation, written $f(x) \cdot 3$
+and $f(x) + 4$ respectively.  Normally, multiplicative operators are written on the left, without
+an intervening symbol.  Because addition is commutative, it may be written on the left as well.
+
+\paragraph{Addition}
+\marginfig[-1in]{verticaltranslation}{Vertical translation is outside addition.}
+What is the graphical effect of the algebraic operation, $f(x) + 4$?  Let us build up a visual picture
+numerically at first.
+
+\emph{adding moves it up, negatives move it down.  Multiplication by $>1$ makes it taller.
+$(0,1)$ makes it shorter.  All relative to the x-axis.}
+
+\begin{example}{Outside Transformations}
+	\exProblem
+$r(x)=\sqrt[3]{x}$ and $s(x)=\frac{1}{2}r(x)+3$.  In what ways does the graph of
+$s(x)$ differ from $r(x)$?
+
+	\exSolution
+up 3, half as tall
+\end{example}
+\index{transformation!translation}
+
+\paragraph{Multiplication}
+Multiplication also behave as one might expect, effecting $y$ in a directly-proportional way.
+For example, regardless of what $f(x)$ is (excepting 0), then the graph of $3\cdot{}f(x)$
+with be three times taller, a vertical dilation of 3.
+
+\subsubsection{``Inside'' Operations}
+Things done ``inside'' are done \emph{before} the function operates on the domain.  This means
+graphically they will effect $x$.  However, their effect is quite curious, typically being the 
+\emph{opposite} of what one might expect.
+
+For example, consider the quadratic function $f(x)=x^2$, and a transformation of it, $g(x)=f(x+4)$.
+We can see that the +4 is on the ``inside'', and we know that 4 is added to members of the domain
+before they are plugged in to the function.  This means -4 will become 0 before it is squared.
+Another way to say this that what used to be outputted at $x=0$ will now be outputted at $x=-4$.
+
+This opposite effect also applies to dilations.  When we multiply the inside of a function by 2, it does
+not produce a graph twice as wide, but \emph{half}.
+
+\begin{example}{Inside Transformation}
+	\exProblem
+Consider the continuous function $f(x)$ given by the graph (looks like a radical sign).
+Describe and graph the continuous $g(x)$, when $g(x)=f(2x-2)$.  What would be a more
+informative way to write $g(x)$ in terms of $f(x)$?
+
+	\exSolution
+It's half as wide and left 1.  $f(2(x-1))$ would be more transparent.
+\end{example}
+\index{transformation!dilation}
+
+In summary, $f(x) + d$ will shift the graph $d$ units to the right.  $f(x+c)$ will shift the graph
+$c$ units to the left.  $a\cdot{}f(x)$ will make the graph $a$ times taller.  $f(b\cdot{}x)$ will
+make the graph $b$ times skinnier.
+
+~\vfill

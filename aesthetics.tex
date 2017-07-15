@@ -1,0 +1,172 @@
+%!TEX root =  main.tex
+
+%---------------------------------------------------------------------------------------
+%	CHAPTER GRAPHICS
+%--------------------------------------------------------------------------------------
+\titleformat{\chapter}
+  {\color{black}\sffamily\Huge\bfseries}
+  {}{0pt}
+  {\begin{tikzpicture}[overlay, remember picture]
+    \node[inner sep=0pt,anchor=north west] at (current page.north west){\includegraphics[width=\paperwidth]{\thechapterimage}};  
+    \draw[anchor=west] (0,-3cm) node [line width=2pt,rounded corners=15pt,draw=ocre,fill=white,fill opacity=0.5,inner sep=15pt]{\strut\makebox[22cm]{}};
+     \node[anchor=west,text width=\linewidth] 
+    (title) at (0,-3)
+    {\thechapter. #1};  
+   \end{tikzpicture}%
+  }
+\titleformat{name=\chapter,numberless}
+  {\color{black}\sffamily\Huge\bfseries}
+  {}{0pt}
+  {\begin{tikzpicture}[overlay, remember picture]
+    \node[anchor=west,text width=\linewidth] 
+    (title) at (0,-3)
+    {#1};    
+    \node[inner sep=0pt,anchor=north west] at (current page.north west){\includegraphics[width=\paperwidth]{\thechapterimage}};
+   \end{tikzpicture}%
+  }
+\titlespacing*{\chapter}{0pt}{0cm}{5.4cm}
+
+%
+%			MAIN TOC STYLE
+%
+% Part text styling
+\titlecontents{part}[0cm]
+{\addvspace{20pt}\centering\large\bfseries}
+{\contentslabel[\thecontentslabel]}
+{}
+{}
+% Chapter text styling
+\titlecontents{chapter}[1.25cm] % Indentation
+{\addvspace{12pt}\large\sffamily\bfseries} % Spacing and font options for chapters
+{\color{ocre!60}\contentslabel[\Large\thecontentslabel]{1.25cm}\color{ocre}} % Chapter number
+{\color{ocre}}  
+{\color{ocre!60}\normalsize\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
+
+% Section text styling
+\titlecontents{section}[1.25cm] % Indentation
+{\addvspace{3pt}\sffamily} % Spacing and font options for sections
+{\contentslabel[\thecontentslabel]{1.25cm}} % Section number
+{}
+{\hfill\color{black}\thecontentspage} % Page number
+[]
+
+% Subsection text styling
+\titlecontents*{subsection}[0pt] % Indentation WAS \titlecontents*{subsection}[1.25cm]
+{\small\itshape} % Spacing and font options for subsections WAS {\addvspace{1pt}\sffamily\small}
+{} % Subsection number  WAS {\contentslabel[\thecontentslabel]{1.25cm}}
+{}
+{} % Page number WAS {\ \titlerule*[.5pc]{.}\;\thecontentspage}
+[ \textbullet\ ][.] % was []
+
+%----------------------------------------------------------------------------------------
+%	MINI TABLE OF CONTENTS IN PART HEADS
+%----------------------------------------------------------------------------------------
+
+% Chapter text styling
+\titlecontents{lchapter}[0em] % Indenting
+{\addvspace{15pt}\large\sffamily\bfseries} % Spacing and font options for chapters
+{\color{ocre}\contentslabel[\Large\thecontentslabel]{1.25cm}\color{ocre}} % Chapter number
+{}  
+{\color{ocre}\normalsize\sffamily\bfseries\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
+
+% Section text styling
+\titlecontents{lsection}[0em] % Indenting
+{\sffamily\small} % Spacing and font options for sections
+{\contentslabel[\thecontentslabel]{1.25cm}} % Section number
+{}
+{}
+
+% Subsection text styling
+\titlecontents{lsubsubsection}[.5em] % Indentation
+{\normalfont\footnotesize\sffamily} % Font settings
+{}
+{}
+{}
+
+%----------------------------------------------------------------------------------------
+%	MINI TABLE OF CONTENTS IN CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\titlecontents*{csection}[0pt]
+    {\centering\small\bfshape\parshape 1 0cm \dimexpr\linewidth-6em\relax}
+    {}
+    {}
+    {}[\space\textbullet~]
+\titlecontents*{csubsection}[0pt]
+	{\small\itshape}
+	{(}
+	{)}
+	{}[,]
+\titlecontents*{csubsubsection}[0pt]
+	{\small\itshape}
+	{(}
+	{)}
+	{}[,]
+	
+	
+%----------------------------------------------------------------------------------------
+%	PART HEADINGS
+%----------------------------------------------------------------------------------------
+
+% numbered part in the table of contents
+\newcommand{\@mypartnumtocformat}[2]{%
+\setlength\fboxsep{0pt}%
+\noindent\colorbox{ocre!20}{\strut\parbox[c][.7cm]{\ecart}{\color{ocre!70}\Large\sffamily\bfseries\centering#1}}\hskip\esp\colorbox{ocre!40}{\strut\parbox[c][.7cm]{\linewidth-\ecart-\esp}{\Large\sffamily\centering#2}}}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% unnumbered part in the table of contents
+\newcommand{\@myparttocformat}[1]{%
+\setlength\fboxsep{0pt}%
+\noindent\colorbox{ocre!40}{\strut\parbox[c][.7cm]{\linewidth}{\Large\sffamily\centering#1}}}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newlength\esp
+\setlength\esp{4pt}
+\newlength\ecart
+\setlength\ecart{1.2cm-\esp}
+\newcommand{\thepartimage}{}%
+\newcommand{\partimage}[1]{\renewcommand{\thepartimage}{#1}}%
+\def\@part[#1]#2{%
+\ifnum \c@secnumdepth >-2\relax%
+\refstepcounter{part}%
+\addcontentsline{toc}{part}{\texorpdfstring{\protect\@mypartnumtocformat{\thepart}{#1}}{\partname~\thepart\ ---\ #1}}
+\else%
+\addcontentsline{toc}{part}{\texorpdfstring{\protect\@myparttocformat{#1}}{#1}}%
+\fi%
+\startcontents%
+\markboth{}{}%
+{\thispagestyle{empty}%
+\begin{tikzpicture}[remember picture,overlay]%
+\node at (current page.north west){\begin{tikzpicture}[remember picture,overlay]%	
+\fill[ocre!20](0cm,0cm) rectangle (\paperwidth,-\paperheight);
+\node[anchor=north] at (4cm,-3.25cm){\color{ocre!40}\fontsize{220}{100}\sffamily\bfseries\@Roman\c@part}; 
+\node[anchor=south east] at (\paperwidth-1cm,-\paperheight+1cm){\parbox[t][][t]{8.5cm}{
+\printcontents{l}{0}{\setcounter{tocdepth}{1}}%
+}};
+\node[anchor=north east] at (\paperwidth-1.5cm,-3.25cm){\parbox[t][][t]{15cm}{\strut\raggedleft\color{white}\fontsize{30}{30}\sffamily\bfseries#2}};
+\end{tikzpicture}};
+\end{tikzpicture}}%
+\@endpart}
+\def\@spart#1{%
+\startcontents%
+\phantomsection
+{\thispagestyle{empty}%
+\begin{tikzpicture}[remember picture,overlay]%
+\node at (current page.north west){\begin{tikzpicture}[remember picture,overlay]%	
+\fill[ocre!20](0cm,0cm) rectangle (\paperwidth,-\paperheight);
+\node[anchor=north east] at (\paperwidth-1.5cm,-3.25cm){\parbox[t][][t]{15cm}{\strut\raggedleft\color{white}\fontsize{30}{30}\sffamily\bfseries#1}};
+\end{tikzpicture}};
+\end{tikzpicture}}
+\addcontentsline{toc}{part}{\texorpdfstring{%
+\setlength\fboxsep{0pt}%
+\noindent\protect\colorbox{ocre!40}{\strut\protect\parbox[c][.7cm]{\linewidth}{\Large\sffamily\protect\centering #1\quad\mbox{}}}}{#1}}%
+\@endpart}
+\def\@endpart{\vfil\newpage
+\if@twoside
+\if@openright
+\null
+\thispagestyle{empty}%
+\newpage
+\fi
+\fi
+\if@tempswa
+\twocolumn
+\fi}

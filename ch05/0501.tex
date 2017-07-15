@@ -1,0 +1,79 @@
+%!TEX root =  ../main.tex
+
+
+\objective{Ability to simplify rational exponents and complex fractions}
+
+Fractions are often shunned by students, who state they prefer decimals.  But decimals really
+are fractions to, only in tenths, hundredths, thousandth, etc.  Because 10 has so few divisors,
+decimals can actually obscure factors and other structures that would simplify a problem.  
+Being comfortable --- even conversant --- with fractions, can make mathematics much more
+enjoyable, or at least, less difficult.
+
+\subsection{Clear the Fraction}
+First, fractions within fractions are often quite unclear and awkward.  It may be tempting to
+find a common denominator amongst the terms on the top-half, so that they can be
+added together, and then do the same on the bottom.  However, you will still have a four-part
+fraction by the end of that process.  In and of itself, this isn't so bad, since you will simply 
+flip the lower fraction upside-down and multiply against upper fraction.  Is there a shorter way?
+
+\begin{example}
+	\exProblem
+Simplify the top and bottom half separately, then the whole: $\cfrac{5}{\frac{25}{4}+\frac{5}{2}}$.
+
+\exSolution
+The common denominator of the terms in the denominator is 4, so only the fraction in the
+``southeast'' needs alteration: $\cfrac{5}{\frac{25}{4}+\frac{5}{2}\cdot\frac{2}{2}} = 
+\cfrac{5}{\frac{25}{4}+\frac{10}{4}} = \cfrac{5}{\frac{35}{4}} = \frac{5}{1}\cdot\frac{4}{35}
+=\frac{4}{7}$.
+\end{example}
+
+Before we answer the question of complex expressions, let us consider what may be
+gleaned from equations involving fractions:
+
+\begin{equation}
+\frac{x}{5}+\frac{2}{3}=\frac{11}{6}
+\end{equation}
+
+``How many fifths must be added to two-thirds to get eleven-sixths?''  As before, we might might
+be a common denominator (30), subtract and then divide.  Of course, your aversion to fractions
+might serve you well here, and lead you do solve this problem by \emph{clearing the fraction}.
+This process consists of nothing more than ascertaining the Lowest Common Denominator (LCD)
+and then multiplying both side of the equation by it:
+
+\begin{align*}
+30\cdot\left[\frac{x}{5}+\frac{2}{3}\right] &= \frac{11}{6}\cdot30\\
+6x+20 &= 55\\
+x &=\frac{35}{6}
+\end{align*}
+
+Everyone agrees this is more painless way to approach the problem.  Now, back to our
+complex fraction.  Is there an analogous situation going on there?  Yes, you consider the
+process linearly.  The fractions on the top half will eventually interface with the fractions on 
+the bottom.  It is best to begin treat the top and bottom denominators as related as soon
+as possible, and multiply the top and bottom by the LCD.  This is permissible because 
+multiplying by a fraction equal one does not change the expression at all.
+
+$$\cfrac{5}{\left(\frac{25}{4}+\frac{5}{2}\right)}\cdot\cfrac{4}{4}=\frac{20}{25+20}=\frac{4}{7}$$
+
+The highest benefit of this approach is that it immediately transforms a complex fraction 
+into an ordinary one.  In the exercises, you will simplify such expressions with variables.
+
+\subsection{In Equations}
+In equations, it is important to not lose information as you simplify.  As we saw in chapter 2,
+expressions such as these can be made plainer, but there are ``holes'' which at smoothed 
+over in such simplifications.  You may rewrite such equations in forms that are easier to
+deal with, but you must record what the original excluded values were.
+
+\begin{example}
+\exProblem
+Solve for real solutions of $x$: $\frac{1}{x-6}+\frac{x}{x-2}=\frac{4}{x^2-8x+12}$.
+
+\exSolution
+Factoring the quadratic denominator yields $(x-2)(x-6)$, so that is the LCD.  Multiplying
+both side of the equation produces $(x-2) + x(x-6)=4$.  Expanding combining like-terms
+reveals another quadratic, $x^2-5x-6=0$, whose solutions are 1 and -6. ... Or are they?
+Looking back at the original problem, 6 is an excluded value, making one denominator
+zero, and hence undefined.
+\end{example}
+
+\index{TI-8*!programming}

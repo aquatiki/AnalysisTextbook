@@ -1,0 +1,65 @@
+%!TEX root =  ../main.tex
+
+\subsection{Euler's Equation}
+One of the most famous equations in mathematics is Euler's incredible formula, restated as
+$e^{i\tau}-1=0$.  The majestic beauty of this equation is hard to overstate.  $e$ is the number
+of constant growth, concealing an infinity of feedback within a finite number.  $i$ is the imaginary
+number, square-root of $-1$.  $\tau$ is $2\pi$, an entire circle, an infinite number of points curving
+around forever.  1 is the identity of multiplication.  0 is the identity of addition.  They all inter-relate,
+showcasing the multi-dimensional nature of numbers, looping back on itself to make a finite
+infinity.  Pure poetry.
+
+\subsection{Review of $e$}
+Many students do not encounter Euler's equation until they are taught Taylor's series, a way of 
+writing simple functions as an infinite sum of small terms.  But there is a geometric way to make
+sense of Euler, and he himself said that $r\cdot e^{\theta i}=r(\sin{\theta}+i\cos{\theta})$, the now-familiar
+``cis'' you have been learning about in this chapter.  You can immediately see that $e^{\tau i}$ is
+$\sin{\tau}+i\cos{\tau}=1$, but where did the $e$ come from?  Where did it go?
+
+Recall that $e$ is a non-algebraic number, requiring limits.  It comes from an infinite calculation,
+
+$$\lim_{n\rightarrow\infty} \left(1+\frac{1}{n}\right)^n$$
+
+Remember too, we built the graph of $y=e^x$ from a limit, namely $y=\lim_{n\rightarrow\infty}(1+\frac{x}{n})^n$.  This means $e^{i\tau}$ will be better and better approximated by larger and larger numbers
+plugged into $(1+\frac{i\tau}{n})^n$.  In the exercise or problems for this section, you will build the up
+the values of $n$ for yourself.
+
+%\begin{tikzpicture}
+%	\draw [<->] (-2,0) -- (2,0) node{R};
+%	\draw [<->] (0,-2) -- (0,2) node{i};
+%	\draw (0,0) circle (1);
+%	\draw (1,3.142) -- (0,0) -- (1,0) -- (1,3.142) node{$1+i\pi$};
+%\end{tikzpicture}
+
+%\begin{tikzpicture}
+%	\draw [<->] (-2,0) -- (2,0) node{R};
+%	\draw [<->] (0,-2) -- (0,2) node{i};
+%	\draw (0,0) circle (1);
+%	\draw (1,1.571) -- (1,0) -- (0,0) -- (-1.467,3.142) node{$(1+\frac{\pi}{2}i)^2$} -- (1,1.571) -- (0,0);
+%\end{tikzpicture}
+
+%\begin{tikzpicture}
+%	\draw [<->] (-2,0) -- (2,0) node{R};
+%	\draw [<->] (0,-2) -- (0,2) node{i};
+%	\draw (0,0) circle (1);
+%	\draw (1,1.047) -- (1,0) -- (0,0) -- (-0.0966,2.094) -- (1,1.047) -- (0,0) -- (-2.289,1.993) node{$(1+%\frac{\pi}{3}i)^3$}-- (-0.0966,2.094);
+%\end{tikzpicture}
+
+\begin{tikzpicture}[scale=0.5]
+	\draw [<->] (-8,0) -- (8,0) node{$\mathbb{R}$};
+	\draw [<->] (0,-8) -- (0,8) node[anchor=south]{$i$};
+	\draw (0,0) circle (1);
+
+  \foreach \x in {1,2,3} {
+                \draw [fill] ({\x*atan(6.283185/\x)}:{(sqrt(1+39.4784176/(\x*\x)))^\x}) node[anchor=south]{\x} circle (.1);
+   }
+  \foreach \x in {4,5,6} {
+                \draw [fill] ({\x*atan(6.283185/\x)}:{(sqrt(1+39.4784176/(\x*\x)))^\x}) node[anchor=east]{\x} circle (.1);
+   }
+  \foreach \x in {8,12,100} {
+                \draw [fill] ({\x*atan(6.283185/\x)}:{(sqrt(1+39.4784176/(\x*\x)))^\x}) node[anchor=north]{\x} circle (.1);
+   }
+\end{tikzpicture}
+
+\subsection{Analytic Continuation}
+Distribution of primes, Zeta function

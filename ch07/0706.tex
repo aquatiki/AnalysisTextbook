@@ -1,0 +1,87 @@
+%!TEX root =  ../main.tex
+
+\subsection{Hold Power Steady}
+\subsubsection{Vary Root}
+\begin{align*}
+\tripow{m}{}{x} \pplus \tripow{n}{}{x} &= \tripow{m\cdot{}n}{}{x} & \quad
+	\log_m{x} \pplus \log_n{x} & = \log_{m\cdot{}n}{x} \\
+\tripow{m}{}{x} \pminus \tripow{n}{}{x} &= \tripow{m \div n}{}{x} & \quad
+	\log_m{x} \pminus \log_n{x} & = \log_{m \div n}{x} \\
+\tripow{\tripow{m}{n}{}}{}{x} &= \frac{1}{n} \tripow{m}{}{x} & \quad
+	\log_{m^n}{x} &= \frac{1}{n}\log_m{x}\\
+\end{align*}
+
+
+\subsubsection{Vary Exponent}
+\begin{align*}
+\tripow{}{m}{x} \cdot \tripow{}{n}{x} &= \tripow{}{m\pplus{}n}{x} & \quad
+	\sqrt[m]{x} \cdot \sqrt[n]{x} &= \sqrt[m\pplus{}n]{x} \\
+\tripow{}{m}{x} \div \tripow{}{n}{x} &= \tripow{}{m\pminus{}n}{x} & \quad
+	\sqrt[m]{x} \div \sqrt[n]{x} &= \sqrt[m\pminus{}n]{x} \\
+\tripow{}{m\cdot{}n}{x} &= \tripow{}{n}{\tripow{}{m}{x}} & \quad
+	\sqrt[m\cdot{}n]{x} &= \sqrt[n]{\sqrt[m]{x}} \\
+\end{align*}
+
+\subsection{Hold Exponent Steady}
+\subsubsection{Vary Power}
+\begin{align*}
+\tripow{}{x}{m} \cdot \tripow{}{x}{n} &= \tripow{}{x}{m\cdot{}n} & \quad
+	\sqrt[x]{m} \cdot \sqrt[x]{n} &= \sqrt[x]{m\cdot{}n} \\
+\tripow{}{x}{m} \div \tripow{}{x}{n} &= \tripow{}{x}{m\div{}n} & \quad
+	\sqrt[x]{m} \div \sqrt[x]{n} &= \sqrt[x]{m\div{}n} \\
+\tripow{}{x}{\tripow{m}{n}{}} & = \tripow{\tripow{}{x}{m}}{n}{} & \quad
+	\sqrt[x]{m^n} &= \sqrt[x]{m}^n\\
+\end{align*}
+
+\subsubsection{Vary Root}
+\begin{align*}
+\tripow{m}{x}{} \cdot \tripow{n}{x}{} &= \tripow{m\cdot{}n}{x}{} & \quad
+	m^x \cdot n^x &= (m\cdot{}n)^x \\
+\tripow{m}{x}{} \div \tripow{n}{x}{} &= \tripow{m\div{}n}{x}{} & \quad
+	m^x \div n^x &= (m\div{}n)^x \\
+\tripow{\tripow{m}{n}{}}{x}{} &= \tripow{m}{x\cdot{}n}{} & \quad
+	(m^n)^x &= m^{x\cdot{}n} \\
+\end{align*}
+
+\subsection{Hold Root Steady}
+\subsubsection{Vary Exponent}
+\begin{align*}
+\tripow{x}{m}{} \cdot \tripow{x}{n}{} &= \tripow{x}{m+n}{} & \quad
+	x^m \cdot x^n = x^{m+n}\\
+\tripow{x}{m}{} \div \tripow{x}{n}{} &= \tripow{x}{m-n}{} & \quad
+	x^m \div x^n = x^{m-n}\\
+\tripow{\tripow{x}{m}{}}{n}{} &= \tripow{x}{m\cdot{}n}{} & \quad
+	(x^m)^n &= x^{m\cdot{}n} \\
+\end{align*}
+
+\subsubsection{Vary Power}
+\begin{align*}
+\tripow{x}{}{m} + \tripow{x}{}{n} &= \tripow{x}{}{m\cdot{}n} & \quad
+	\log_x{m} + \log_x{n} &= \log_x{(m\cdot{}n)}\\
+\tripow{x}{}{m} - \tripow{x}{}{n} &= \tripow{x}{}{m\div{}n} & \quad
+	\log_x{m} - \log_x{n} &= \log_x{(m\div{}n)}\\
+\tripow{x}{}{\tripow{m}{n}{}} &= n \cdot \tripow{x}{}{n} & \quad
+	\log_x{(m^n)} &= n\cdot{}\log_x{m}\\
+\end{align*}
+
+
+\subsection{Inverse Operations}
+$$
+\tripow{}{\tripow{x}{}{b}}{b} =
+\tripow{b}{\tripow{b}{}{x}}{} = 
+\tripow{b}{}{\tripow{b}{x}{}} =
+\tripow{}{b}{\tripow{x}{b}{}} =
+\tripow{\tripow{}{b}{x}}{b}{} =
+\tripow{\tripow{}{x}{b}}{}{b} =
+x
+$$
+
+$$
+\sqrt[\log_x{b}]{b} =
+b^{\log_b{x}} =
+\log_b{b^x} =
+\sqrt[b]{x^b} =
+(\sqrt[b]{x})^b =
+\log_{\sqrt[x]{b}}{b} =
+x
+$$

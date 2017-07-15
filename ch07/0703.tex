@@ -1,0 +1,129 @@
+%!TEX root =  ../main.tex
+
+\subsection{Like Powers}
+
+\objective{Simply log expressions}
+
+
+Whether we use the Triangle of Power or not, it is very powerful to recognize
+that logs are simply the inverse of exponents.  Without this insight, expressions
+like $\log_{10}{100} + \log_{10}{1000}$ would be very intimidating.  But with this
+insight, we can paraphrase as we go in our minds: ``There is some exponent
+to put on 10 and get 100.  Add to that, some exponent we put on 10 to get 
+1000.  Adding exponents comes from multiplying bases, so this is the same as
+$\log_{10}10000$.  That is asking the question, what exponent do we put on 10
+to get 10,000?  5!''
+
+We think it is even easier in Triangles, but we might show you both styles for
+the time being:
+
+$$
+\tripow{10}{}{100} + \tripow{10}{}{1000} = \tripow{10}{}{10000} = 5
+$$
+
+In other words, two logs added, is the same as one long of a multiplication.  This
+works for the inverse operation of subtraction: two logs subtracted is the same
+as one log of a division.  Lastly, it also works for an exponent: the log of a number
+with an exponent is the same as the exponent multiplied against the log of number.
+
+Here, Triangle notation really shines superior, because notation like $\log_2{64^2}$
+is confusing.  Does it mean $\log_2{64} \cdot \log_2{64}$ or $\log_2{4096}$, which
+is the difference between 36 and 12?  How much clearer is
+
+$$
+\tripow{2}{}{\tripow{64}{2}{}} vs \tripow{\tripow{2}{}{64}}{2}{}
+$$
+
+Even more consequential is the two-fold possibilities for $2^{3^4}$.  Is that $(2^3)^4$
+or $2^{(3^4)}$?  That is the difference between 4096 and $2^81$, the latter of which
+is a 25 digit number!  But no one can make the same mistake with
+
+$$
+\tripow{\tripow{2}{3}{}}{4}{} vs \tripow{2}{\tripow{3}{4}{}}{}
+$$
+
+
+\subsection{Names}
+There are some logs which occur so commonly, that they base is not written.  Normally,
+the word ``log'' with no base written means $\log_{10}$.  Log base $e$ is very common,
+and has its own symbol $\ln$.  This acronym comes from the French, \textit{log
+natural}, since $e$ is the natural number.\footnote{In French, as in Spanish, adjective
+most often follow their noun, not precede it.}  
+
+Computer scientists most often used $\log_2$, which is called the binary log,
+written lb.  In fact
+in many disciplines, their flavor of log is the only one used, so it is assumed and the name
+``log'' is written, which can fool outsiders into assuming $\log_{10}$.  For example,
+Wolfram Alpha is fantastically powerful website for mathematics and other fields,
+and so they use ``log'' to mean ``ln''!  We will not be so tricky, and you may assume
+the solution to $\log{x}=2$ is 100.
+
+\subsection{Change of Base}
+Logs are amazing.  But given the rarity of most bases, it become necessary to ask,
+Is there a way to convert them?  If we know how to re-write a log as an exponent,
+and take an exponent as a multiplier, then we can:
+
+\begin{align*}
+	\log_b{a} & = c \\
+	b^c &= a\\
+	\ln{b^c} &= \ln{a}\\
+	c \cdot \ln{b} &= \ln{a} \\
+	c = \frac{\ln{a}}{\ln{b}} 
+\end{align*}
+
+Notice that it does not matter what base we chose in the third line.  $\ln$ ($\log_e$)
+works just as well as $\log_{\pi}$.  This rearrangement to have an arbitrary
+base is called the the Change of Base Formula.
+
+
+\begin{derivation}{Change of Base Formula}
+$$
+\tripow{b}{}{a} = \frac{\tripow{c}{}{a}}{\tripow{c}{}{b}} \quad \text{a.k.a.} \quad
+\log_b{a} = \frac{\log_c{a}}{\log_c{b}}
+$$
+\end{derivation}
+
+\begin{derivation}{Negative Logarithm}
+$$
+\tripow{b}{}{1/y} = -\tripow{b}{}{y}  = \tripow{1/b}{}{y}
+\quad \text{a.k.a.} \quad
+\log_b{\frac{1}{y}} = -\log_b{y} = \log_{\frac{1}{b}}{y}
+$$
+\end{derivation}
+
+
+
+Students often confusing ``the sum of logs'' with ``the log of a sum''.  What can we say
+about $\log_b{(a+c)}$?  On the face of it, not much.  But through some creative manipulation,
+one identity can be made, which is used in Probability Theory:
+
+
+\begin{align*}
+	\log_b{(a+c)} 	&= + \log_b{a} - \log_b{a} + \log_b{(a+c)}\\
+				&= \log_b{a} + \log_b{(a+c)} - \log_b{a}\\
+				&= \log_b{a} + \log_b{\frac{a+c}{a}} \\
+				&= \log_b{a} + \log_b{1 + \frac{c}{a}}\\
+	\tripow{b}{}{a+c} &= \tripow{b}{}{a} + \tripow{b}{}{\left(1 + \frac{c}{a}\right)}
+\end{align*}
+
+Lastly, we have already made with the Triangle of Power:
+
+\begin{derivation}{P-Plus Logs}
+$$
+\tripow{m}{}{x} \pplus \tripow{n}{}{x} = \tripow{m\cdot{}n}{}{x}
+\quad \text{a.k.a.} \quad
+\log_m{x} \oplus \log_n{x} = \log_{mn}{x}
+$$
+
+$$
+\tripow{m}{}{x} \pminus \tripow{n}{}{x} = \tripow{m\div{}n}{}{x}
+\quad \text{a.k.a.} \quad
+\log_m{x} \pminus \log_n{x} = \log_{\frac{m}{n}}{x}
+$$
+
+$$
+\tripow{\tripow{m}{n}{}}{}{x} = \frac{\tripow{m}{}{x}}{n}
+\quad \text{a.k.a.} \quad
+\log_{m^n}{x} = \frac{1}{n}\log_m{x}
+$$
+\end{derivation}

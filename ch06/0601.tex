@@ -1,0 +1,63 @@
+%!TEX root =  ../main.tex
+
+\subsection{Definition}
+
+\objective{Describe and predict the general shape of a polynomial graph}
+
+
+A polynomials is sum of terms, all of which are of the form $a\cdot{}x^n$, where $a$
+is any rational number and $n$ is a whole number.
+
+\subsubsection{Degree}
+``In the long run, the biggest exponent always wins.''  While it may sound like a odd
+cliche from a movie, it is certainly true.  What is more, there are only two possibilities
+for polynomials: either larger and larger numbers are being raised to an even degree,
+or they are being raised to an odd one.  Positive numbers grow more positive in either case.
+Negative numbers become positive, when raised to an even degree.  They grow more
+negative when raised to an odd degree.
+
+Of course, in the short, all manner of other behaviors may be manifested, but it is 
+important to consider limits at the infinities, so that we may be sure of the ultimate
+leftward or rightward behavior of a function.
+
+\subsubsection{Leading Coefficient}
+While it is true that there are only two possibilities for the integer $n$ in the 
+expression $x^n$ (either it is even, or it is odd), there are two more things that could 
+happen, when we consider $a\cdot{}x^n$: $a$ could be positive or negative.
+In summary, even polynomials go ``up'' at both ``ends'', unless the leading coefficient
+is negative, in which case both ends go ``down''.  Odd functions go up to the right and
+down to the left, unless the leading coefficient is negative, in which case the opposite
+happens.
+
+If we are designing a function ourselves, it can still be useful to consider
+end-run behavior.  For example, we might construct a polynomial to have
+$x$-intercepts 3, 5, and $-\frac{1}{2}$.  We would write $f(x)=(x-3)(x-5)(2x+1)$,
+seemingly obfuscating the leading term.  However, if we multiply only the $x$ terms,
+we can still find it quickly.  $x \cdot x \cdot 2x$ is $2x^3$, so we can see this is
+a positive, odd polynomial, going up to the right and down to the left.
+
+\subsubsection{$y$-intercept}
+Another facet of polynomials that is still quickly discernible even in factored form
+is the constant term.  This term (even if it is 0, i.e. absent) provides useful information.
+When $x=0$ (which typically corresponds to something like an initial condition), the
+only term not to cancel will be the constant one.  In the previous example, we can 
+easily multiply the plain numbers: $-3 \cdot -5 \cdot 1 = 15$, so we know the
+$y$-intercept of the function will be 15.  If we need a different number, the function
+can always be scaled by multiplying on the outside by a constant, which could even
+be negative.
+
+\subsection{Factored Forms}
+When we examined quadratics, there were some cases in which the vertex of the
+parabola was found on the $x$-axis.  A similar case can be found in polynomials of
+higher degree, and can be seen in their factored forms.  For example,
+$f(x)= (x-2)^2(x+5)$ is a cubic equation  (with leading term $x^3$ and constant term
+20) which seems to have only two zero's: 2 and -5.  However, the number 2 works as
+a solution \emph{twice}, and so we say it has a \textbf{multiplicity} of 2.
+
+Graphically, multiplicity means the graph resembles the exponent of the factored term.
+This means $f(x)$ will behave like $x^2$ in the vicinity of 2.  Note that this behavior
+may be upside-down, depending on the equation.  Generalizing even more, we can say
+that even powers on a factor will result in the graph \emph{not} crossing the $x$-axis
+at that zero, but only ``bouncing'' off.  On the other hand, odd powers on a factor
+(even including 1!) will appear as the graph proceeding \emph{through} the $x$-axis.
+

@@ -1,0 +1,122 @@
+%!TEX root =  ../main.tex
+
+\subsection{First Discontinuities}
+
+\objective{Find informal limits at holes and non-holes.}
+
+In this section, we will explore the informal definition of a \textbf{limit}.  Have you ever had anyone
+sneer at you over a lost opportunity and say, ``Should of, would of, could of''?  (It probably
+sounded like ``shoulda, woulda, coulda''.)  The idea is that everyone can see a hypothetical 
+in hindsight, though that does not avail you anything now.  Hypotheticals are situations describing
+what was likely, or intended, or desired.  In mathematics, we often encounter functions
+which appear \textit{as though} there is an expected value, only to have that spot not
+even be part of the domain.
+
+Limits are like the hypothetical situation of math.  Suppose your friend bought a ticket for a vacation,
+and said they wanted to get away.  Then you didn't see this friend for a long time, and then you asked
+them, ``Did you ever go on vacation?  Where were you going to go?'  You know they 
+were in some sense headed somewhere, but from your perspective, it has yet to be determined if
+he or she actual went and where your friend was even headed.  Notice how your second question
+doesn't even depend on whether they went anywhere or not: it is about a hypothetical.  
+
+Many functions give an indeterminate answer at certain gaps in their domain.  It is obvious
+where they were ``headed'', but direct evaluation at that value in the independent variable is
+not helpful.
+
+
+
+\begin{derivation}{Indeterminate Form}
+\index{indeterminate form}
+For a given function $f(x)$, if $f(c)=\frac{0}{0}$, then the point $c$ represent a gap in the domain.
+\end{derivation}
+
+
+\subsection{Algebra Techniques}
+From the perspective of algebra, there are four techniques for constructing 
+precise replacements for many functions, replacements which are everywhere else the same,
+but lack the particular ``hole''.
+
+\subsubsection{Cancelling}
+Consider the function $f(x) = \frac{x^2-4}{x-2}$.    Enter it in your calculator and try \Touche[style=function,principal={ZOOM},]
+\Touche[style=number, principal=6].  How can it be just a line?  Why isn't it more complicated than that?  
+Well, it is.  Try plugging in 2.  That is, what is $f(2)$?  $\frac{2^2-4}{2-2} = \frac{0}{0}$.
+
+
+\begin{derivation}{Factor Removal}
+When $f(c)=\frac{0}{0}$ and the removal of a common factor in the numerator and denominator yields a real number $d$,
+then $(c,d)$ represents the location of a hole in $f(x)$.
+\end{derivation}
+
+
+Returning to our equation, $x^2-4$ in the numerator factors by the 
+Difference of Squares to $(x-2)(x+2)$.  This is means
+we can write $f(x)=\frac{(x-2)(x+2)}{x-2}$.  It is \emph{not} true that 
+$\frac{(x-2)(x+2)} = x+2$: they differ in their domains.
+However, $x+2$ is an \textbf{analytic continuation} of $\frac{x^2-4}{x-2}$, 
+meaning is is everywhere the same as the
+original but has an \textit{even larger} domain.  We may use $x+2$ to answer the q
+uestion what $f(x)$ would output
+at $x=2$, were it to exist there.
+
+\subsubsection{Expanding}
+Some functions obscure the factor that could be cancelled with further arithmetic.  For example, it is not obvious
+what $g(x)=\frac{(x+3)^3-27}{x}$ will be at $x=0$\footnote{If you are especially keen, you might notice that this is
+factorable as the difference of cubes in the numerator, but we will pretend no one saw that!}.  Sometimes a small
+piece of arithmetic allows us to proceed as in the previous section.  in this case $(x+3)^3=x^3+9x^2+27x+27$.
+
+
+\begin{align*}
+\frac{(x^3+9x^2+27x+27)-27}{x} &=\\
+\frac{x(x^2+9x+27)}{x} & \approx x^2+9x+27\\
+& \rightarrow (0)^2+9(0)+27 \\
+&\rightarrow 27\\
+\end{align*}
+
+
+\subsubsection{Complex Fractions}
+\emph{Not to be confused with fractions involving complex numbers!}
+
+Besides simple arithmetic, complex fractions can obfuscate the cancelling 
+needed to simplify the presence
+of a hole.  $\cfrac{2-x}{\frac{1}{x}-\frac{1}{2}}$ is indeterminate at $x=2$.  
+However, if we simplify this fraction until it has a simple (non-fraction) numerator and 
+denominator, the indeterminate form will evaporate.
+
+
+\begin{align*}
+\cfrac{2-x}{\frac{2}{2}\cdot\frac{1}{x}-\frac{1}{2}\cdot\frac{x}{x}} &= \cfrac{2-x}{\frac{2-x}{2x}} \\
+&\approx \cfrac{2x(2-x)}{2-x} \\
+&\approx 2x\\
+&\rightarrow 2(2) = 4
+\end{align*}
+
+
+
+\begin{derivation}{Additional Factor}
+When $f(c)=\frac{0}{0}$ and the multiplication by a common factor in the numerator and denominator yields a real number $d$,
+then $(c,d)$ represents the location of a hole in $f(x)$.
+\end{derivation}
+
+
+
+\subsubsection{Conjugates}
+What to multiply by can be difficult to decipher.  It often appears as though we might wish to square individual terms 
+in the numerator or denominator.  For instance, the function $h(x) = \cfrac{\sqrt{x+1}-1}{x}$ is $\frac{0}{0}$ at $x=0$.
+Clearly, we might wish to square only the upper-left corner of the fraction, in order to remove the square root.  The
+secret is to recognize the numerator is of the form $a-b$, where $a=\sqrt{x+1}$ and $b=1$.  Any binomial multiplied
+by it's conjugate yields the difference of squares (i.e. $(a+b)(a-b)=a^2-b^2$).  In this case, we must multiply top and
+bottom by $\sqrt{x+1}+1$.
+
+
+\begin{align*}
+\cfrac{\sqrt{x+1}-1}{x} \cdot \cfrac{\sqrt{x+1}+1}{\sqrt{x+1}+1} &\approx \cfrac{(x+1)-1}{x(\sqrt{x+1}+1)}\\
+&\approx \cfrac{1}{\sqrt{x+1}+1}\\
+&\rightarrow \cfrac{1}{\sqrt{0+1}+1} = \frac{1}{2}
+\end{align*}
+
+\subsubsection{Direct Substitution}
+Some time, there might seem to be a hole, but none exists.  In that case, we can simply plug
+the input into the equation and get a result.
+
+\inlinefig{Continuidad_de_funciones_02.png}{Removable discontinuities are typically hole in the graph, places where there is no value to the function, but the expected value is straightforward to calculate.}
+

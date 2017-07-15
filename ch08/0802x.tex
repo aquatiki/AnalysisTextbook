@@ -1,0 +1,125 @@
+\begin{defproblem}{0802:Hotel}
+\begin{onlyproblem}
+Hilbert's Hotel is a rather strange hotel: it has an infinite number of room.
+Unfortunately, there is a guest in every room.
+In the following situations, state the one instruction the manager must
+give to the existing guests and the new guests to accommodate them all
+and not have any room sharing.
+\begin{enumerate}
+\item A finite number ($n$) of guests arrive.
+\item A infinite number of guests arrive.
+\item An infinite number of busses arrive, each hold an infinite number of guests.
+\item In infinite number of boats arrive in the harbor, each holding an infinite number of busses, each holding an infinite number of guests.
+\end{enumerate}
+\end{onlyproblem}
+
+\begin{onlysolution}
+\begin{enumerate}
+\item have each of the existing guests move to their room number plus $n$
+\item many solutions.  ex. have each existing guest move to 2 times his or her room number.  The new guests can fill in the odds
+\item many solutions.  ex. having  numbered each bus with a prime number starting with 3 (call it $P_n$), and having numbered each person the bus with a number (call it $m$), assign each new guest a room number $P_n^m$.  Have all the existing guests move from their room (call it $q$) to $2^q$.
+\item many solution
+\end{enumerate}
+\end{onlysolution}
+\end{defproblem}
+
+
+\begin{defproblem}{0802:BFF}
+\begin{onlyproblem}
+Having studied polynomial long division, consider what happens when the answer
+is infinite.  Divide 1 by $1-x$ to many places.  What pattern emerges?  Proceed by
+adding one term add a time: at what point does the graph start to look like the original
+problem?  What would you estimate the effective domain of your infinite approximation
+is?
+\end{onlyproblem}
+\begin{onlysolution}
+$1+x+x^2+x^3+x^4+x^5+\dots$.  Many answers, ex. by six terms it resembles the original
+from $-1/2$ to $1/2$.  Even with vastly large numbers, it still only works from (-1,1).
+\end{onlysolution}
+\end{defproblem}
+
+
+
+
+\begin{defproblem}{0802:Grandi}
+\begin{onlyproblem}
+Luigi Grandi was a monk and mathematician, and he looked a very boring but infinite sum.
+It was $1 - 1 + 1 - 1 + 1 - 1 + 1 -1 \dots$.  What are two possibilities this sum alternates 
+between?  According to Morris Kline, Grandi knew these possibilities were mutually
+exclusive, so he look for a third option.  He considered that his infinite sum could
+be approximating by $\frac{1}{x+1}$ as $x$ approaches 1.  What value do you think
+he attributed to his infinite sum?  Decide whether you think he was right or wrong
+and argue why.
+\end{onlyproblem}
+\begin{onlysolution}
+
+\end{onlysolution}
+\end{defproblem}
+
+
+
+\begin{defproblem}{0802:Gab}
+\begin{onlyproblem}
+Gabriel's Horn is an imaginary trumpet, thought up by the mathematician Evangelista 
+Torricelli, and supposedly belonging to the archangel Gabriel.  
+We will simplify the math ever so slightly for our purposes here.  Consider the
+equation $y=\frac{1}{x^2}$ in the first quadrant only, that is, with a domain of $x\in{[1,\infty)}$.
+(In the original problem, this curve was rotated around the $x$-axis to make a trumpet, but
+we will remain in 2D.)  If an under-angel has to paint the perimeter of the curve, does it
+need a finite or infinite amount of paint?  How do you know?  What is it had to paint
+the area under the curve and above the $x$-axis: does it need an finite or infinite amount
+of paint?  How do you know?
+
+\end{onlyproblem}
+\begin{onlysolution}
+Infinite surface, finite area.  The surface never stops, so the painting would never stop.  But the
+area sums to finite number.
+\end{onlysolution}
+\end{defproblem}
+
+
+
+
+
+\begin{defproblem}{0802:Primes}
+\begin{onlyproblem}
+Long ago, in BC times, Euclid proved that there are infinite number of primes.  Today, one of
+the hotbeds of mathematical research is the Twin Prime conjecture, that there are infinitely
+many primes just two numbers apart, such as 5 and 7, or 11 and 13.  See if you can
+duplicate Euclid proof by considering a number that is the product of all primes and adding 1
+to it.
+\end{onlyproblem}
+\begin{onlysolution}
+
+\end{onlysolution}
+\end{defproblem}
+
+
+\begin{defproblem}{0802:Power}
+\begin{onlyproblem}
+A ``power set'' of a set is all the sets you can make out of it, including the null set and the set
+itself, of any size.  e.g. P$(\{1,2,3\}) = \left\{\{\varnothing\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{2,3\}, \{1,3\},\right.$
+and $\left.\{1,2,3\}\right\}$.
+Use a diagonal argument like Cantor's to prove the cardinality (size) of P$(\aleph_0)$ is $\aleph_1$.
+\end{onlyproblem}
+\begin{onlysolution}
+Make a table of booleans (T/F) for whether a number is included or not.
+\end{onlysolution}
+\end{defproblem}
+
+
+
+
+\begin{defproblem}{0802:A2}
+\begin{onlyproblem}
+It is thought that the set of all functions and relations has cardinality $\aleph_2$.  Propose
+an argument for why this might be so.
+\end{onlyproblem}
+\begin{onlysolution}
+Most functions and relations map the real numbers onto the real numbers.  Like a power set,
+all possible combinations of the reals should yield a higher cardinality than the reals.
+\end{onlysolution}
+\end{defproblem}
+
+
+\endinput

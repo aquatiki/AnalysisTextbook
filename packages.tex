@@ -1,0 +1,60 @@
+%!TEX root =  main.tex
+
+\usepackage{multirow}
+
+\usepackage{geometry} % 
+    \setlength{\marginparwidth}{2in}
+    \setlength{\marginparsep}{0.25in}
+    \setlength{\oddsidemargin}{0.0in}
+    \setlength{\evensidemargin}{1.5in}
+    \setlength{\textwidth}{5in}
+    \setlength{\topmargin}{0in}
+    \setlength{\headheight}{0.2in}
+    \setlength{\headsep}{0.35in}
+    \setlength{\textheight}{8.4in}
+    \setlength{\footskip}{0.35in}
+    \setlength{\columnsep}{0.35in}
+    \raggedbottom
+    \renewcommand{\baselinestretch}{1}
+
+%
+% Graphics
+%
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata,positioning,shapes.geometric,fit,calc,matrix,spy}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.13}
+
+%
+% Fonts
+%
+\usepackage[utf8]{inputenc} 	% Required for including letters with accents
+
+%
+% Math
+%
+
+\usepackage{polynom}		%polynomial long division
+\usepackage{mathdots}		% in order to get \iddots
+
+%----------------------------------------------------------------------------------------
+%	GLOSSARY
+%----------------------------------------------------------------------------------------
+
+\usepackage[xindy,toc,section=chapter]{glossaries}
+\makeglossaries
+\renewcommand*{\glstextformat}{\textbf}
+
+
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY 
+%----------------------------------------------------------------------------------------
+
+\usepackage{csquotes}
+\usepackage[style=alphabetic,citestyle=numeric,sorting=nyt,sortcites=true,autopunct=true,autolang=hyphen,hyperref=true,abbreviate=false,backref=true,backend=biber]{biblatex}
+\addbibresource{ch00/bibliography.bib} % BibTeX bibliography file
+\defbibheading{bibempty}{}
+
+
+

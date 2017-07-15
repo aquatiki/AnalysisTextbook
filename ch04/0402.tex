@@ -1,0 +1,60 @@
+%!TEX root =  ../main.tex
+
+\subsection{Separating $x$ and $y$}
+
+\objective{Use parametric functions to determine a path and velocity}
+
+
+Physics teaches us that it is often preferable to separate $x$ and $y$, and to
+consider them both functions of $t$ and not one a function of the other.  This is 
+typically done because gravity (which Einstein showed to be the same as 
+acceleration, and hence is a quadratic equation) pull in one dimension, while
+the others are simple linear equations.
+
+Another benefit to parameterizing an equation, is that we also can \emph{when}
+something happened.  So far, we have been differentiating $y$ with respect to 
+$x$, but what if we want to know how quickly $y$ is changing over time?
+
+\subsubsection{Parameter Domain}
+Parameters (most often $t$) also have a domain.  In science, it is often quite
+irrelevant to reference any of the variable before the experiment begins or
+after it ends.  If an object is thrown on Earth, and we model its path with an
+upside-down parabola, what happens before $t=0$ or after it hits the ground
+is meaningless.  Parameters' domains provide a natural and intuitive way to
+model this limited domain. 
+
+\index{TI-8*!zoom standard}
+Pay careful attention to the WINDOW on your TI-8*.  In RADIANS mode, the
+default (i.e. ZOOM-STANDARD) parameter domain is $[0,2\pi]$.
+
+\subsubsection{Eliminating the Parameter}
+Sometimes, we still want to construct a typical equation from a parametric 
+set.  This is called \textbf{eliminating the parameter}.  In chapter 10, we will
+learn many trigonometric identities to remove sines and cosines of $t$, but in 
+this section on algebraic functions, we will restrict ourselves to
+\textbf{substitution} and \textbf{elimination}.
+
+\subsubsection{Implicit Differentiation}\index{derivative!notation}
+Until now, we have been solely using LeGrange notation for derivatives, e.g.
+$y'$ (pronounced, ``$y$ prime'').  However, this isn't always helpful, especially
+if we want to know what we have been differentiating with respect to.  Until now,
+that hasn't mattered!  Now we might be looking for the differential of $y$ with 
+respect to $x$, or with respect to $t$.
+
+A differential is a measure of sensitivity to change.  How much does $y$ alter,
+given minuscule nudges to $x$ (or $t$).  This differential can also be written with the
+letter `d', and so ``the differential of $y$ over the differential of $x$'' can symbolized
+as $\frac{dy}{dx}$.  It can also be used like a function, to say ``take the derivative with 
+respect to $x$ of ...'', as in $\frac{d}{dx}\left( y\right)$.
+
+This fractional way of writing derivatives is called \textbf{Leibniz's notation}, after
+Gottfried Leibniz.  It helps show how we can find the derivative of a parametric equation.
+If we seek $\frac{dy}{dx}$, that is equivalent to $\cfrac{\frac{dy}{dt}}{\frac{dx}{dt}}, \frac{dx}{dt}\ne
+0$.
+
+\index{derivative!higher order}
+Derivatives of derivatives (called \textbf{higher order derivative}) were written 
+with more tick-marks (e.g. $f''(x), f'''(x)$, etc.) or parenthetical numbers (e.g. $f^{(2)}(x),
+f^{(3)}(x)$, etc.) in Lagrange notation.  For Leibnitz's, they get more complicated:
+$\cfrac{d\left(\frac{d\left(\frac{dy}{dx}\right)}{dx}\right)}{dx} = 
+\left(\frac{d}{dx}\right)^3y = \frac{d^3y}{dx^3}$.

@@ -1,0 +1,48 @@
+%!TEX root =  ../main.tex
+
+\subsection{Properties of Derivatives}
+\begin{objective}
+Calculate derivates using the Power, Product, and Quotient Rules.
+\end{objective}
+
+\index{Derivative!properties}
+The derivative of a sum of two functions is the sum of the derivatives of each function.
+
+The derivative of a constant times a function is the constant times the derivative of the function.
+
+The derivative of a constant is 0.
+
+\subsubsection{Product Rule (inductive)}
+\index{Product Rule}\index{Derivative!of a product}
+The following proof is very arbitrary and does not feel like something anyone would try
+unprompted (especially in the second line: who would ever think of adding and subtracting the same
+term in just that way?!).  We will use the following \textbf{Product Rule} some over the coming chapters,
+but a full proof that you are responsible for reproducing does not come until §8.3
+
+\begin{align*}
+  (fg)'(x) & = \lim_{h\rightarrow0}\frac{f(x+h)g(x+h) - f(x)g(x)}{h} \\
+  	&= \lim_{h\rightarrow0}\frac{f(x+h)g(x+h) - f(x)g(x+h) + f(x)g(x+h) + f(x)g(x)}{h} \\
+	&= \lim_{h\rightarrow0}\frac{f(x+h)g(x+h) - f(x)g(x+h)}{h} + \lim_{h\rightarrow0}\frac{f(x)g(x+h)-f(x)g(x)}{h} \\
+	&= \lim_{h\rightarrow0}\left[\frac{f(x+h) - f(x)}{h} \cdot g(x+h)\right] + \lim_{h\rightarrow0}\left[\frac{g(x+h)-g(x)}{h} \cdot f(x)\right] \\
+	&= \lim_{h\rightarrow0}\left[\frac{f(x+h) - f(x)}{h}\right] \cdot g(x) + \lim_{h\rightarrow0}\left[\frac{g(x+h)-g(x)}{h}\right] \cdot f(x)\\
+	&=f'(x)g(x) + f(x)g'(x)
+\end{align*}
+
+\subsubsection{Quotient Rule}
+\index{Quotient Rule}\index{Derivative!of a quotient}
+The \textbf{Quotient Rule} is presented here with a very similar arbitrary trick.  Wait to memorize the proof until chapter 8.
+
+\begin{align*}
+\frac{f}{g}' & = \lim_{h\rightarrow0}\cfrac{\frac{f(x+h)}{g(x+h)}-\frac{f(x)}{g(x)}}{h} \\
+	&=  \lim_{h\rightarrow0}\frac{g(x)f(x+h)-f(x)g(x+h)}{g(x)g(x+h)h} \\
+	&=  \lim_{h\rightarrow0}\frac{g(x)f(x+h)-f(x)g(x)+f(x)g(x)-f(x)g(x+h)}{g(x)g(x+h)h} \\
+	&=  g(x)\left[\lim_{h\rightarrow0}\frac{1}{g(x)g(x+h)}\cdot{}\frac{f(x+h)-f(x)}{h}\right]-f(x)\left[\lim_{h\rightarrow0}\frac{1}{g(x)g(x+h)}\cdot{}\frac{g(x+h)-g(x)}{h}\right] \\
+	&= \frac{g(x)f'(x) - f(x)g'(x)}{[g(x)]^2}
+\end{align*}
+
+\subsection{Power Rule}
+\index{Power Rule}\index{Derivative!of a power}
+The algebraic derivative of $x^n$ is $n\cdot x^{n-1}$.  While we will furnish a systematic proof 
+later (also in section 8.3), we have seen enough inductive
+examples of the \textbf{Power Rule} in this chapter
+that you are formally responsible for knowing it and using it in all cases.

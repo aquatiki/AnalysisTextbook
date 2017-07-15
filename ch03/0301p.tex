@@ -1,0 +1,58 @@
+%!TEX root =  ../main.tex
+\renewcommand{\columnseprule}{1.5pt}
+\begin{multicols*}{2}
+\noindent
+\rule[0.5\baselineskip]{0.5\textwidth}{1pt}
+
+\noindent
+\subsection{In Pieces}
+\noindent
+1. There is a function called the \textbf{floor} function, written
+$f(x)=\left\lfloor x \right\rfloor$.  In the TI-8*, it is called \texttt{int(},
+found under MATH-NUM.  Graph the function under a standard 
+window and sketch a copy below.  Describe what you
+think the function does to the input in your own words.
+
+\vspace{5cm}
+\noindent
+2.  In the function continuous?  If not, where not?  
+
+\vspace{3cm}
+\noindent
+3. Select an appropriate locus and calculate the instantaneous rate of change
+of the function.  Extrapolate for all Reals, and write a piecewise function
+for the derivative of the floor function.
+
+\vspace{3cm}
+\noindent
+4. Another common function from computer science is the \textbf{remainder}
+function, typically called \texttt{mod} in most programming languages, or is just written with
+a percent sign (\%).  It can be reproduced quite simply on the TI-8*.  For example,
+$g(x)=x\%5$ can be entered as $Y_2=X-5int(X/5)$.  Sketch a graph below.
+How would \emph{you} define the remainder function?  
+
+\vspace{4cm}
+\noindent
+5. Find $g'(2)$.  The recurrent discontinuities should be obvious.  Write
+a piecewise function for the derivative of the modulus function $y=x\%n$
+for any $n$.
+
+\vspace{4cm}
+\noindent
+6. A linear but periodic function is hard to define.  We will construct one in
+three stages, but turn off the first two.  Let $Y_1=|fpart(X/2)|$.  Let
+$Y_2=remainder(iPart(|X|),2)$.  But only leave on $Y_3=2|Y_2(X)-Y_1(X)|$.
+Sketch a graph below.
+
+\vspace{4cm}
+\noindent
+7. Unlike the previous functions, this one has no discontinuities.  However,
+there are an infinite number of places where the instantaneous rate of change
+is incalculable.  Define all the places where the difference quotient will not
+work and we cannot find the derivative.
+
+\vspace{3cm}
+\noindent
+8. What did you learn as a result of doing this exploration that you did not
+know before?
+\end{multicols*}
