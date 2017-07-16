@@ -14,7 +14,7 @@
 \let\@mpfootnotetext\textbookcls@mpfootnotetext
 
 %  Murphy mathematics stuff
-\usepackage{tipfr} 	% calculator buttons, must come before xcolor
+\usepackage{mytipfr} 	% calculator buttons, must come before xcolor
 
 
 
@@ -370,6 +370,8 @@
 %    }
 %    {\end{enumerate} \cbend\par \vspace{10pt}}
 
+\newcounter{problem}[section]
+
 \newenvironment{example}
     {\cbcolor{BarColor}\par \vspace{10pt} \begin{changebar}
     \begin{enumerate}\item[]
@@ -387,28 +389,28 @@
      \par\vspace{5pt}\small\noindent
     } {\end{enumerate} \end{changebar}\par \vspace{10pt}}
 
-\newcommand{\LabSection}[1][]{%
-	\subsection{#1}%
-	\addcontentsline{toc}{subsection}{#1}%
-	\WriteSec{Section \thechapter\ Lab (#1) -Solutions}%
+\newcommand{\LabSection}[1]{%
+\subsection{#1}%
+%\addcontentsline{toc}{subsection}{#1}%
+\WriteSec{Section \thesection\ Lab (#1)}%
 }
 
-\newcommand{\ExSection}[1][ ]{
-    \clearpage
-    \subsection*{Exercises}						%changed to sub 
-    \markright{Exercises}
-    \addcontentsline{toc}{subsection}{Exercises}		% changed to sub
-    \WriteSec{Section \thechapter . \thesection\ Solutions}
-    }
+\newcommand{\ExSection}{%
+%    \clearpage
+\subsection{Exercises}%
+\markright{Exercises}%
+%\addcontentsline{toc}{subsection}{Exercises}
+\WriteSec{Section \thesection\ Exercises}%
+}
 
 
 \newenvironment{exercises}[1]
     {%\noindent \subsubsection[Exercises]{\emph{Exercises for \ref{#1} \nameref{#1} }}
      \begin{list}{\textbf{P\arabic{problem}\hfill}}{
-        \setlength{\listparindent}{-1.0in}
-        \setlength{\labelwidth}{0.25in}
-        \setlength{\itemindent}{.00in}
-        \setlength{\leftmargin}{0.25in}}
+        \setlength{\listparindent}{0.00in} %was -1
+        \setlength{\labelwidth}{0.00in}
+        \setlength{\itemindent}{0.00in}
+        \setlength{\leftmargin}{-.05in}}
     }
     {\end{list}}
 
@@ -445,8 +447,6 @@
     }
 
 \usepackage{tocloft}
-\newcommand{\listproblemname}{}
-\newlistof[chapter]{problem}{prb}{\listproblemname}
 
 \newcommand{\prob}[1][probP\theproblem]
     {\phantomsection \refstepcounter{problem}\WritePLine{P\theproblem}{#1}

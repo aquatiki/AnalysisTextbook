@@ -2,9 +2,8 @@
 
 \subsection{Zeros}
 
-\begin{objective}
-Graph, read, and produce rational functions
-\end{objective}
+\objective{Graph, read, and produce rational functions}
+
 
 A rational function is one defined by $\frac{f(x)}{g(x)}$ where $f(x)$ and $g(x)$ are both
 polynomials.  Rational functions exhibit some common behaviors with polynomials, 
@@ -129,7 +128,7 @@ side matching their sign.
 
 \begin{figure}
 \begin{centering}
-\includegraphics[scale=0.3]{verticalasymptote}
+\includegraphics[scale=0.3]{\chapdir/pics/verticalasymptote}
 \caption{An appropriately zoomed in graph of $\frac{x+1}{(10x-1)^2}$}
 \end{centering}
 \end{figure}
@@ -140,8 +139,11 @@ reason to find the derivative by hand with the TI-8* will do it for us!
 
 \index{TI-8*!graph derivatives}
 Set $Y_2$ to be \texttt{nDeriv(Y$_1$(X),X,X)} or $\left.\frac{d}{dx}(Y_1(X))\right|_{X=X}$, 
-depending upon your model of TI-8*.  (nDerive is choice 8 under MATH.)  It seems have a
+depending upon your model of TI-8*.  (nDerive is choice 8 under 
+\Touche[style=function,principal=math].)  It seems have a
 zero near 2.  The function is clearly concave and derivative is increasing, so it should be
-a local minimum.  Using ZERO (under TRACE), we find it to be exactly -2.1.  Plugging
+a local minimum.  Using ZERO (under 
+\Touche[style=function,principal=trace,fontsize=7pt,position=0.9]
+), we find it to be exactly -2.1.  Plugging
 back into the original equation, we get $\frac{-1.1}{484}$, which $\triangleright$FRAC
 converts to $-\frac{1}{440}$.

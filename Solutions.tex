@@ -1,4 +1,4 @@
-\documentclass[10pt,twoside]{book}
+\documentclass[9pt,twoside]{book}
 \usepackage[T1]{fontenc}
 \usepackage{fourier}
 \usepackage{latexsym}
@@ -42,7 +42,7 @@
   \fancyhead[LE,RO]{\bfseries\thepage}
   \fancyhead[LO]{\bfseries\rightmark}
   \fancyhead[RE]{\bfseries\leftmark}
-  \fancyfoot[LO,RE]{\scriptsize{Duplication in any form, electronic or otherwise, is prohibited.}}
+  \fancyfoot[LO,RE]{\scriptsize{Duplication or distribution in any form, electronic or otherwise, is strictly prohibited.}}
   \renewcommand{\chaptermark}[1]{\markboth{Solutions}{\chaptername \ \thechapter \ \ #1}}
 
 \usepackage[labelfont=bf,labelsep=none]{caption}
@@ -71,6 +71,7 @@
  \cleardoublepage
 
  \addcontentsline{toc}{chapter}{Table of Contents}
+ \setcounter{tocdepth}{1}
  \tableofcontents
 
  \mainmatter
@@ -78,6 +79,7 @@
 
 \setcounter{chapter}{-1}
 
+\renewcommand{\theenumi}{\alph{enumi}}
 \input{main.sln}
 
 \end{document}

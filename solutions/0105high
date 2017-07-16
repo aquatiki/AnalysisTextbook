@@ -1,0 +1,6 @@
+\begin{description}
+\item[NY] $y\approx25.61\cdot{}\sin(.5090x-2.0685)+56.8797$
+\item[DC] $y\approx22.7410\cdot{}\sin(.4946x-1.9503)+65.3889$
+\item[TX] $y\approx17.742\cdot{}\sin(.5043x-2.0110)+79.1803$
+\end{description}
+They will never intersect.

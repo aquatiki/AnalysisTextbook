@@ -9,15 +9,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass{BYUTextbookRMM} 
-
+\sloppy			% stop the complaining!
 %----------------------------------------------------------------------------------------
 \input{packages}
 \input{ch00/glossary}
 \input{macros}
 \input{aesthetics}
+\renewcommand{\chapdir}{ch00}
 
 \begin{document}
-
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
@@ -27,7 +27,7 @@
 \coordinate [below=12cm] (midpoint) at (current page.north);
 \node at (current page.north west)
 {\begin{tikzpicture}[remember picture,overlay]
-\node[anchor=north west,inner sep=0pt] at (0,0) {\includegraphics[width=\paperwidth]{hilbert.png}}; % Background image
+\node[anchor=north west,inner sep=0pt] at (0,0) {\includegraphics[width=\paperwidth]{\chapdir/pics/hilbert.png}}; % Background image
 \draw[anchor=north] (midpoint)  node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering Elementary Mathematical Analysis\\[15pt] % Book title
 {\Large Precalculus / Derivatives}\\[20pt] % Subtitle
 {\huge Robert Marshall Murphy}}}; % Author name
@@ -50,9 +50,12 @@
 
 \noindent Licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported License (the ``License''). You may not use this file except in compliance with the License. You may obtain a copy of the License at \url{http://creativecommons.org/licenses/by-nc/4.0}. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \textsc{``as is'' basis, without warranties or conditions of any kind}, either express or implied. See the License for the specific language governing permissions and limitations under the License.\\ % License information
 
-Book cover by Aldo Cortesi, \textit{A portrait of the Hilbert curve as a young fruit salad}, which is
+\noindent Book cover by Aldo Cortesi, a portion of 
+\textit{A portrait of the Hilbert curve as a young fruit salad}, which is
 ``a Hilbert curve traversal of the three-dimensional RGB colour space, projected onto a 
-two-dimensional Hilbert curve covering the plane.\\
+two-dimensional Hilbert curve covering the plane.
+
+\noindent \LaTeX layout taken from \textit{BYU Textbook} by J. Peatross and M. Ware\\
 \noindent \textit{First printing, July 2017} 
 
 
@@ -66,60 +69,61 @@ two-dimensional Hilbert curve covering the plane.\\
 
 
 %\usechapterimagefalse % can be enabled later with \usechapterimagetrue
-\chapterimage{city-night-explosion-firework}
 
 \pagestyle{empty} % No headers
-%\par\vspace*{150pt}
+\newgeometry{left=2cm,right=2cm,bottom=2cm,top=2cm}%
+\chapterimage{\chapdir/pics/city-night-explosion-firework}
 \setcounter{tocdepth}{2}
 \tableofcontents
+\restoregeometry%
 
 \cleardoublepage
 
-\chapterimage{paul-gilmore-192469}
+\chapterimage{\chapdir/pics/paul-gilmore-192469}
 \addcontentsline{toc}{chapter}{\textcolor{ocre}{Index}}
 \label{ch:index}
 \printindex
 
 \cleardoublepage 
-\pagestyle{fancy} % Print headers again
+\pagestyle{fancy}% 				Print headers again
 
 
 %----------------------------------------------------------------------------------------
 %	Main Sections
 %----------------------------------------------------------------------------------------
-\mainmatter
-\part{Linear Transformations}\label{pt:linear}
-\include{ch01/0100}
-%\include{ch02/0200} 
-%\include{ch03/0300}
-%\include{ch04/0400}
+\mainmatter%
+\part{Linear Transformations}\label{pt:linear}%
+\renewcommand{\chapdir}{ch01}\include{ch01/0100}%
+\renewcommand{\chapdir}{ch02}\include{ch02/0200} 
+\renewcommand{\chapdir}{ch03}\include{ch03/0300}
+\renewcommand{\chapdir}{ch04}\include{ch04/0400}
 
-%\part{Exponential Powers}\label{pt:exponential}
-%\include{ch05/0500}
-%\include{ch06/0600}
-%\include{ch07/0700}
-%\include{ch08/0800}
+\part{Exponential Powers}\label{pt:exponential}
+\renewcommand{\chapdir}{ch05}\include{ch05/0500}
+\renewcommand{\chapdir}{ch06}\include{ch06/0600}
+\renewcommand{\chapdir}{ch07}\include{ch07/0700}
+\renewcommand{\chapdir}{ch08}\include{ch08/0800}
 
-%\part{Around Triangles}\label{pt:trig}
-%\include{ch09/0900}
-%\include{ch10/1000}
-%\include{ch11/1100}
-%\include{ch12/1200}
+\part{Around Triangles}\label{pt:trig}
+\renewcommand{\chapdir}{ch09}\include{ch09/0900}
+\renewcommand{\chapdir}{ch10}\include{ch10/1000}
+\renewcommand{\chapdir}{ch11}\include{ch11/1100}
+\renewcommand{\chapdir}{ch12}\include{ch12/1200}
 
-%\part{Discrete Infinities}\label{pt:discrete}
-%\include{ch13/1300}
-%\include{ch14/1400}
-%\include{ch15/1500}
-%\include{ch16/1600}
+\part{Discrete Infinities}\label{pt:discrete}
+\renewcommand{\chapdir}{ch13}\include{ch13/1300}
+\renewcommand{\chapdir}{ch14}\include{ch14/1400}
+\renewcommand{\chapdir}{ch15}\include{ch15/1500}
+\renewcommand{\chapdir}{ch16}\include{ch16/1600}
 
 
 \appendix
 \part{Appendices}\label{pt:appendix}
-\include{chAA/appendix}
-\include{chBB/BB00}
-\include{chCC/CC00}
-\include{chDD/DD00}
-\include{chZZ/ZZSolutions}
+\renewcommand{\chapdir}{chAA}\include{chAA/appendix}
+\renewcommand{\chapdir}{chBB}\include{chBB/BB00}
+\renewcommand{\chapdir}{chCC}\include{chCC/CC00}
+\renewcommand{\chapdir}{chDD}\include{chDD/DD00}
+\renewcommand{\chapdir}{chZZ}\include{chZZ/ZZSolutions}
 
 \backmatter
 \part{Addenda}\label{pt:addenda}%				Addenda
@@ -128,9 +132,8 @@ two-dimensional Hilbert curve covering the plane.\\
 % 	BIBLIOGRAPHY
 % ----------------------------------------------------------------------------------------
 
-\chapterimage{Tubifera_dudkae-4}
-\chapter{Bibliography}\label{ch:bibliography}
-\startcontents[chapters]
+\chapterimage{\chapdir/pics/Tubifera_dudkae-4}
+\mychapter{Bibliography}{bibliography}
 \nocite{*}
 \section{Books}
 \printbibliography[heading=bibempty,type=book]
@@ -144,7 +147,7 @@ two-dimensional Hilbert curve covering the plane.\\
 %----------------------------------------------------------------------------------------
 %	GLOSSARY
 %----------------------------------------------------------------------------------------
-\chapterimage{quino-al-101314}
+\chapterimage{\chapdir/pics/quino-al-101314}
 \chapter{Glossary}\label{ch:glossary}
 \glossarystyle{listgroup}
 \setglossarysection{subsubsection}

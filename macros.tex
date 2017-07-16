@@ -1,4 +1,5 @@
 %!TEX root =  main.tex
+\newcommand{\chapdir}{glub}
 
 %
 %		Chapter image boolean
@@ -7,17 +8,20 @@
 \usechapterimagetrue
 \newcommand{\thechapterimage}{}%
 \newcommand{\chapterimage}[1]{\ifusechapterimage\renewcommand{\thechapterimage}{#1}\fi}%
-
-%
-%		 Specifies the directories where pictures are stored
-%
-\graphicspath{{ch00/pics/}{ch01/pics/}{ch02/pics/}{ch03/pics/}{ch04/pics/}{ch05/pics/}{ch06/pics/}{ch07/pics/}{ch08/pics/}{ch09/pics/}{ch10/pics/}{ch11/pics/}{ch12/pics/}{ch13/pics/}{ch14/pics/}{ch15/pics/}{ch16/pics/}{chAA/pics/}{chBB/pics/}{chCC/pics/}{chDD/pics/}} 	
 		
 
 \newcommand{\mychapter}[2]{					% Start chapters and demarcate mini TOCs
 \chapter{#1}
 \label{ch:#2}
 \startcontents[chapters]
+}
+
+\newcommand{\mychapters}[3]{					% Start chapters and demarcate mini TOCs
+\chapterimage{#3}%
+\chapter{#1}%
+\label{ch:#2}%
+\startcontents[chapters]%
+\WriteChap{#1}%
 }
 
 \newcommand{\marginlessinput}[1]{%			% marginless input
@@ -50,6 +54,9 @@
   \refstepcounter{section}%
   \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}%
   \sectionmark{#1}}
+
+
+
 
 %----------------------------------------------------------------------------------------
 %	Math specific stuff

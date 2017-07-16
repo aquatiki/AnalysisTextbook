@@ -15,31 +15,52 @@ For now, we simply seek to make equations from sets of ordered pairs.
 \index{TI-8*!data entry}
 Your TI-8* has \emph{some} capacity as a spreadsheet.  You may entered tabular data, 
 graph, and analyze the results on this little computer!  Most things you will need start by
-pressing the \Touche[style=function,principal={STAT}] button.
+pressing the \Touche[style=function,principal={stat},raise=-5pt] button.
 This information is stored in lists, like \texttt{L$_1$}, \texttt{L$_2$}, \texttt{L$_3$}, etc.  
-These names are not letters found with the \Touche[style=function,principal={\small ALPHA}]
-button, but whole characters.  They can be accessed via \Touche[style=function,principal={2ND}]
-\Touche[style=number, principal=1], \Touche[style=function,principal={2ND}] 
-\Touche[style=number, principal=2], etc.  The most normal way to proceed is to put $x$ 
+These names are not letters found via the \Touche[style=alpha]
+button, but are whole characters.  They can be accessed via \Touche[style=second]
+\Touche[style=number, principal=1,second=L1], \Touche[style=second] 
+\Touche[style=number, principal=2,second=L2], etc.  The most normal way to proceed is to put $x$ 
 data in \texttt{L$_1$} and $y$'s in \texttt{L$_2$}.
 
 
 Next, in order to make data you've entered visible, one must turn on a \texttt{STAT PLOT}.
-This is done via \Touche[style=function,principal=2ND] \Touche[style=function,principal=Y=].
+This is done via \Touche[style=second] 
+\Touche[style=graph,principal={y=},position = 0.9,second={stat plot},raise=-7pt].
 Here you will see three different \texttt{STAT PLOT}s you can turn on or off.  Press
-\Touche[style=function,principal={\small ENTER}] to select 1, and then again to turn it on.
+\Touche[style=enter,principal=enter,raise=-5pt] to select one, and then again to turn it on.
 Be sure to turn \texttt{STAT PLOT}s off when you're not using them, so as not to obfuscate
 other graphs.
 
+\reminder{\lefthand}{
+It is always faster to press the number than the \Touche[style=arrows, raise=-0.15cm,scalearrows=0.2]
+and scroll through the menu:
+
+\Ecran[width=4,height=3]{{\renewcommand\tabcolsep{-7pt}
+\begin{tabular}{ll}
+\Menu[size=10,select=true]{ZOOM} & \Menu[colourbox={ForestGreen!15}, size=10]{MEMORY} \\[-8pt]
+\multicolumn{2}{l}{\Menu[colourbox={ForestGreen!15}, size=9, text={ZBox}]{1 :}} \\[-8pt]
+\multicolumn{2}{l}{\Menu[colourbox={ForestGreen!15}, size=9, text={Zoom In}]{2 :}} \\[-8pt]
+\multicolumn{2}{l}{\Menu[colourbox={ForestGreen!15}, size=9, text={Zoom Out}]{3 :}} \\[-8pt]
+\multicolumn{2}{l}{\Menu[colourbox={ForestGreen!15}, size=9, text={ZDecimal}]{4 :}} \\[-8pt]
+\multicolumn{2}{l}{\Menu[colourbox={ForestGreen!15}, size=9, text={ZSquare}]{5 :}} \\[-8pt]
+\multicolumn{2}{l}{\Menu[select=true, size=9, text={ZStandard}]{6 :}} \\[-8pt]
+\multicolumn{2}{l}{\Menu[colourbox={ForestGreen!15}, size=9, text={ZTrig}]{7 $\downarrow$}} 
+\end{tabular}
+}/
+}
+}
 
 \subsubsection{Windows}\index{TI-8*!window}
 One of the trickier things to manage on the TI-8* is the \texttt{WINDOW}.  The Cartesian plane is 
-a big place, and finding your place in it can be harder stilld.  Having a grasp
-on concepts like domain and range is once again worth it's weight in gold.
+a big place, and finding your place in it can be harder still.  Having a grasp
+on concepts like \gls{domain} and \gls{range} is once again worth it's weight in gold.
+
 
 First of all, the TI-8* does try to help you out by offering several automatic options, which 
-may or may not be  useful.  The most commonly used is \Touche[style=function,principal=ZOOM]
-\Touche[style=number, principal=6]: \texttt{ZStandard}.  This is the common window, 
+may or may not be  useful.  The most commonly used is 
+\Touche[style=graph,principal=zoom,position=0.9,raise=-5pt]
+\Touche[style=number, principal=6,raise=-5pt]: \texttt{ZStandard}.  This is the common window, 
 $-10\le x\le 10$ and $-10\le y\le 10$, with tick-marks every unit.  When in doubt, start here.
 
 If, however, the data is given to you, make the \texttt{Xmin} the smallest element in the domain,
@@ -56,11 +77,11 @@ to decreasing or visa versa.  Most of the time, this is involves a process of gu
 combined with every-honing instincts.
 
 \subsubsection{Table}\index{TI-8*!table}
-\Touche[style=function,principal=2ND] \Touche[style=function,principal={\small GRAPH}] is
+\Touche[style=second] \Touche[style=graph,principal={graph},position=0.9,fontsize=7pt,raise=-5pt] is
 the very helpful \texttt{TABLE} of data.  This is especially useful at comparing multiple functions on 
 the same inputs.  The default to start at $x=1$ and increment by one from there on up.
-To customize the table, you must press \Touche[style=function,principal=2ND] 
-\Touche[style=function,principal={WIND}], which is called \texttt{TABLESETUP}.  
+To customize the table, you must press \Touche[style=second] 
+\Touche[style=graph,principal=window,position=0.9,fontsize=7pt,second=tblset,raise=-10pt].  
 You can either make the table 
 automatically increment through the domain, starting where you wish and skipping by the
 same amount every time (\texttt{AUTO}), or you can manually enter values for the input (
@@ -75,7 +96,8 @@ In such situations, it is best to enter all the data and let the machines find t
 simple cases, it is simply a matter of constructing the line where half the data is below and half is 
 above.  But as data multiplies, this becomes harder and harder.\index{regression!linear}
 
-\begin{example}[Linear Regression]
+\begin{example}{Linear Regression}
+\exProblem
 Find the line of best fit for the data in this table.
 
 \begin{tabular}{c|c}
@@ -87,22 +109,30 @@ Find the line of best fit for the data in this table.
    5 & 2.25 \\
 \end{tabular}
 
-\paragraph{Solution}
-Using a TI-8*, press STAT, EDIT, and enter the $x$ data in $L_1$ and the $y$ data in $L_2$.  If
+\exSolution
+Using a TI-8*, press \Touche[style=function,principal=stat], \texttt{EDIT}, and enter the $x$ data in 
+$L_1$ and the $y$ data in $L_2$.  If
 there is already data clogging up these lists, move up to their names at the top of the window
-and press CLEAR, then ENTER.  Assuming
-the appropriate STATPLOT is on, press ZOOM 9 and inspect the graph.  It is not a simple linear graph, where
-any line passing through any two of the points is perfect, so we proceed with the calculator regression
+and press \Touche[style=function,principal=clear]  \Touche[style=enter,principal=enter,raise=-5pt].  Assuming
+the appropriate STATPLOT is on, press \Touche[style=graph,principal={zoom},position=0.9,fontsize=7pt]
+\Touche[style=number,principal=9] and inspect the graph.  It is not a simple linear graph, where
+any line passing through any two of the points is perfect, so we proceed with the calculator's regression
+program.
 
-Pressing STAT, moving over to CALC, we scroll down to LINREG(AX+B).  Depending upon your version,
+Pressing \Touche[style=function,principal=stat], moving over to \texttt{CALC}, we scroll down to 
+\texttt{LINREG(AX+B)}.  Depending upon your version,
 you may need to type $L_1, L_2, Y_1$ or select all these setting for a menu.  ($Y_1$ is located under
-VARS, Y-VARS, FUNCTION... and should be entered under `Store EQ'.) Press ENTER or CALCULATE 
-and the answer of $y=.425x+.785$ appears, as well as the coefficient of determination $r^2$.  (If your
-calculator doesn't show you $r^2$, you might need to press CATALOG, scroll down to DiagnosticOn
-and turn it on.). We will learn about $r$ and $r^2$ in 13.3, but for now it is enough to say it is helpful
+\Touche[style=function,principal={vars},raise=-5pt], \texttt{Y-VARS}, \texttt{FUNCTION}, etc. and should be 
+entered under \texttt{Store EQ}.) Press \Touche[style=enter,principal=enter] or \texttt{CALCULATE}
+and the answer of $y=.425x+.785$ appears, as well as the coefficient of determination, $r^2$.  
+\reminder{\lefthand}{If your
+calculator doesn't show you $r^2$, you might need to press \Touche[style=second] 
+\Touche[style=number,principal=0,second=catalog], scroll down to \texttt{DiagnosticOn}
+and turn it on.} We will learn about $r$ and $r^2$ in §13.3, but for now it is enough to say it is helpful
 measure of how closely the equation ``hugs'' the data.
 
-Finally, press GRAPH to see the equation against the data.
+Finally, press \Touche[style=graph,principal=graph,position=0.9,fontsize=7pt,raise=-5pt] to see the equation 
+against the data.
 \end{example}
 
 \paragraph{Quadratic Regression}\index{regression!quadratic}
@@ -113,7 +143,7 @@ Perfect data can be solved simply with a 3x4 matrix.
 \paragraph{Exponential and Logarithmic Regression}\index{regression!exponential}
 ExpReg and LnReg are great tools, if you know how to choose between them.
 
-\includegraphics[scale=0.8]{expln.png}\index{regression!logarithmic}
+\includegraphics[scale=0.8]{\chapdir/pics/expln.png}\index{regression!logarithmic}
 
 Exponential functions have a horizontal asymptote at $y=0$ if un-translated.  Logarithmic functions
 has a vertical asymptote at $x=0$ if un-translated.  Most practical situations, it is always possible to tell if
