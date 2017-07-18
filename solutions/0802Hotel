@@ -1,0 +1,6 @@
+\begin{enumerate}
+\item have each of the existing guests move to their room number plus $n$
+\item many solutions.  ex. have each existing guest move to 2 times his or her room number.  The new guests can fill in the odds
+\item many solutions.  ex. having  numbered each bus with a prime number starting with 3 (call it $P_n$), and having numbered each person the bus with a number (call it $m$), assign each new guest a room number $P_n^m$.  Have all the existing guests move from their room (call it $q$) to $2^q$.
+\item many solution
+\end{enumerate}

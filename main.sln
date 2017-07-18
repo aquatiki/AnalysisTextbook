@@ -303,10 +303,397 @@
  \end{itemize} \hrule
 \chapter*{Parents}
 \addcontentsline{toc}{chapter}{Parents}
+\section*{Section 3.1\ Lab (In Pieces)}
+\addcontentsline{toc}{section}{Section 3.1\ Lab (In Pieces)}
+\subsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \addcontentsline{toc}{subsection}{L1 (lab:L1)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L1}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \addcontentsline{toc}{subsection}{L2 (lab:L2)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L2}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \addcontentsline{toc}{subsection}{L3 (lab:L3)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L3}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \addcontentsline{toc}{subsection}{L4 (lab:L4)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L4}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \addcontentsline{toc}{subsection}{L5 (lab:L5)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L5}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \addcontentsline{toc}{subsection}{L6 (lab:L6)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L6}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \addcontentsline{toc}{subsection}{L7 (lab:L7)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L7}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L8 {\footnotesize\hyperref[lab:L8]{(lab:L8)} \normalsize}}
+ \addcontentsline{toc}{subsection}{L8 (lab:L8)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L8}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/lab:L8}{}{No Solution File Found}
+ \end{itemize} \hrule
+\section*{Section 3.1\ Exercises}
+\addcontentsline{toc}{section}{Section 3.1\ Exercises}
+\subsection*{P9 {\footnotesize\hyperref[0301ParaPerpA]{(0301ParaPerpA)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P9 (0301ParaPerpA)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P9}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0301ParaPerpA}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P10 {\footnotesize\hyperref[0301ParaPerpB]{(0301ParaPerpB)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P10 (0301ParaPerpB)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P10}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0301ParaPerpB}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P11 {\footnotesize\hyperref[0301GrapherA]{(0301GrapherA)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P11 (0301GrapherA)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P11}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0301GrapherA}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P12 {\footnotesize\hyperref[0301GrapherB]{(0301GrapherB)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P12 (0301GrapherB)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P12}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0301GrapherB}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P13 {\footnotesize\hyperref[0301GrapherC]{(0301GrapherC)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P13 (0301GrapherC)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P13}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0301GrapherC}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P14 {\footnotesize\hyperref[0301:GrapherD]{(0301:GrapherD)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P14 (0301:GrapherD)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P14}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0301:GrapherD}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P15 {\footnotesize\hyperref[0301TFA]{(0301TFA)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P15 (0301TFA)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P15}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0301TFA}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P16 {\footnotesize\hyperref[0301TFB]{(0301TFB)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P16 (0301TFB)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P16}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0301TFB}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P17 {\footnotesize\hyperref[0301TFC]{(0301TFC)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P17 (0301TFC)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P17}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0301TFC}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P18 {\footnotesize\hyperref[0301TFD]{(0301TFD)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P18 (0301TFD)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P18}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0301TFD}{}{No Solution File Found}
+ \end{itemize} \hrule
+\section*{Section 3.2\ Lab (Zoomed Straight)}
+\addcontentsline{toc}{section}{Section 3.2\ Lab (Zoomed Straight)}
+\subsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \addcontentsline{toc}{subsection}{L1 (lab:L1)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L1}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \addcontentsline{toc}{subsection}{L2 (lab:L2)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L2}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L3 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L3 ()}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L3}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \addcontentsline{toc}{subsection}{L4 (lab:L4)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L4}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \addcontentsline{toc}{subsection}{L5 (lab:L5)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L5}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \addcontentsline{toc}{subsection}{L6 (lab:L6)}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L6}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L7 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L7 ()}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L7}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L8 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L8 ()}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L8}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L9 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L9 ()}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L9}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\section*{Section 3.3\ Lab (Another Definition of Parabolas)}
+\addcontentsline{toc}{section}{Section 3.3\ Lab (Another Definition of Parabolas)}
+\subsection*{L1 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L1 ()}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L1}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L2 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L2 ()}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L2}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L3 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L3 ()}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L3}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L4 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L4 ()}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L4}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L5 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L5 ()}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L5}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L6 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L6 ()}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L6}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L7 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L7 ()}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L7}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L8 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L8 ()}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L8}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L9 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L9 ()}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L9}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L10 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L10 ()}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L10}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L11 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L11 ()}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L11}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
 \chapter*{Transformations}
 \addcontentsline{toc}{chapter}{Transformations}
 \chapter*{Powers}
 \addcontentsline{toc}{chapter}{Powers}
+\chapter*{Polynomials}
+\addcontentsline{toc}{chapter}{Polynomials}
+\chapter*{Logarithms}
+\addcontentsline{toc}{chapter}{Logarithms}
+\section*{Section 7.1\ Lab (3-in-1)}
+\addcontentsline{toc}{section}{Section 7.1\ Lab (3-in-1)}
+\subsection*{L1 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L1 ()}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L1}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L2 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L2 ()}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L2}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L3 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L3 ()}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L3}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L4 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L4 ()}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L4}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L5 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L5 ()}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L5}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L6 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L6 ()}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L6}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L7 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L7 ()}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L7}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{L8 {\footnotesize\hyperref[]{()} \normalsize}}
+ \addcontentsline{toc}{subsection}{L8 ()}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L8}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+ \end{itemize} \hrule
+\section*{Section 8.2\ Exercises}
+\addcontentsline{toc}{section}{Section 8.2\ Exercises}
+\subsection*{P1 {\footnotesize\hyperref[0802Hotel]{(0802Hotel)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P1 (0802Hotel)}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: P1}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0802Hotel}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P2 {\footnotesize\hyperref[0802BFF]{(0802BFF)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P2 (0802BFF)}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: P2}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0802BFF}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P3 {\footnotesize\hyperref[0802Grandi]{(0802Grandi)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P3 (0802Grandi)}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: P3}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0802Grandi}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P4 {\footnotesize\hyperref[0802Gabriel]{(0802Gabriel)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P4 (0802Gabriel)}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: P4}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0802Gabriel}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P5 {\footnotesize\hyperref[0802Primes]{(0802Primes)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P5 (0802Primes)}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: P5}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0802Primes}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P6 {\footnotesize\hyperref[0802Power]{(0802Power)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P6 (0802Power)}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: P6}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0802Power}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P7 {\footnotesize\hyperref[0802Aleph2]{(0802Aleph2)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P7 (0802Aleph2)}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: P7}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0802Aleph2}{}{No Solution File Found}
+ \end{itemize} \hrule
 \chapter*{Radices}
 \addcontentsline{toc}{chapter}{Radices}
 \section*{Section 16.1\ Exercises}

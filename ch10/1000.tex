@@ -1,6 +1,6 @@
 %!TEX root =  ../main.tex
 
-\chapterimage{PIA05380} 
+\chapterimage{\chapdir/pics/PIA05380} 
 \mychapter{Identities}{identities}
 
 Trigonometry is like the Hydra of ancient legends: you cut off one head, only to have
@@ -15,14 +15,44 @@ trigonometric functions.
 
 %									10 - 1
 \newpage
-\section{Simple Trigonometric Equations}
+\invisiblesection{Simple Trigonometric Equations}
+\subsection{Lab}
 \noindent\makebox[\textwidth]{\includegraphics[width=\paperwidth]{ch10/1001p.pdf}}
 \subsection{Sine Slices}
-solving trig equations can have lots of answers
-not every one is solvable by hand (calc)
+Trigonometric equations are unlike linear equations, in that they have infinitely many
+answers.  We typically answer them over a domain like $\theta \in \left[0,\tau\right]$ or
+$\theta \in \left[\-\frac{\tau}{2},\frac{\tau}{2}\right]$.  Let us begin by finding a way to
+express the infinite solution set.
+
+\marginfig[-0.5in]{\chapdir/pics/Sin_unit_circle.png}{The height achieved by turning 
+angle $\alpha$ will reoccur in one other place\label{fig:sinecircle}.}
+Suppose we want to find all the answers to a simple equation
+\begin{equation}\label{eq:sinx12}
+\sin(x) = \frac{1}{2}
+\end{equation}
+With the Unit Circle memorized, we can easily recall that this happens at 
+$\frac{\tau}{12}$.  However, we know that sine is $y$ on the Unit Circle, and so it
+will come up again and again.  As Fig.~\ref{fig:sinecircle} shows, the height will
+reoccur at $\frac{\tau}{2}-\theta$.  We also can add or subtract as many full-rotations
+(i.e. $\tau$) as we like, and still get the same height.  This means that the full
+solutions set for Eq.~\ref{eq:sinx12} is
+$$
+x  = \begin{cases} \frac{\tau}{12} & \pm k\tau\\
+\frac{11\tau}{12} & \pm k\tau \end{cases} 
+$$
+where $k \in \mathbb{W}$Or the more general solution for $\sin\theta=x$:
+\begin{equation}
+\theta  = \begin{cases} \sin^{-1}(x) & \pm k\tau\\
+\frac{\tau}{2} - \sin^{-1}(x) & \pm k\tau \end{cases} 
+\end{equation}
+Notice that only if $\sin^{-1}(x)$ is known can these be resolved without a
+calculator.
+
 \subsection{Cosine Cuts}
-Substitution can help prevent confusion when there is junk like (theta-17) inside
-There can be quadratics etc, which substitution make clearer
+\marginfig[0in]{\chapdir/pics/Cos_unit_circle.png}{The horizontal displacement 
+achieved by turning  angle $\alpha$ will reoccur in one other place\label{fig:cosinecircle}.}
+Substitution can help prevent confusion when there is junk like (e.g. $\theta-17$) inside
+There can be quadratics etc, which substitution make clearer.
 \subsection{Tangent Tilts}
 The period can be off, so consider making a general solution and using it to generate answers
 \newpage

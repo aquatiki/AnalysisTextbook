@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300px" height="300px" viewBox="-210 -210 420 420" version="1.1">
+<defs>
+	<marker id="a1" viewBox="0 0 10 10" refX="10" refY="5"
+		markerUnits="strokeWidth" orient="auto"
+		markerWidth="15" markerHeight="15">
+		<path d="M10,5 l-10,-5 a2,5 0 0,1 0,10z" style="fill:black" />
+	</marker>
+</defs>
+<g style="stroke:black;fill:none;stroke-width:1">
+    <path d="M-210,0h420" marker-end="url(#a1)"/>
+    <path d="M0,210v-420" marker-end="url(#a1)"/>
+    <circle r="150"/>
+    <path d="M106,-180v360 M180,-180 L0,0 180,180
+        M35.4,-35.4 a50,50 0 0,1 0,70.8"/>
+    <path d="M0,0h106" stroke-width="4"/>
+</g>
+<text font-family="sans serif" font-size="25" fill="black">
+    <tspan x="50" y="-20">α</tspan>
+    <tspan x="50" y="40">−α</tspan>
+    <tspan x="90" y="-5">n</tspan>
+</text>
+</svg>
