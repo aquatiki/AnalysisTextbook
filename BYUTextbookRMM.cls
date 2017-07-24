@@ -361,14 +361,6 @@
     \renewcommand{\theHfigure}{\thechapter.\arabic{figure}} %This is needed to keep unique links for hyperref
 \fi
 
-%\newenvironment{example}[1]
-%    {\cbcolor{BarColor}\par \vspace{8pt} \cbstart
-%    \begin{enumerate}\item[]
-%     \refstepcounter{example}\noindent\textbf{Example \theexample}
-%     \par\vspace{5pt}\small\noindent\noindent#1
-%     \par\vspace{20pt}\noindent\textbf{Solution:}
-%    }
-%    {\end{enumerate} \cbend\par \vspace{10pt}}
 
 \newcounter{problem}[section]
 

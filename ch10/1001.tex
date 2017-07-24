@@ -1,0 +1,94 @@
+%!TEX root =  ../main.tex
+
+\subsection{Sine Slices}
+Trigonometric equations are unlike linear equations, in that they have infinitely many
+answers.  We typically answer them over a domain like $\theta \in \left[0,\tau\right]$ or
+$\theta \in \left[\-\frac{\tau}{2},\frac{\tau}{2}\right]$.  Let us begin by finding a way to
+express the infinite solution set.
+
+\marginfig[-0.5in]{\chapdir/pics/Sin_unit_circle.png}{The height achieved by turning 
+angle $\alpha$ will reoccur in one other place\label{fig:sinecircle}.}
+Suppose we want to find all the answers to a simple equation
+\begin{equation}\label{eq:sinx12}
+\sin(x) = \frac{1}{2}
+\end{equation}
+With the Unit Circle memorized, we can easily recall that this happens at 
+$\frac{\tau}{12}$.  However, we know that sine is $y$ on the Unit Circle, and so it
+will come up again and again.  As Fig.~\ref{fig:sinecircle} shows, the height will
+reoccur at $\frac{\tau}{2}-\theta$.  We also can add or subtract as many full-rotations
+(i.e. $\tau$) as we like, and still get the same height.  This means that the full
+solutions set for Eq.~\ref{eq:sinx12} is
+$$
+x  = \begin{cases} \frac{\tau}{12} & \pm k\tau\\
+\frac{11\tau}{12} & \pm k\tau \end{cases} 
+$$
+where $k \in \mathbb{W}$Or the more general solution for $\sin\theta=x$:
+\begin{equation}
+\theta  = \begin{cases} \sin^{-1}(x) & \pm k\tau\\
+\frac{\tau}{2} - \sin^{-1}(x) & \pm k\tau \end{cases} 
+\end{equation}
+Notice that only if $\sin^{-1}(x)$ is known can these be resolved without a
+calculator.
+
+\subsection{Cosine Cuts}
+\marginfig[0in]{\chapdir/pics/Cos_unit_circle.png}{The horizontal displacement 
+achieved by turning  angle $\alpha$ will reoccur in one other place\label{fig:cosinecircle}.}
+Substitution can help prevent confusion when there are confusing extras like (e.g. $\theta-17$) inside
+There can be quadratics etc, which substitution make clearer.  In general, if you find
+yourself distracted or daunted by a bit of notation, remove it from sight for a moment and
+solve the easier part, before bringing back the difficulty.
+
+Consider the broad question, asked without domain restrictions
+\begin{equation}
+\cos(x) = -\frac{1}{2}
+\end{equation}
+This should be read in our minds in a clear verbal language as, ``What angles $x$ can be
+turned from standard position the produce horizontal displacements of 0.5 to the left?''
+Hopefully, this restatement allows us to visualize that both a third and fourth
+quadrant angle exist that have the same $x$ value.  Because these angle can be reached by
+turning the same amount clockwise or counter-clockwise, we can write our answer
+succinctly as 
+$$
+x= \pm\frac{\tau}{3} \pm k\tau
+$$
+Universally, the solution to $\cos\theta = x$ is
+\begin{equation}
+\theta = \pm\cos^{-1}(x) \pm k\tau
+\end{equation}
+
+Now, if we are solving an equation with a strange term, we are still able to see the
+answers clearly through substitution.  For example, 
+$$
+2 \cos (\theta - 17^\circ) = 1
+$$
+invites us to divide by two, but what then?  It is clarifying to substitute in the expression
+\begin{equation}
+u = \theta - 17
+\end{equation}
+A perfectly valid move, provided with undo it before the end.  If $\cos u = \frac{1}{2}$, our
+answers in degrees are $u = \pm60^\circ \pm k\tau$, but we have answered in the wrong
+variable.  ``Unsubstituting'', we get
+\begin{equation}
+\theta - 17^\circ = \begin{cases} 60^\circ & \pm k\tau \\ -60^\circ & \pm k\tau \end{cases}
+\end{equation}
+Perhaps you have not experienced manipulated equations with cases in them.  It is no
+surprise that we simple add 17 to both sides, only on the right there are two places to do so.
+Final answers:
+$$
+\theta = \begin{cases} 77^\circ & \pm k\tau \\ -43^\circ & \pm k\tau \end{cases}
+$$
+
+\subsection{Tangent Tilts}
+Lastly, tangent can be the easiest to deal with, because it's period is less than one
+full rotation.  Thinking back to the unit circle, slopes are the same in the first and third
+quadrant, and again in the second and fourth.  This is because any line passing through
+the origin is identical if rotated $\frac{\tau}{2}$.  
+
+\begin{example}
+	\exProblem
+
+	\exSolution
+\end{example}
+
+
+The period can be off, so consider making a general solution and using it to generate answers

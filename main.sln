@@ -643,6 +643,8 @@
  \item[]
  \InputIfFileExists{solutions/}{}{No Solution File Found}
  \end{itemize} \hrule
+\chapter*{Infinities}
+\addcontentsline{toc}{chapter}{Infinities}
 \section*{Section 8.2\ Exercises}
 \addcontentsline{toc}{section}{Section 8.2\ Exercises}
 \subsection*{P1 {\footnotesize\hyperref[0802Hotel]{(0802Hotel)} \normalsize}}
@@ -694,6 +696,20 @@
  \item[]
  \InputIfFileExists{solutions/0802Aleph2}{}{No Solution File Found}
  \end{itemize} \hrule
+\chapter*{Circles}
+\addcontentsline{toc}{chapter}{Circles}
+\chapter*{Identities}
+\addcontentsline{toc}{chapter}{Identities}
+\chapter*{Triangles}
+\addcontentsline{toc}{chapter}{Triangles}
+\chapter*{Polar}
+\addcontentsline{toc}{chapter}{Polar}
+\chapter*{Regressions}
+\addcontentsline{toc}{chapter}{Regressions}
+\chapter*{Probabilities}
+\addcontentsline{toc}{chapter}{Probabilities}
+\chapter*{Sequences}
+\addcontentsline{toc}{chapter}{Sequences}
 \chapter*{Radices}
 \addcontentsline{toc}{chapter}{Radices}
 \section*{Section 16.1\ Exercises}
@@ -719,21 +735,23 @@
  \item[]
  \InputIfFileExists{solutions/probP3}{}{No Solution File Found}
  \end{itemize} \hrule
+\chapter*{Prerequisites}
+\addcontentsline{toc}{chapter}{Prerequisites}
 \section*{Section A.1\ Exercises}
 \addcontentsline{toc}{section}{Section A.1\ Exercises}
-\subsection*{P1 {\footnotesize\hyperref[probP1]{(probP1)} \normalsize}}
- \addcontentsline{toc}{subsection}{P1 (probP1)}
+\subsection*{P1 {\footnotesize\hyperref[AASet1]{(AASet1)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P1 (AASet1)}
  \markboth{Chapter\ A\ \ Prerequisites}{Solutions: P1}
  \begin{itemize}
  \item[]
- \InputIfFileExists{solutions/probP1}{}{No Solution File Found}
+ \InputIfFileExists{solutions/AASet1}{}{No Solution File Found}
  \end{itemize} \hrule
-\subsection*{P2 {\footnotesize\hyperref[probP2]{(probP2)} \normalsize}}
- \addcontentsline{toc}{subsection}{P2 (probP2)}
+\subsection*{P2 {\footnotesize\hyperref[AASet2]{(AASet2)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P2 (AASet2)}
  \markboth{Chapter\ A\ \ Prerequisites}{Solutions: P2}
  \begin{itemize}
  \item[]
- \InputIfFileExists{solutions/probP2}{}{No Solution File Found}
+ \InputIfFileExists{solutions/AASet2}{}{No Solution File Found}
  \end{itemize} \hrule
 \section*{Section A.2\ Exercises}
 \addcontentsline{toc}{section}{Section A.2\ Exercises}
@@ -918,5 +936,13 @@
  \item[]
  \InputIfFileExists{solutions/probP2}{}{No Solution File Found}
  \end{itemize} \hrule
+\chapter*{Matrices}
+\addcontentsline{toc}{chapter}{Matrices}
+\chapter*{Vectors}
+\addcontentsline{toc}{chapter}{Vectors}
+\chapter*{Conics}
+\addcontentsline{toc}{chapter}{Conics}
 \chapter*{Solutions}
 \addcontentsline{toc}{chapter}{Solutions}
+\chapter*{Bibliography}
+\addcontentsline{toc}{chapter}{Bibliography}
