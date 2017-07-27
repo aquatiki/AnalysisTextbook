@@ -40,17 +40,17 @@ $$
 $$
 Now we can take the derivative of both sides implicitly.
 $$
-\frac{1}{y} \cdot y' = n \cdot \frac{1}{f(x)}
+\frac{1}{y} \cdot y^\prime = n \cdot \frac{1}{f(x)}
 $$
-Solving for $y'$, we get
+Solving for $y^\prime$, we get
 $$
-y' = n \frac{y}{f(x)}
+y^\prime = n \frac{y}{f(x)}
 $$
 If we substitute back in the original definition of $y$ (i.e. $\left(f(x)\right)^n$) and simplify,
 we see
-$$
-y' = n\cdot{}\left(f(x)\right)^{n-1}
-$$
+\begin{equation}
+y^\prime = n\cdot{}\left(f(x)\right)^{n-1}
+\end{equation}
 the generalized Power Rule.
 
 
@@ -58,23 +58,26 @@ the generalized Power Rule.
 The Product Rule can also be proven by Logarithmic Derivative, without limits, for any 
 $y = f\cdot{}g$.
 \begin{align*}
-\ln{y} &= \ln{f \cdot{} g} \\
-\frac{1}{y}y' &= \left(\ln(f)\right)' + \left(\ln(g)\right)' \\
-y' &= y(\frac{1}{f}f' + \frac{1}{g}g') \\
- &= f\cdot{}g(\frac{1}{f}f' + \frac{1}{g}g') \\
- &= g\cdot{}f' + f\cdot{}g'
+\ln{y}  = & \ln{f \cdot{} g}  \\
+\frac{1}{y}y^\prime =& \left(\ln(f)\right)^\prime + \left(\ln(g)\right)^\prime \\
+y^\prime =& y(\frac{1}{f}f^\prime + \frac{1}{g}g^\prime)  \\
+ =& f\cdot{}g(\frac{1}{f}f^\prime + \frac{1}{g}g^\prime)  \\
 \end{align*}
+\begin{equation}
+  =  g\cdot{}f^\prime + f\cdot{}g^\prime
+\end{equation}
 
 The same goes for the Quotient Rule, for any $y=\frac{f}{g}$.
 \begin{align*}
 \ln{y} &= \ln{\frac{f}{g}} \\
-\frac{1}{y}y' &= \left(\ln{f} - \ln{g}\right)' \\
-y' &= y\left(\frac{1}{f}f' - \frac{1}{g}g'\right) \\
-  &= \frac{f}{g}\left(\frac{f'}{f} - \frac{g'}{g}\right) \\
-  &= \frac{f'}{g} - \frac{g\cdot{}f'}{g^2}\\
-  &= \frac{g\cdot{}f' - g\cdot{}f'}{g^2}
+\frac{1}{y}y^\prime &= \left(\ln{f} - \ln{g}\right)^\prime \\
+y^\prime &= y\left(\frac{1}{f}f^\prime - \frac{1}{g}g^\prime\right) \\
+  &= \frac{f}{g}\left(\frac{f^\prime}{f} - \frac{g^\prime}{g}\right) \\
+  &= \frac{f^\prime}{g} - \frac{g\cdot{}f^\prime}{g^2}\\
 \end{align*}
-
+\begin{equation}
+  = \frac{g\cdot{}f^\prime - g\cdot{}f^\prime}{g^2}
+\end{equation}
 
 \subsection{Derivative Review}
 Let us summarize all of the derivative shortcuts we have discerned.  You are 
@@ -84,33 +87,33 @@ We will use $u$ as a variable of differentiation because there might be a
 (nested?) set of Chain Rules to apply before we get down to $x$.  Assuming
 $u$ is a function of $x$:
 \begin{equation}
-\frac{d}{dx}u = u\cdot{}\frac{du}{dx}
+\frac{d}{dx}u = \frac{du}{dy}\cdot{}\frac{dy}{dx}
 \end{equation}
 
 We have been given a looping cycle of trigonometric derivatives without proof:
 \begin{equation}
-\left(\sin{u}\right)' = \cos{u}\frac{du}{dx}
+\left(\sin{u}\right)^\prime = \cos{u}\frac{du}{dx}
 \end{equation}
 \begin{equation}
-\left(\cos{u}\right)' = -\sin{u}\frac{du}{dx}
+\left(\cos{u}\right)^\prime = -\sin{u}\frac{du}{dx}
 \end{equation}
 \begin{equation}
-\left(-\sin{u}\right)' = -\cos{u}\frac{du}{dx}
+\left(-\sin{u}\right)^\prime = -\cos{u}\frac{du}{dx}
 \end{equation}
 \begin{equation}
-\left(-\cos{u}\right)' = \sin{u}\frac{du}{dx}
+\left(-\cos{u}\right)^\prime = \sin{u}\frac{du}{dx}
 \end{equation}
 Any polynomial or power function can be differentiated with the Power Rule:
 \begin{equation}
-\left(u^n\right)' = n\cdot{}u^{n-1}\frac{du}{dx}
+\left(u^n\right)^\prime = n\cdot{}u^{n-1}\frac{du}{dx}
 \end{equation}
 Any exponential function can be differentiated as follows:
 \begin{equation}
-(b^u)' = b^u\cdot{}\ln{u}\frac{du}{dx}
+(b^u)^\prime = b^u\cdot{}\ln{u}\frac{du}{dx}
 \end{equation}
 Any logarithmic function can be differentiated as follows:
 \begin{equation}
-\left(\log_a{u}\right)' = \frac{1}{\ln{a}}\cdot{}\frac{1}{u}\cdot{}\frac{du}{dx}
+\left(\log_a{u}\right)^\prime = \frac{1}{\ln{a}}\cdot{}\frac{1}{u}\cdot{}\frac{du}{dx}
 \end{equation}
 
 Together with the Product and Quotient Rule above, almost any major
