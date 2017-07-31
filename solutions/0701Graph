@@ -1,0 +1,5 @@
+\begin{enumerate}
+\item $y=x^3$
+\item $\tripow{y}{3}{x}$
+\item Swap the position of $x$ and $y$.
+\end{enumerate}

@@ -1,0 +1,10 @@
+\begin{enumerate}
+\item true
+\item false
+\item true
+\item false
+\item false
+\item true
+\item false
+\item true, but the vagaries of regular notation could make it $2^0=1$
+\end{enumerate}

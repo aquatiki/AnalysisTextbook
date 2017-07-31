@@ -1,17 +1,26 @@
 %!TEX root =  ../main.tex
 
-
+\marginfig[1in]{\chapdir/pics/Factor_Tree_of_42.png}{Prime decomposition}
 \section{Factoring and Primes}\label{sec:primes}
 Humans seeks to understand the fundamental nature of numbers.  We have learned
 many things, but the underlying, deep structure is not fully known.  We believe will know
 a great deal more if we can understand the distribution of Prime Numbers.
 
-\paragraph{Prime Number}
+
+\begin{derivation}{Prime Number}
 A natural number greater than 1 that has no positive divisors other than 1 and itself.
+\end{derivation}
 
 
-\paragraph{Fundamental Theorem of Arithmetic}
+Every number is either prime or can be written as the product of primes.  Primes turn up
+in many unexpected places, such as the infinite sums of the Zeta function, or the infinite
+list of all possible Pythagorean Triples.  
+
+
+\begin{derivation}{Fundamental Theorem of Arithmetic}
 Every integer greater than 1 either is prime itself or is the unique product of prime numbers.
+\end{derivation}
+
 
 Factorizing numbers show the algebraic nature of all natural numbers.  As we seek 
 to simplify algebraic expression through factorization, we find many helpful patterns which 
@@ -19,20 +28,25 @@ are important to know both forwards (distribution of multiplication over additio
 backwards.
 
 \subsection{Patterns of Distribution}
+\marginfig[-0.5in]{\chapdir/pics/Kvadreringsregeln.png}{Squaring a binomial}
 The square of a binomial always follows a pattern, which can be seen algebraically or
-via algebra block.  A binomial multiplied by its conjugate produces the difference of squares.
+via algebra blocks.  A binomial multiplied by its conjugate produces the difference of squares.
 When the first element of two binomial is the same, the result will have like terms that combine
 as a sum.
 
 \begin{equation}
-\begin{array}[b]{l}
-(a + b)^2 = a^2 + 2ab + b^2\\
-(a + b) (a - b) = a^2 - b^2\\
-(x + a) (x + b) = x^2 + (a+b)x + ab\\
-\end{array}
+(a + b)^2 = a^2 + 2ab + b^2
+\end{equation}
+\begin{equation}
+(a + b) (a - b) = a^2 - b^2
+\end{equation}
+\begin{equation}
+(x + a) (x + b) = x^2 + (a+b)x + ab
 \end{equation}
 
 \subsection{Factoring Quadratics}
+\marginfig[0.5in]{\chapdir/pics/alge_tiles_ex_5.JPG}{Algebra tiles can be a helpful way to visualize factoring simple 	polynomials.}
+
 When factoring, the first check should always be for a common factor to take out.  Then,
 the above techniques seen in distribution work in reverse for factoring.  If a quadratic expression
 is of the form $ax^2+bx+c$, there are two very different techniques, depending upon whether
@@ -70,7 +84,7 @@ $(5x-7)(3x+2)$
 Sometimes, none of the above techniques yields any results.  There are two equally valid
 moves at that point, but one of which is made from the other.
 
-\paragraph{Complete the Square and the Quadratic Formula}
+\subsection{Complete the Square and the Quadratic Formula}
 First, if $a\ne1$, factor it out of the terms with an unknown.  
 Second, use the definition of a Perfect Square Binomial
 to discover what constant would be needed to ``complete the square''.  Insert this term and its
@@ -87,14 +101,13 @@ $3[(x+2)^2-4] + 7$\\
 $3(x+2)^2-5$
 \end{example}
 
-\paragraph{Quadratic Formula}
-For any quadratic $y=ax^2+bx+c$, the values of $x$ where $y=0$ may be are the two solutions
+It's derivation is an exercise, but it is quite possible to complete the square on $ax^2+bx+c=0$ 
+and produce the famous Quadratic Formula:
+
+\begin{derivation}{Quadratic Formula}
+For any quadratic $y=ax^2+bx+c$, the values of $x$ where $y=0$ are the two solutions
 $x=\dfrac{-b\pm\sqrt{b^2-4ac}}{2a}$
+\end{derivation}
 
 
-\ExSection[Exercises]
-\begin{exercises}{sec:primes}
-\prob{}sum and difference of cubes
-\prob{}prove q.f. by completing the square
 
-\end{exercises}

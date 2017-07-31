@@ -1036,6 +1036,22 @@
  \item[]
  \InputIfFileExists{solutions/lab:L11}{}{No Solution File Found}
  \end{itemize} \hrule
+\section*{Section 5.1\ Exercises}
+\addcontentsline{toc}{section}{Section 5.1\ Exercises}
+\subsection*{P12 {\footnotesize\hyperref[0501xA]{(0501xA)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P12 (0501xA)}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: P12}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0501xA}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P13 {\footnotesize\hyperref[0501xB]{(0501xB)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P13 (0501xB)}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: P13}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0501xB}{}{No Solution File Found}
+ \end{itemize} \hrule
 \section*{Section 5.2\ Lab (The Power of Powers)}
 \addcontentsline{toc}{section}{Section 5.2\ Lab (The Power of Powers)}
 \subsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
@@ -1514,6 +1530,22 @@
  \item[]
  \InputIfFileExists{solutions/}{}{No Solution File Found}
  \end{itemize} \hrule
+\section*{Section 7.1\ Exercises}
+\addcontentsline{toc}{section}{Section 7.1\ Exercises}
+\subsection*{P9 {\footnotesize\hyperref[0701Identity]{(0701Identity)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P9 (0701Identity)}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: P9}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0701Identity}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P10 {\footnotesize\hyperref[0701Graph]{(0701Graph)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P10 (0701Graph)}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: P10}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0701Graph}{}{No Solution File Found}
+ \end{itemize} \hrule
 \section*{Section 7.2\ Lab (Money Matters)}
 \addcontentsline{toc}{section}{Section 7.2\ Lab (Money Matters)}
 \subsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
@@ -1615,6 +1647,50 @@
  \begin{itemize}
  \item[]
  \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+ \end{itemize} \hrule
+\section*{Section 7.3\ Exercises}
+\addcontentsline{toc}{section}{Section 7.3\ Exercises}
+\subsection*{P6 {\footnotesize\hyperref[0703All6]{(0703All6)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P6 (0703All6)}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: P6}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0703All6}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P7 {\footnotesize\hyperref[0703:LogProofs]{(0703:LogProofs)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P7 (0703:LogProofs)}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: P7}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0703:LogProofs}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P8 {\footnotesize\hyperref[0703SolveLogs]{(0703SolveLogs)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P8 (0703SolveLogs)}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: P8}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0703SolveLogs}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P9 {\footnotesize\hyperref[0703SimplifyLogs]{(0703SimplifyLogs)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P9 (0703SimplifyLogs)}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: P9}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0703SimplifyLogs}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P10 {\footnotesize\hyperref[0703DescribeDifference]{(0703DescribeDifference)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P10 (0703DescribeDifference)}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: P10}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0703DescribeDifference}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P11 {\footnotesize\hyperref[0703DescribeCalclog]{(0703DescribeCalclog)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P11 (0703DescribeCalclog)}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: P11}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/0703DescribeCalclog}{}{No Solution File Found}
  \end{itemize} \hrule
 \section*{Section 7.4\ Lab (Log Infection)}
 \addcontentsline{toc}{section}{Section 7.4\ Lab (Log Infection)}
@@ -2308,19 +2384,68 @@
  \end{itemize} \hrule
 \section*{Section A.6\ Exercises}
 \addcontentsline{toc}{section}{Section A.6\ Exercises}
-\subsection*{P1 {\footnotesize\hyperref[probP1]{(probP1)} \normalsize}}
- \addcontentsline{toc}{subsection}{P1 (probP1)}
+\subsection*{P1 {\footnotesize\hyperref[AA06CubeDifference]{(AA06CubeDifference)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P1 (AA06CubeDifference)}
  \markboth{Chapter\ A\ \ Prerequisites}{Solutions: P1}
  \begin{itemize}
  \item[]
- \InputIfFileExists{solutions/probP1}{}{No Solution File Found}
+ \InputIfFileExists{solutions/AA06CubeDifference}{}{No Solution File Found}
  \end{itemize} \hrule
-\subsection*{P2 {\footnotesize\hyperref[probP2]{(probP2)} \normalsize}}
- \addcontentsline{toc}{subsection}{P2 (probP2)}
+\subsection*{P2 {\footnotesize\hyperref[AA06CubeSum]{(AA06CubeSum)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P2 (AA06CubeSum)}
  \markboth{Chapter\ A\ \ Prerequisites}{Solutions: P2}
  \begin{itemize}
  \item[]
- \InputIfFileExists{solutions/probP2}{}{No Solution File Found}
+ \InputIfFileExists{solutions/AA06CubeSum}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P3 {\footnotesize\hyperref[AA06CS]{(AA06CS)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P3 (AA06CS)}
+ \markboth{Chapter\ A\ \ Prerequisites}{Solutions: P3}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/AA06CS}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P4 {\footnotesize\hyperref[AA06QF]{(AA06QF)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P4 (AA06QF)}
+ \markboth{Chapter\ A\ \ Prerequisites}{Solutions: P4}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/AA06QF}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P5 {\footnotesize\hyperref[AA06Root]{(AA06Root)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P5 (AA06Root)}
+ \markboth{Chapter\ A\ \ Prerequisites}{Solutions: P5}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/AA06Root}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P6 {\footnotesize\hyperref[AA06Factor]{(AA06Factor)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P6 (AA06Factor)}
+ \markboth{Chapter\ A\ \ Prerequisites}{Solutions: P6}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/AA06Factor}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P7 {\footnotesize\hyperref[AA06Split]{(AA06Split)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P7 (AA06Split)}
+ \markboth{Chapter\ A\ \ Prerequisites}{Solutions: P7}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/AA06Split}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P8 {\footnotesize\hyperref[AA06QF]{(AA06QF)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P8 (AA06QF)}
+ \markboth{Chapter\ A\ \ Prerequisites}{Solutions: P8}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/AA06QF}{}{No Solution File Found}
+ \end{itemize} \hrule
+\subsection*{P9 {\footnotesize\hyperref[AA06Disc]{(AA06Disc)} \normalsize}}
+ \addcontentsline{toc}{subsection}{P9 (AA06Disc)}
+ \markboth{Chapter\ A\ \ Prerequisites}{Solutions: P9}
+ \begin{itemize}
+ \item[]
+ \InputIfFileExists{solutions/AA06Disc}{}{No Solution File Found}
  \end{itemize} \hrule
 \chapter*{Matrices}
 \addcontentsline{toc}{chapter}{Matrices}

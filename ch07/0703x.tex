@@ -1,130 +1,55 @@
-\begin{defproblem}{0703:All6}
-\begin{onlyproblem}
-There are six ways to arrange $x$ and $y$ and $9$
-on the Triangle of Power (or on $a^b=c$, $\sqrt[a]{b}=c$, or $\log_a{b}=c$).
-Write down all six and rearrange each into a form
-enterable in your TI-8*.  
-\begin{enumerate}
-\item Graph each under ZOOM-STANDARD and in your notebook.
-\item Find two lattice points on each.
-\item How many lattice points are there on each?
-\item Which are inverses of each other?
-\item Which are reciprocals of each other?
-\item Find reciprocals of the others
-\end{enumerate}
-\end{onlyproblem}
-\begin{onlysolution}
-\begin{enumerate}
-\item graphs
-\item yup
-\item infinite, infinite, infinite, two, infinite, two
-\item roots and powers, logs and exponents, the other two
-\item $9^y=x$ and $x^y=9$
-\end{enumerate}
-\end{onlysolution}
-\end{defproblem}
+%!TEX root =  ../main.tex
+\renewcommand{\columnseprule}{1.5pt}
+\begin{multicols*}{2}
+\rule[0.5\baselineskip]{0.4\textwidth}{1pt}
+\noindent
+\ExSection\label{sec:0703x}
+\begin{exercises}{sec:0703x}
+\prob[0703All6] There are six ways to arrange $x$ and $y$ and $9$ on the Triangle of Power (or on $a^b=c$, $\sqrt[a]{b}=c$, or $\log_a{b}=c$). Write down all six and rearrange each into a form enterable in your TI-8*.  
+\subprob Graph each under ZOOM-STANDARD and sketch.
+\subprob Find two lattice points on each.
+\subprob How many lattice points are there on each?
+\subprob Which are inverses of each other?
+\subprob Which are reciprocals of each other?
+\subprob Find reciprocals of the others
+
+
+\prob[0703:LogProofs] True or False?
+\subprob $-\log_b{x} = \log_x{b}$ 
+\subprob$\ln{|x|} = |\ln{x}|$
+\subprob $\log_{\sqrt{3}}{27} =6$
+\subprob $e^{x\ln{x}} = x^x$ when $x>0$
+\subprob $\sqrt{\log{x}} = \log{\sqrt{x}}$
+\subprob $x\log_x{x^x} = x^2$
+\subprob $\log_{\sqrt{5}}{\frac{1}{125}} = -4$
+\subprob ${2^{\frac{1}{2}^{\frac{1}{2}^{\iddots}}}} = 1$
 
 
 
-\begin{defproblem}{0703:Logproofs}
-\begin{onlyproblem}
-True or False?
-\begin{enumerate}
-\item $-\log_b{x} = \log_x{b}$ 
-\item $\ln{|x|} = |\ln{x}|$
-\item $\log_{\sqrt{3}}{27} =6$
-\item $e^{x\ln{x}} = x^x$ when $x>0$
-\item $\sqrt{\log{x}} = \log{\sqrt{x}}$
-\item $x\log_x{x^x} = x^2$
-\item $\log_{\sqrt{5}}{\frac{1}{125}} = -4$
-\item ${2^{\frac{1}{2}^{\frac{1}{2}^{\iddots}}}} = 1$
-\end{enumerate}
-\end{onlyproblem}
+\prob[0703SolveLogs] Solve for $x$.  (Rewriting with the Triangle of Power is very helpful!)
+\subprob $\log_x{(x+6)}=2$
+\subprob $\log{\left(\log{\left(\log{(x+1)} \right)} \right)} = 0$ 
 
-\begin{onlysolution}
-\begin{enumerate}
-\item true
-\item false
-\item true
-\item false
-\item false
-\item true
-\item false
-\item true, but the vagaries of regular notation could make it $2^0=1$
-\end{enumerate}
-\end{onlysolution}
-\end{defproblem}
+
+\prob[0703SimplifyLogs] Prove
+\subprob $\ln{\left(\frac{\sqrt{x}}{x}\right)} + \ln{\sqrt[4]{ex^2}}=0.25$
+\subprob $\log_b{a} = \frac{1}{\log_a{b}}$
+\subprob $\log_b{x} \cdot{} \log_x{y} = \log_b{y}$
+\subprob $x^{\log_b{y}} = y^{\log_b{x}}$  (Hint, rewrite $x$ as $b$ to a certain power)
+\subprob $\log_b{y^x} = \log_{\sqrt[x]{b}}{y}$
+\subprob $\log_y{x^b} = -\log_x{y^b}$
+\subprob $2^{-\log_x{2}} = \sqrt[-\log_2{x}]{2}$
+
+
+\prob[0703DescribeDifference] Describe the difference between $\log_5{x} + 2$ and $\log_5{(x+2)}$ and show how Triangle notation might help.
+
+\prob[0703DescribeCalclog] Using your TI-8* and reasoning skills, find the asymptotes, hole(s), and local extrema of:
+\subprob $y=x\log{x^2}$
+\subprob $y=x^2\ln{|x}$
+\subprob $y=\sqrt[\log_{x^2}{9}]{|x|}$
+\subprob $y=\log_{|x|}{9}$
 
 
 
-\begin{defproblem}{0703:SolveLogs}
-\begin{onlyproblem}
-Solve for $x$.  Rewriting with the Triangle of Power is very helpful
-\begin{enumerate}
-\item $\log_x{(x+6)}=2$
-\item $\log{\left(\log{\left(\log{(x+1)} \right)} \right)} = 0$ 
-\end{enumerate}
-\end{onlyproblem}
-\begin{onlysolution}
-\begin{enumerate}
-\item 3 or -2
-\item 999,999,999
-\end{enumerate}
-\end{onlysolution}
-\end{defproblem}
-
-
-\begin{defproblem}{0703:SimplifyLogs}
-\begin{onlyproblem}
-Prove
-\begin{enumerate}
-\item $\ln{\left(\frac{\sqrt{x}}{x}\right)} + \ln{\sqrt[4]{ex^2}}=0.25$
-\item $\log_b{a} = \frac{1}{\log_a{b}}$
-\item $\log_b{x} \cdot{} \log_x{y} = \log_b{y}$
-\item $x^{\log_b{y}} = y^{\log_b{x}}$  (Hint, rewrite $x$ as $b$ to a certain power)
-\item $\log_b{y^x} = \log_{\sqrt[x]{b}}{y}$
-\item $\log_y{x^b} = -\log_x{y^b}$
-\item $2^{-\log_x{2}} = \sqrt[-\log_2{x}]{2}$
-\end{enumerate}
-\end{onlyproblem}
-\begin{onlysolution}
-\begin{enumerate}
-\item 1/4
-\end{enumerate}
-\end{onlysolution}
-\end{defproblem}
-
-
-\begin{defproblem}{0703:DesribeTri}
-\begin{onlyproblem}
-Describe the difference between $\log_5{x} + 2$ and $\log_5{(x+2)}$
-and show how Triangle notation might help
-\end{onlyproblem}
-\begin{onlysolution}
-Up 2 vs left 2
-\end{onlysolution}
-\end{defproblem}
-
-\begin{defproblem}{0703:DescribeCalclog}
-\begin{onlyproblem}
-Using your TI-8* and reasoning skills, find the asymptotes,
-hole(s), and local extrema of 
-\begin{enumerate}
-\item $y=x\log{x^2}$
-\item $y=x^2\ln{|x}$
-\item $y=\sqrt[\log_{x^2}{9}]{|x|}$
-\item $y=\log_{|x|}{9}$
-\end {enumerate}
-\end{onlyproblem}
-\begin{onlysolution}
-\begin{enumerate}
-\item hole at zero
-\end{enumerate}
-\end{onlysolution}
-\end{defproblem}
-
-
-
-
-
-\endinput
+\end{exercises}
+\end{multicols*}
