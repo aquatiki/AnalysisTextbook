@@ -1,0 +1,1 @@
+There are three prisms left over, when a cube is taken out of a larger cube.  Their dimensions are $(a-b)(a)(a)$, $(a-b)(a)(b)$, and $(a-b)(b)(b)$.  This can be factored into $a^3-b^3 = (a-b)(a^2+ab+b^2)$.

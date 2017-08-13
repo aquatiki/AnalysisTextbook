@@ -1,0 +1,1 @@
+It makes the most sense for length to be dependent upon the number of items, not the other way around.  We can freely choose the number of item we want to measure, so that is independent.

@@ -5,9 +5,64 @@
 \usepackage{amsmath}
 \usepackage{ragged2e}
 \usepackage{relsize}
+\usepackage{multicol}
 %\usepackage{xr}
 
 \usepackage{siunitx}
+
+
+
+
+%%%%%%%%%%%%%%%%
+%
+%        TRIANGLE OF POWER
+%
+% https://tex.stackexchange.com/questions/307833/how-to-represent-the-triangle-of-power-in-latex
+% 
+%%%%%%%%%%%%%%%
+
+\newcommand{\dotriangle}[1]{%
+  \raisebox{-.7ex}{$\vcenter{#1\kern.2ex\hbox{$\triangle$}\kern.2ex}$}%
+}
+
+\newcommand{\tripow}[3]{% Syntax: \tripow{#1}{#2}{#3} gives you #1 ^ {#2} = #3
+   \mathop{% We want it to an operator
+      \mathchoice% We want different functionality in text and display mode
+         {% DISPLAY MODE
+            \vphantom{\dotriangle\LARGE}% \vphantom off-set: places the bottom entries.
+            \rule[-1.4ex]{0.1em}{0pt}% Syntax: [<vetical drop #1>]{<left margin>}{<Should be 0>}
+            _{\scriptstyle #1}% style of #1 entry
+            {\overset{\scriptstyle #2}% style of #2 entry
+            {\dotriangle\LARGE}}% Size of the displayed operator - should match the \vphantom off-set.
+            \rule[-1.4ex]{0em}{0pt}% Syntax: [<vetical drop #3>]{<Should be 0>}{<Should be 0>} 
+            _{\scriptstyle #3}% style of #3 entry
+            \rule[0ex]{0.1em}{0pt}% Syntax: [<Should be 0>]{<right margin>}{<Should be 0>}
+          }%
+        {% TEXT MODE
+            \vphantom{\dotriangle\normalsize}%
+            \rule[-1.05ex]{-0.7ex}{0pt}%
+            _{#1}% 
+            \overset{#2}% 
+            {\dotriangle\normalsize}% size in text mode
+            \rule[-1.05ex]{0pt}{0pt}%
+            _{#3}%
+            \rule[0ex]{-0.2em}{0pt}%
+          }%
+        {% SCRIPT MODE
+            \vphantom{\dotriangle\normalsize}%
+            \rule[-1.05ex]{-0.8ex}{0pt}%
+            _{\scriptstyle #1}%
+            {\overset{\scriptstyle #2}%
+            {\dotriangle\normalsize}}% size in script mode
+            \rule[-1.05ex]{0pt}{0pt}%
+            _{\scriptstyle #3}%
+            \rule[0ex]{-0.3em}{0pt}%
+         }%
+        {}% SCRIPTSCRIPT MODE
+   }%
+}
+
+
 
 %Check if we are compiling under latex or pdflatex
 \usepackage{ifpdf}
@@ -77,9 +132,12 @@
  \mainmatter
  \pagestyle{fancy}
 
-\setcounter{chapter}{-1}
+%\setcounter{chapter}{-1}
 
+\chapter{Solutions}
 \renewcommand{\theenumi}{\alph{enumi}}
+\begin{multicols}{2}
 \input{main.sln}
+\end{multicols}
 
 \end{document}

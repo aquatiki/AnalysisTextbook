@@ -1,4 +1,5 @@
 %!TEX root =  ../main.tex
+% !TEX useTabs
 
 \subsection{$r, \theta$}
 Apart from arbitrary roads running north-south and east-west, no one would ever walk solely
@@ -11,8 +12,8 @@ ludacrous path takes.  What is the shortest path ($r$)?  What angle would you tu
 	\draw (0,0) -- (3,0) -- (3,4) -- (0,0);
 	\draw (1.5,0) node[anchor=north] {3m};
 	\draw (3,2) node[anchor=west] {4cm};
-	\draw (1.5,2) node[anchor=south] {$r$};
-	\draw (0.5,0.5) node {$\theta$};
+	\draw (1.4,2) node[anchor=south] {$r$};
+	\draw (0.5,0.4) node {$\theta$};
 \end{tikzpicture}
 
 Well, by this point in this class, you are undoubtedly very used to using the Pythagorean Theorem
@@ -26,14 +27,21 @@ we can use sine and cosine to calculate these values.  $\sin(\frac{2}{3}\tau)=\f
 $\cos(\frac{2}{3}\tau)=\frac{x}{6}$.  Solving for $x$ and $y$, we see the coordinates of the
 destination are $(-3,-3\sqrt{3})$.
 
-So in generally, we can derive four formulae:
-\begin{itemize}
-\item $r^2=x^2+y^2$
-\item $\tan\theta=\frac{y}{x}$*
-\item $x=r\cdot\cos\theta$
-\item $y=r\cdot\sin\theta$
-\end{itemize}
-The tangent equation doesn't work everywhere: what are the limitations on how we can use it?
+\begin{derivation}{Polar Conversion Formulae}
+\begin{equation}
+	r^2=x^2+y^2
+\end{equation}
+\begin{equation}
+	\tan\theta=\frac{y}{x}
+\end{equation}
+\begin{equation}
+	x=r\cdot\cos\theta
+\end{equation}
+\begin{equation}
+	y=r\cdot\sin\theta
+\end{equation}
+*The tangent equation doesn't work everywhere: what are the limitations on how we can use it?
+\end{derivation}
 
 \subsection{Properties}
 Working with $r$ and $\theta$ to the exclusion of $x$ and $y$ yields a different way of looking

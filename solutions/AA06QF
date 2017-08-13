@@ -1,0 +1,8 @@
+\begin{align*}
+  ax^2 +bx + c & = 0\\
+  a(x^2 +\frac{b}{a}x     & = -c\\
+  x^2 +bx + \frac{b^2}{4} & = \frac{b^2}{4} - \frac{c}{a}\\
+  \left(x+\frac{b}{2}\right)^2 &= \frac{b^2-4ac}{4a}\\
+  x + \frac{b}{2} &= \pm\frac{\sqrt{b^2-4ac}}{2}\\
+  x &= \frac{-b\pm\sqrt{b^2-4ac}}{2}
+\end{align*}

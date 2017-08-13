@@ -1,0 +1,1 @@
+Because the difference of cubes is $a^3-b^3 = (a-b)(a^2+ab+b^2)$, we might guess that the sum of cubes would be mostly opposite, $(a+b)(a^2-ab-b^2)$, but that produces $a^3-2ab^2-b^3$.  The correct formula is $a^3+b^3 = (a+b)(a^2-ab+b^2)$.

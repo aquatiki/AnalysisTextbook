@@ -15,1466 +15,634 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {0.6}To the Teacher}{iv}{section.0.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Index}}{xv}{section.0.6}
+\contentsline {chapter}{\leavevmode {\color {ocre}Index}}{xi}{section.0.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\@mypartnumtocformat {I}{Linear Transformations}}{1}{part.1}
 \ttl@starttoc {default@1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Functions}{3}{chapter.1}
-\ttl@stoptoc {chapters@1}
-\ttl@starttoc {chapters@2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Representations}{5}{section.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Patterns All Around Us}{5}{subsection.1.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Numerical, Graphical, Algebraic, and Verbal}{6}{subsection.1.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Numerically}{6}{subsubsection*.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Graphical}{6}{subsubsection*.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Algebraically}{7}{subsubsection*.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Verbally}{7}{subsubsection*.10}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Mathematical Models}{7}{subsubsection*.13}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}Exercises}{9}{subsection.1.1.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Types}{14}{section.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Pick x, Find y}{14}{subsection.1.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Linear}{17}{subsubsection*.16}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Quadratic}{17}{subsubsection*.18}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Power}{17}{paragraph*.19}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Polynomial}{18}{paragraph*.20}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Exponential}{18}{subsubsection*.21}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Periodic}{18}{subsubsection*.23}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Exercises}{19}{subsection.1.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Translations and Dilations}{20}{section.1.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Multiplying and Adding Functions}{20}{subsection.1.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Inside vs. Outside}{25}{subsection.1.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{``Outside'' Operations}{25}{subsubsection*.25}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Addition}{25}{paragraph*.26}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Multiplication}{25}{paragraph*.28}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{``Inside'' Operations}{25}{subsubsection*.30}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Exercises}{27}{subsection.1.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Reflections and Symmetries}{28}{section.1.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Through the Looking Glass}{28}{subsection.1.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.2}Reflection}{29}{subsection.1.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{``Outside''}{29}{paragraph*.31}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{``Inside''}{29}{paragraph*.32}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.3}Symmetry}{29}{subsection.1.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Even}{29}{paragraph*.33}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Rotational}{30}{paragraph*.36}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.4}Exercises}{31}{subsection.1.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Regressions}{32}{section.1.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.1}Graphical Patterns}{32}{subsection.1.5.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.2}STATS in the TI}{37}{subsection.1.5.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Windows}{37}{subsubsection*.38}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Table}{38}{subsubsection*.39}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Linear Regression}{38}{paragraph*.40}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Quadratic Regression}{39}{paragraph*.41}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Exponential and Logarithmic Regression}{39}{paragraph*.42}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Sinusoidal Regression}{39}{paragraph*.43}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.3}Exercises}{40}{subsection.1.5.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.6}Review}{42}{section.1.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.6.1}Chapter Review}{42}{subsection.1.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.6.2}Chapter Test}{45}{subsection.1.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Limits}{47}{chapter.2}
-\ttl@stoptoc {chapters@2}
-\ttl@starttoc {chapters@3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Removable}{49}{section.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Removing the Hole}{49}{subsection.2.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}First Discontinuities}{50}{subsection.2.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Algebra Techniques}{50}{subsection.2.1.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Cancelling}{50}{subsubsection*.61}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Expanding}{51}{subsubsection*.62}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Complex Fractions}{51}{subsubsection*.63}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Conjugates}{52}{subsubsection*.64}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Direct Substitution}{52}{subsubsection*.65}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.4}Exercises}{54}{subsection.2.1.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Continuous}{54}{section.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Definition of Limits}{56}{subsection.2.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Epsilon-Delta}{57}{subsection.2.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Continuity}{58}{subsubsection*.72}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Exercises}{59}{subsection.2.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Piecewise}{59}{section.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Mind the Gap}{61}{subsection.2.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Definition}{62}{subsection.2.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Boolean Variables}{62}{subsubsection*.75}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Other Discontinuities}{63}{subsection.2.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Removable}{63}{subsubsection*.76}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Jump}{63}{subsubsection*.77}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Infinite}{63}{subsubsection*.78}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Oscillating}{63}{subsubsection*.79}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Domain}{63}{subsubsection*.80}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Exercises}{65}{subsection.2.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Infinite}{67}{section.2.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Are We There Yet?}{69}{subsection.2.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}At Infinities}{70}{subsection.2.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.3}Infinite Forms}{71}{subsection.2.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.4}Exercises}{73}{subsection.2.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Change}{75}{section.2.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Extremely Average}{76}{subsection.2.5.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}Difference Quotient}{77}{subsection.2.5.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.3}Theorems of Limits}{79}{subsection.2.5.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.4}Exercises}{81}{subsection.2.5.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Review}{83}{section.2.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.1}Chapter Review}{83}{subsection.2.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.2}Chapter Test}{83}{subsection.2.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Parents}{85}{chapter.3}
-\ttl@stoptoc {chapters@3}
-\ttl@starttoc {chapters@4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Linear}{87}{section.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}In Pieces}{87}{subsection.3.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Properties of Lines}{88}{subsection.3.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}Parallel vs. Perpendicular}{88}{subsection.3.1.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.4}Linear-like}{88}{subsection.3.1.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Ceiling, Floor, and Round}{88}{subsubsection*.84}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Modulus}{88}{subsubsection*.86}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Rates of Change}{89}{subsubsection*.87}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.5}Exercises}{90}{subsection.3.1.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}1/x}{91}{section.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Zoomed Straight}{91}{subsection.3.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Local Linearity}{92}{subsection.3.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Derivative}{92}{subsection.3.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Theorems of Derivatives}{92}{subsubsection*.98}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Exercises}{93}{subsection.3.2.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Quadratic}{94}{section.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Another Definition of Parabolas}{94}{subsection.3.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Various Forms}{95}{subsection.3.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}Angles of Incidence}{95}{subsection.3.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.4}Exercises}{97}{subsection.3.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Radical}{100}{section.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Classic Ladder Problem}{100}{subsection.3.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Babylonian Method}{101}{subsection.3.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Even vs. Odd}{101}{subsection.3.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.4}Exercises}{104}{subsection.3.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Derivatives}{106}{section.3.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.1}Properties of Derivatives}{108}{subsection.3.5.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Product Rule (inductive)}{108}{subsubsection*.99}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Quotient Rule}{108}{subsubsection*.100}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.2}Power Rule}{109}{subsection.3.5.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.3}Exercises}{111}{subsection.3.5.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Review}{114}{section.3.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.1}Chapter Review}{114}{subsection.3.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.2}Chapter Test}{114}{subsection.3.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Transformations}{115}{chapter.4}
-\ttl@stoptoc {chapters@4}
-\ttl@starttoc {chapters@5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Absolute}{117}{section.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}I'm Batman}{117}{subsection.4.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Inside and Outside}{118}{subsection.4.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Distance, Velocity, Jerk}{118}{subsection.4.1.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.4}Exercises}{119}{subsection.4.1.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Parametric}{120}{section.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}x, y, ...t?}{120}{subsection.4.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Separating $x$ and $y$}{121}{subsection.4.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Parameter Domain}{121}{subsubsection*.110}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Eliminating the Parameter}{121}{subsubsection*.111}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Implicit Differentiation}{121}{subsubsection*.112}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Exercises}{124}{subsection.4.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Composition}{127}{section.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Pecking Order}{129}{subsection.4.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Domain and Range}{129}{subsection.4.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Decomposition}{130}{subsection.4.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}The Chain Rule}{130}{subsection.4.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Trigonometric Derivatives}{130}{paragraph*.114}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.5}Exercises}{132}{subsection.4.3.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Reciprocal}{136}{section.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}``Upside Down''}{136}{subsection.4.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Numerically}{137}{subsection.4.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}Exercises}{138}{subsection.4.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Inverse}{138}{section.4.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}``Undo''}{140}{subsection.4.5.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}Swap $x$ and $y$}{140}{subsection.4.5.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}S.I.F.T.}{140}{subsection.4.5.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.4}Graphically}{141}{subsection.4.5.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.5}Exercises}{143}{subsection.4.5.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Review}{144}{section.4.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.1}Chapter Review}{144}{subsection.4.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.2}Chapter Test}{144}{subsection.4.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.3}Cumulative Review}{144}{subsection.4.6.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.4}Cumulative Test}{144}{subsection.4.6.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {part}{\@mypartnumtocformat {II}{Exponential Powers}}{145}{part.2}
+\contentsline {part}{\@mypartnumtocformat {II}{Exponential Powers}}{3}{part.2}
 \ttl@stoptoc {default@1}
 \ttl@starttoc {default@2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Powers}{147}{chapter.5}
-\ttl@stoptoc {chapters@5}
-\ttl@starttoc {chapters@6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Programs}{149}{section.5.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Work Smarter, Not Harder}{149}{subsection.5.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Clear the Fraction}{150}{subsection.5.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.3}In Equations}{151}{subsection.5.1.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.4}Exercises}{152}{subsection.5.1.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Exponents}{153}{section.5.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}The Power of Powers}{153}{subsection.5.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Multiplying}{154}{subsection.5.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Dividing}{154}{subsection.5.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.4}Exponents}{155}{subsection.5.2.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.5}Rational Exponents}{155}{subsection.5.2.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.6}Exercises}{156}{subsection.5.2.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Behavior}{157}{section.5.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}With Great Power}{157}{subsection.5.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Graphs}{158}{subsection.5.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Behavior $<1$}{158}{subsection.5.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.4}Even, Odd, and Negative}{158}{subsection.5.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{$n$ is odd}{158}{subsubsection*.120}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{$n$ is even}{159}{subsubsection*.121}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{$\frac {m}{n}$ is negative}{159}{subsubsection*.122}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.5}Exercises}{161}{subsection.5.3.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Concavity}{165}{section.5.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Truth to Power}{165}{subsection.5.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Second Derivatives}{166}{subsection.5.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Exercises}{168}{subsection.5.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Integrals}{172}{section.5.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.1}Power in Motion}{174}{subsection.5.5.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.2}Anti-Derivative}{175}{subsection.5.5.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.3}Integral}{175}{subsection.5.5.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.4}Exercises}{179}{subsection.5.5.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Review}{181}{section.5.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.1}Chapter Review}{181}{subsection.5.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.2}Chapter Test}{181}{subsection.5.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Polynomials}{183}{chapter.6}
-\ttl@stoptoc {chapters@6}
-\ttl@starttoc {chapters@7}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Graphs}{185}{section.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}In the End}{185}{subsection.6.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}Definition}{186}{subsection.6.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Degree}{186}{subsubsection*.127}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Leading Coefficient}{186}{subsubsection*.128}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{$y$-intercept}{186}{subsubsection*.129}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.3}Factored Forms}{187}{subsection.6.1.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.4}Exercises}{188}{subsection.6.1.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Factoring}{190}{section.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Polynomial Long Division}{191}{subsection.6.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Synthetic Division}{192}{subsection.6.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.3}Complex Zeros}{193}{subsection.6.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.4}Exercises}{195}{subsection.6.2.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Mean, Max., Min.}{196}{section.6.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.1}Twists and Turns}{196}{subsection.6.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.2}Extrema}{197}{subsection.6.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.3}Average Value}{197}{subsection.6.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.4}Exercises}{201}{subsection.6.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Rational Functions}{203}{section.6.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.1}Problems}{205}{subsection.6.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.2}Zeros}{206}{subsection.6.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.3}Horizontal Asymptotes}{206}{subsection.6.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.4}Signs}{207}{subsection.6.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.5}Exercises}{210}{subsection.6.4.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Asymptotes}{215}{section.6.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5.1}Curvilinear Asymptotes}{216}{subsection.6.5.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5.2}Partial Fraction Decomposition}{216}{subsection.6.5.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5.3}Sums of Power Functions}{218}{subsection.6.5.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5.4}Exercises}{219}{subsection.6.5.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.6}Review}{220}{section.6.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6.1}Chapter Review}{220}{subsection.6.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6.2}Chapter Test}{220}{subsection.6.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Logarithms}{221}{chapter.7}
-\ttl@stoptoc {chapters@7}
-\ttl@starttoc {chapters@8}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Triangle of Power}{223}{section.7.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.1}3-in-1}{223}{subsection.7.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.2}The Three Components}{224}{subsection.7.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.3}Inverses}{224}{subsection.7.1.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.4}P-Plus}{225}{subsection.7.1.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.5}Exercises}{227}{subsection.7.1.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Exponential}{228}{section.7.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}Money Matters}{228}{subsection.7.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.2}Growth}{229}{subsection.7.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{TI-8*}{229}{subsubsection*.136}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.3}Compound Interest}{230}{subsection.7.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.4}Doubling Time}{230}{subsection.7.2.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{e}{230}{paragraph*.137}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.5}Exercises}{232}{subsection.7.2.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Properties of Logs}{236}{section.7.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.1}Triangular Tables}{236}{subsection.7.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.2}Like Powers}{237}{subsection.7.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.3}Names}{237}{subsection.7.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.4}Change of Base}{238}{subsection.7.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.5}Exercises}{240}{subsection.7.3.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Log Equations}{242}{section.7.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.1}Log Infection}{242}{subsection.7.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.2}Exponential Equations}{243}{subsection.7.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.3}Substitution}{244}{subsection.7.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.4}Exercises}{246}{subsection.7.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Logistic Curves}{247}{section.7.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.5.1}Problems}{248}{subsection.7.5.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.5.2}Restrained Growth}{249}{subsection.7.5.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.5.3}Regression}{250}{subsection.7.5.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.5.4}Exercises}{252}{subsection.7.5.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.6}Review}{255}{section.7.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.6.1}Chapter Review}{255}{subsection.7.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.6.2}Hold Power Steady}{255}{subsection.7.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Vary Root}{255}{subsubsection*.145}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Vary Exponent}{255}{subsubsection*.146}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.6.3}Hold Exponent Steady}{255}{subsection.7.6.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Vary Power}{255}{subsubsection*.147}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Vary Root}{256}{subsubsection*.148}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.6.4}Hold Root Steady}{256}{subsection.7.6.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Vary Exponent}{256}{subsubsection*.149}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Vary Power}{256}{subsubsection*.150}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.6.5}Inverse Operations}{256}{subsection.7.6.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.6.6}Chapter Test}{256}{subsection.7.6.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Infinities}{257}{chapter.8}
-\ttl@stoptoc {chapters@8}
-\ttl@starttoc {chapters@9}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}e}{259}{section.8.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.1}Magic Number}{259}{subsection.8.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.2}Derivatives of Exponentials}{260}{subsection.8.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.3}Implications}{261}{subsection.8.1.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.4}Exercises}{262}{subsection.8.1.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Infinities}{263}{section.8.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.1}It Don't Stop}{263}{subsection.8.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.2}Matching}{264}{subsection.8.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.3}Countable Infinity}{264}{subsection.8.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.4}Uncountable Infinity}{265}{subsection.8.2.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.5}Exercises}{266}{subsection.8.2.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Logarithmic Derivatives}{268}{section.8.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.1}Inverse of e}{268}{subsection.8.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.2}Deriving}{269}{subsection.8.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.3}Proofs}{269}{subsection.8.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.4}Product and Quotient Rule}{270}{subsection.8.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.5}Derivative Review}{270}{subsection.8.3.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.6}Exercises}{272}{subsection.8.3.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Dominance}{273}{section.8.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4.1}Limits by Derivative}{273}{subsection.8.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4.2}Indeterminate Forms}{274}{subsection.8.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4.3}Infinite Forms}{274}{subsection.8.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4.4}Exercises}{276}{subsection.8.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}Analyses}{277}{section.8.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.5.1}To Infinity, and Beyond}{277}{subsection.8.5.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.5.2}Real Analysis}{278}{subsection.8.5.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Special Functions}{278}{subsubsection*.164}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.5.3}Non-Standard Analysis}{278}{subsection.8.5.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Old Definitions}{279}{subsubsection*.165}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Derivative}{279}{subsubsection*.166}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.5.4}Exercises}{280}{subsection.8.5.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.6}Review}{281}{section.8.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.6.1}Chapter Review}{281}{subsection.8.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.6.2}Chapter Test}{281}{subsection.8.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.6.3}Cumulative Review}{281}{subsection.8.6.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.6.4}Cumulative Test}{281}{subsection.8.6.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {part}{\@mypartnumtocformat {III}{Around Triangles}}{283}{part.3}
+\contentsline {part}{\@mypartnumtocformat {III}{Around Triangles}}{5}{part.3}
 \ttl@stoptoc {default@2}
 \ttl@starttoc {default@3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Circles}{285}{chapter.9}
-\ttl@stoptoc {chapters@9}
-\ttl@starttoc {chapters@10}
+\contentsline {chapter}{\numberline {1}Polar}{7}{chapter.1}
+\ttl@stoptoc {chapters@1}
+\ttl@starttoc {chapters@2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Angles}{288}{section.9.1}
+\contentsline {section}{\numberline {1.1}Introduction to Polar}{9}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.1}Initial and Terminal}{289}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {1.1.1}$r, \theta $}{11}{subsection.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.2}Reference Angles}{289}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {1.1.2}Properties}{11}{subsection.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.3}Trigonometric functions}{289}{subsection.9.1.3}
+\contentsline {subsection}{\numberline {1.1.3}Negative Radii}{12}{subsection.1.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.4}Exercises}{291}{subsection.9.1.4}
+\contentsline {subsection}{\numberline {1.1.4}Polar Equations}{12}{subsection.1.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Reference Triangles}{293}{section.9.2}
+\contentsline {subsection}{\numberline {1.1.5}Exercise}{14}{subsection.1.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.1}Special Triangles}{294}{subsection.9.2.1}
+\contentsline {paragraph}{Lima\c {c}ons}{14}{paragraph*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.2}Reflection and Symmetry}{295}{subsection.9.2.2}
+\contentsline {paragraph}{Roses}{14}{paragraph*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.3}$x$ and $y$ and slope}{295}{subsection.9.2.3}
+\contentsline {paragraph}{Lemniscates}{14}{paragraph*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.4}Exercises}{297}{subsection.9.2.4}
+\contentsline {paragraph}{Lines}{14}{paragraph*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Radians}{299}{section.9.3}
+\contentsline {paragraph}{Circles}{14}{paragraph*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.3.1}Tau}{300}{subsection.9.3.1}
+\contentsline {section}{\numberline {1.2}Polar Collisions}{15}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.3.2}Unit Circle}{300}{subsection.9.3.2}
+\contentsline {subsection}{\numberline {1.2.1}Polar Equations}{17}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.3.3}Derivative}{300}{subsection.9.3.3}
+\contentsline {subsubsection}{Roses}{17}{subsubsection*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.3.4}Exercises}{303}{subsection.9.3.4}
+\contentsline {subsubsection}{Lima\IeC {\c c}ons}{17}{subsubsection*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}Graphs}{303}{section.9.4}
+\contentsline {subsubsection}{Spirals}{17}{subsubsection*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.1}Problems}{305}{subsection.9.4.1}
+\contentsline {subsubsection}{Parabolas and Ellipses}{17}{subsubsection*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.2}$xy\theta $}{306}{subsection.9.4.2}
+\contentsline {subsection}{\numberline {1.2.2}Intersections}{17}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{$y\theta $}{306}{subsubsection*.174}
+\contentsline {subsection}{\numberline {1.2.3}Polar Equations in $xy$}{17}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{$x\theta $}{306}{subsubsection*.176}
+\contentsline {subsection}{\numberline {1.2.4}Exercises}{18}{subsection.1.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.3}Exercises}{308}{subsection.9.4.3}
+\contentsline {section}{\numberline {1.3}Introduction to Complex Polar}{19}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.5}Inverse Trigonometric Functions}{309}{section.9.5}
+\contentsline {subsection}{\numberline {1.3.1}Problems}{19}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5.1}Problems}{310}{subsection.9.5.1}
+\contentsline {subsection}{\numberline {1.3.2}Complex Plane}{20}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5.2}Composing}{311}{subsection.9.5.2}
+\contentsline {subsection}{\numberline {1.3.3}Multiplication}{20}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Inverse inside Normal}{311}{subsubsection*.179}
+\contentsline {subsection}{\numberline {1.3.4}Reciprocal}{20}{subsection.1.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Normal inside Inverse}{311}{subsubsection*.181}
+\contentsline {subsection}{\numberline {1.3.5}Division}{20}{subsection.1.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5.3}Derivatives}{312}{subsection.9.5.3}
+\contentsline {subsection}{\numberline {1.3.6}Powers}{20}{subsection.1.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5.4}Exercises}{313}{subsection.9.5.4}
+\contentsline {subsection}{\numberline {1.3.7}Exercises}{21}{subsection.1.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.6}Review}{314}{section.9.6}
+\contentsline {section}{\numberline {1.4}Roots of Complex Numbers}{22}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.6.1}Chapter Review}{314}{subsection.9.6.1}
+\contentsline {subsection}{\numberline {1.4.1}Problems}{22}{subsection.1.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.6.2}Chapter Test}{314}{subsection.9.6.2}
+\contentsline {subsection}{\numberline {1.4.2}Powers vs. Roots}{23}{subsection.1.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Identities}{315}{chapter.10}
-\ttl@stoptoc {chapters@10}
-\ttl@starttoc {chapters@11}
+\contentsline {subsection}{\numberline {1.4.3}Visualizing All Roots}{23}{subsection.1.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Simple Trigonometric Equations}{317}{section.10.1}
+\contentsline {subsection}{\numberline {1.4.4}Iterative Formula}{23}{subsection.1.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1.1}Lab}{318}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {1.4.5}DeMoivre's Formula}{23}{subsection.1.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1.2}Sine Slices}{319}{subsection.10.1.2}
+\contentsline {subsection}{\numberline {1.4.6}Exercises}{24}{subsection.1.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1.3}Cosine Cuts}{319}{subsection.10.1.3}
+\contentsline {section}{\numberline {1.5}Complex Analysis}{25}{section.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1.4}Tangent Tilts}{320}{subsection.10.1.4}
+\contentsline {subsection}{\numberline {1.5.1}Problems}{25}{subsection.1.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1.5}Exercises}{321}{subsection.10.1.5}
+\contentsline {subsection}{\numberline {1.5.2}Euler's Equation}{26}{subsection.1.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Co-function, Pythagorean, Even/Odd}{322}{section.10.2}
+\contentsline {subsection}{\numberline {1.5.3}Review of $e$}{26}{subsection.1.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2.1}Problems}{322}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {1.5.4}Analytic Continuation}{27}{subsection.1.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2.2}Reference Triangle Within}{323}{subsection.10.2.2}
+\contentsline {subsection}{\numberline {1.5.5}Exercises}{28}{subsection.1.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2.3}Reference Triangles Without}{323}{subsection.10.2.3}
+\contentsline {section}{\numberline {1.6}Review}{29}{section.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2.4}Full Geometry}{323}{subsection.10.2.4}
+\contentsline {subsection}{\numberline {1.6.1}Chapter Review}{29}{subsection.1.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2.5}Algebra Ratios}{323}{subsection.10.2.5}
+\contentsline {subsection}{\numberline {1.6.2}Chapter Test}{29}{subsection.1.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2.6}Time Savers}{323}{subsection.10.2.6}
+\contentsline {subsection}{\numberline {1.6.3}Cumulative Review}{29}{subsection.1.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2.7}Conjugates}{323}{subsection.10.2.7}
+\contentsline {subsection}{\numberline {1.6.4}Cumulative Test}{29}{subsection.1.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2.8}Exercises}{324}{subsection.10.2.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Sum and Difference Identities}{325}{section.10.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.3.1}Cosine, cosine, sine, sine}{325}{subsection.10.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.3.2}Cosine Sum and Difference}{326}{subsection.10.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.3.3}Sine Sum and Difference}{326}{subsection.10.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.3.4}Tangent Sum and Difference}{326}{subsection.10.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.3.5}Exercises}{327}{subsection.10.3.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.4}Double Angles}{327}{section.10.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.4.1}Problems}{329}{subsection.10.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.4.2}Double Sine}{330}{subsection.10.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.4.3}Double Tangent}{330}{subsection.10.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.4.4}Double Cosine}{330}{subsection.10.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.4.5}Half and Power}{330}{subsection.10.4.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.4.6}Exercises}{331}{subsection.10.4.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.5}Proofs}{332}{section.10.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.5.1}Problems}{332}{subsection.10.5.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.5.2}Summary of Trigonometric Derivatives}{333}{subsection.10.5.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.5.3}Summary of Trigonometric Integrals}{333}{subsection.10.5.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.5.4}Summary of Trigonometric Identities}{333}{subsection.10.5.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.5.5}Techniques for Proofs}{333}{subsection.10.5.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.5.6}Exercises}{334}{subsection.10.5.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.6}Review}{335}{section.10.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.6.1}Chapter Review}{335}{subsection.10.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.6.2}Chapter Test}{335}{subsection.10.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Triangles}{337}{chapter.11}
-\ttl@stoptoc {chapters@11}
-\ttl@starttoc {chapters@12}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.1}Area Formulae}{340}{section.11.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.1.1}Sine Formulae}{341}{subsection.11.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.1.2}Heron's Formula}{341}{subsection.11.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.1.3}Exercises}{342}{subsection.11.1.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Law of Cosines}{342}{section.11.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.1}Problems}{344}{subsection.11.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.2}SSS}{345}{subsection.11.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.3}SAS}{345}{subsection.11.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.4}Exercises}{346}{subsection.11.2.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.3}Law of Sines}{347}{section.11.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.3.1}Problems}{348}{subsection.11.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.3.2}Imagining the Height}{349}{subsection.11.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.3.3}SAA}{349}{subsection.11.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.3.4}ASA}{349}{subsection.11.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.3.5}Exercises}{350}{subsection.11.3.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.4}The Ambiguous Case}{351}{section.11.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.4.1}Problems}{352}{subsection.11.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.4.2}SSA}{353}{subsection.11.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.4.3}Related Rates}{353}{subsection.11.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.4.4}Exercises}{353}{subsection.11.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.5}2D Vectors}{354}{section.11.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.5.1}Problems}{355}{subsection.11.5.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.5.2}Definition and Magnitude}{356}{subsection.11.5.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.5.3}Vector Components}{356}{subsection.11.5.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.5.4}Heading and Bearing}{356}{subsection.11.5.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.5.5}Exercises}{357}{subsection.11.5.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.6}Review}{358}{section.11.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.6.1}Chapter Review}{358}{subsection.11.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.6.2}Chapter Test}{358}{subsection.11.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}Polar}{359}{chapter.12}
-\ttl@stoptoc {chapters@12}
-\ttl@starttoc {chapters@13}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.1}Introduction to Polar}{361}{section.12.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.1.1}$r, \theta $}{363}{subsection.12.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.1.2}Properties}{363}{subsection.12.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.1.3}Negative Radii}{364}{subsection.12.1.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.1.4}Polar Equations}{364}{subsection.12.1.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.1.5}Exercise}{366}{subsection.12.1.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Lima\c {c}ons}{366}{paragraph*.185}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Roses}{366}{paragraph*.186}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Lemniscates}{366}{paragraph*.187}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Lines}{366}{paragraph*.188}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Circles}{366}{paragraph*.189}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.2}Polar Collisions}{367}{section.12.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.1}Spirals}{369}{subsection.12.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.2}Parabolas and Ellipses}{369}{subsection.12.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.3}Intersections}{369}{subsection.12.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.4}Polar Equations in $xy$}{369}{subsection.12.2.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.5}Exercises}{370}{subsection.12.2.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.3}Introduction to Complex Polar}{371}{section.12.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.3.1}Problems}{371}{subsection.12.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.3.2}Complex Plane}{372}{subsection.12.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.3.3}Multiplication}{372}{subsection.12.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.3.4}Reciprocal}{372}{subsection.12.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.3.5}Division}{372}{subsection.12.3.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.3.6}Powers}{372}{subsection.12.3.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.3.7}Exercises}{373}{subsection.12.3.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.4}Roots of Complex Numbers}{374}{section.12.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.4.1}Problems}{374}{subsection.12.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.4.2}Powers vs. Roots}{375}{subsection.12.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.4.3}Visualizing All Roots}{375}{subsection.12.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.4.4}Iterative Formula}{375}{subsection.12.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.4.5}DeMoivre's Formula}{375}{subsection.12.4.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.4.6}Exercises}{376}{subsection.12.4.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.5}Complex Analysis}{377}{section.12.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.5.1}Problems}{377}{subsection.12.5.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.5.2}Euler's Equation}{378}{subsection.12.5.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.5.3}Review of $e$}{378}{subsection.12.5.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.5.4}Analytic Continuation}{379}{subsection.12.5.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.5.5}Exercises}{380}{subsection.12.5.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.6}Review}{381}{section.12.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.6.1}Chapter Review}{381}{subsection.12.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.6.2}Chapter Test}{381}{subsection.12.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.6.3}Cumulative Review}{381}{subsection.12.6.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.6.4}Cumulative Test}{381}{subsection.12.6.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {part}{\@mypartnumtocformat {IV}{Discrete Infinities}}{383}{part.4}
+\contentsline {part}{\@mypartnumtocformat {IV}{Discrete Infinities}}{31}{part.4}
 \ttl@stoptoc {default@3}
 \ttl@starttoc {default@4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {13}Regressions}{385}{chapter.13}
-\ttl@stoptoc {chapters@13}
-\ttl@starttoc {chapters@14}
+\contentsline {chapter}{\numberline {2}Regressions}{33}{chapter.2}
+\ttl@stoptoc {chapters@2}
+\ttl@starttoc {chapters@3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13.1}Graphical Patterns}{387}{section.13.1}
+\contentsline {section}{\numberline {2.1}Graphical Patterns}{35}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.1.1}Problems}{388}{subsection.13.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Problems}{36}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.1.2}Increasing/Decreasing}{389}{subsection.13.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Increasing/Decreasing}{37}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.1.3}Concavity}{389}{subsection.13.1.3}
+\contentsline {subsection}{\numberline {2.1.3}Concavity}{37}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.1.4}Asymptotes}{389}{subsection.13.1.4}
+\contentsline {subsection}{\numberline {2.1.4}Asymptotes}{37}{subsection.2.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.1.5}Origin Question}{389}{subsection.13.1.5}
+\contentsline {subsection}{\numberline {2.1.5}Origin Question}{37}{subsection.2.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.1.6}Repeating}{389}{subsection.13.1.6}
+\contentsline {subsection}{\numberline {2.1.6}Repeating}{37}{subsection.2.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.1.7}End Behavior}{389}{subsection.13.1.7}
+\contentsline {subsection}{\numberline {2.1.7}End Behavior}{37}{subsection.2.1.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.1.8}Exercises}{390}{subsection.13.1.8}
+\contentsline {subsection}{\numberline {2.1.8}Exercises}{38}{subsection.2.1.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13.2}Numerical Patterns}{391}{section.13.2}
+\contentsline {section}{\numberline {2.2}Numerical Patterns}{39}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.2.1}Problems}{392}{subsection.13.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Problems}{40}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.2.2}Add-Add}{393}{subsection.13.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Add-Add}{41}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.2.3}Add-Multiply}{393}{subsection.13.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Add-Multiply}{41}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.2.4}Multiply-Multiply}{393}{subsection.13.2.4}
+\contentsline {subsection}{\numberline {2.2.4}Multiply-Multiply}{41}{subsection.2.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.2.5}Second Difference}{393}{subsection.13.2.5}
+\contentsline {subsection}{\numberline {2.2.5}Second Difference}{41}{subsection.2.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.2.6}Exercises}{394}{subsection.13.2.6}
+\contentsline {subsection}{\numberline {2.2.6}Exercises}{42}{subsection.2.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13.3}Error}{395}{section.13.3}
+\contentsline {section}{\numberline {2.3}Error}{43}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.3.1}Problems}{396}{subsection.13.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Problems}{44}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.3.2}SSres}{397}{subsection.13.3.2}
+\contentsline {subsection}{\numberline {2.3.2}SSres}{45}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.3.3}SSdev}{397}{subsection.13.3.3}
+\contentsline {subsection}{\numberline {2.3.3}SSdev}{45}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.3.4}r vs $r^2$}{397}{subsection.13.3.4}
+\contentsline {subsection}{\numberline {2.3.4}r vs $r^2$}{45}{subsection.2.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.3.5}Exercises}{398}{subsection.13.3.5}
+\contentsline {subsection}{\numberline {2.3.5}Exercises}{46}{subsection.2.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13.4}Linearization}{399}{section.13.4}
+\contentsline {section}{\numberline {2.4}Linearization}{47}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.4.1}Problems}{400}{subsection.13.4.1}
+\contentsline {subsection}{\numberline {2.4.1}Problems}{48}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.4.2}Who gets the log?}{401}{subsection.13.4.2}
+\contentsline {subsection}{\numberline {2.4.2}Who gets the log?}{49}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lin-Log Graphs}{401}{subsubsection*.190}
+\contentsline {subsubsection}{Lin-Log Graphs}{49}{subsubsection*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Log-Log Graphs}{401}{subsubsection*.191}
+\contentsline {subsubsection}{Log-Log Graphs}{49}{subsubsection*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.4.3}Exercises}{402}{subsection.13.4.3}
+\contentsline {subsection}{\numberline {2.4.3}Exercises}{50}{subsection.2.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13.5}Differential Equations}{403}{section.13.5}
+\contentsline {section}{\numberline {2.5}Differential Equations}{51}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.5.1}Problems}{404}{subsection.13.5.1}
+\contentsline {subsection}{\numberline {2.5.1}Problems}{52}{subsection.2.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.5.2}Slope Fields}{405}{subsection.13.5.2}
+\contentsline {subsection}{\numberline {2.5.2}Slope Fields}{53}{subsection.2.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.5.3}Euler's Method}{405}{subsection.13.5.3}
+\contentsline {subsection}{\numberline {2.5.3}Euler's Method}{53}{subsection.2.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.5.4}Logistic Curves}{405}{subsection.13.5.4}
+\contentsline {subsection}{\numberline {2.5.4}Logistic Curves}{53}{subsection.2.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.5.5}Exercises}{406}{subsection.13.5.5}
+\contentsline {subsection}{\numberline {2.5.5}Exercises}{54}{subsection.2.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13.6}Review}{407}{section.13.6}
+\contentsline {section}{\numberline {2.6}Review}{55}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.6.1}Chapter Review}{407}{subsection.13.6.1}
+\contentsline {subsection}{\numberline {2.6.1}Chapter Review}{55}{subsection.2.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.6.2}Chapter Test}{407}{subsection.13.6.2}
+\contentsline {subsection}{\numberline {2.6.2}Chapter Test}{55}{subsection.2.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {14}Probabilities}{409}{chapter.14}
-\ttl@stoptoc {chapters@14}
-\ttl@starttoc {chapters@15}
+\contentsline {chapter}{\numberline {3}Probabilities}{57}{chapter.3}
+\ttl@stoptoc {chapters@3}
+\ttl@starttoc {chapters@4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.1}Chances}{412}{section.14.1}
+\contentsline {section}{\numberline {3.1}Chances}{60}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.1.1}Two Dice}{412}{subsection.14.1.1}
+\contentsline {subsection}{\numberline {3.1.1}Two Dice}{60}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.1.2}Rule of Product}{413}{subsection.14.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Rule of Product}{61}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.1.3}Combinatorics}{413}{subsection.14.1.3}
+\contentsline {subsection}{\numberline {3.1.3}Combinatorics}{61}{subsection.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.1.4}Exercises}{413}{subsection.14.1.4}
+\contentsline {subsection}{\numberline {3.1.4}Exercises}{61}{subsection.3.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.2}Counting Principle}{415}{section.14.2}
+\contentsline {section}{\numberline {3.2}Counting Principle}{63}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.2.1}Clusivity}{415}{subsection.14.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Clusivity}{63}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.2.2}Logical AND and OR}{416}{subsection.14.2.2}
+\contentsline {subsection}{\numberline {3.2.2}Logical AND and OR}{64}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.2.3}Factorial}{416}{subsection.14.2.3}
+\contentsline {subsection}{\numberline {3.2.3}Factorial}{64}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.2.4}Exercises}{416}{subsection.14.2.4}
+\contentsline {subsection}{\numberline {3.2.4}Exercises}{64}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.3}Permutation}{418}{section.14.3}
+\contentsline {section}{\numberline {3.3}Permutation}{66}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.3.1}$_nP_r$}{419}{subsection.14.3.1}
+\contentsline {subsection}{\numberline {3.3.1}$_nP_r$}{67}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.3.2}Circular Arrangements}{419}{subsection.14.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Circular Arrangements}{67}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.3.3}Exercises}{419}{subsection.14.3.3}
+\contentsline {subsection}{\numberline {3.3.3}Exercises}{67}{subsection.3.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.4}Combination}{421}{section.14.4}
+\contentsline {section}{\numberline {3.4}Combination}{69}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.4.1}$_nC_r$}{422}{subsection.14.4.1}
+\contentsline {subsection}{\numberline {3.4.1}$_nC_r$}{70}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.4.2}n Choose r}{422}{subsection.14.4.2}
+\contentsline {subsection}{\numberline {3.4.2}n Choose r}{70}{subsection.3.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.4.3}Pascal's Triangle}{422}{subsection.14.4.3}
+\contentsline {subsection}{\numberline {3.4.3}Pascal's Triangle}{70}{subsection.3.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.4.4}Exercises}{422}{subsection.14.4.4}
+\contentsline {subsection}{\numberline {3.4.4}Exercises}{70}{subsection.3.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.5}Binomial Series}{424}{section.14.5}
+\contentsline {section}{\numberline {3.5}Binomial Series}{72}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.5.1}Sigma Notation}{425}{subsection.14.5.1}
+\contentsline {subsection}{\numberline {3.5.1}Sigma Notation}{73}{subsection.3.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.5.2}Binomial Probability}{425}{subsection.14.5.2}
+\contentsline {subsection}{\numberline {3.5.2}Binomial Probability}{73}{subsection.3.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.5.3}Exercises}{425}{subsection.14.5.3}
+\contentsline {subsection}{\numberline {3.5.3}Exercises}{73}{subsection.3.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.6}Review}{426}{section.14.6}
+\contentsline {section}{\numberline {3.6}Review}{74}{section.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.6.1}Chapter Review}{426}{subsection.14.6.1}
+\contentsline {subsection}{\numberline {3.6.1}Chapter Review}{74}{subsection.3.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.6.2}Chapter Test}{426}{subsection.14.6.2}
+\contentsline {subsection}{\numberline {3.6.2}Chapter Test}{74}{subsection.3.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {15}Sequences}{427}{chapter.15}
-\ttl@stoptoc {chapters@15}
-\ttl@starttoc {chapters@16}
+\contentsline {chapter}{\numberline {4}Sequences}{75}{chapter.4}
+\ttl@stoptoc {chapters@4}
+\ttl@starttoc {chapters@5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {15.1}Sequences}{430}{section.15.1}
+\contentsline {section}{\numberline {4.1}Sequences}{78}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.1.1}Sequins}{430}{subsection.15.1.1}
+\contentsline {subsection}{\numberline {4.1.1}Sequins}{78}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.1.2}Recursion}{431}{subsection.15.1.2}
+\contentsline {subsection}{\numberline {4.1.2}Recursion}{79}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.1.3}Sequence Mode}{431}{subsection.15.1.3}
+\contentsline {subsection}{\numberline {4.1.3}Sequence Mode}{79}{subsection.4.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.1.4}Exercises}{431}{subsection.15.1.4}
+\contentsline {subsection}{\numberline {4.1.4}Exercises}{79}{subsection.4.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {15.2}Arithmetic and Geometric}{433}{section.15.2}
+\contentsline {section}{\numberline {4.2}Arithmetic and Geometric}{81}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.2.1}Repetition}{434}{subsection.15.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Repetition}{82}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.2.2}Exercises}{434}{subsection.15.2.2}
+\contentsline {subsection}{\numberline {4.2.2}Exercises}{82}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {15.3}Series and Partials}{436}{section.15.3}
+\contentsline {section}{\numberline {4.3}Series and Partials}{84}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.3.1}Exercises}{437}{subsection.15.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Exercises}{85}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {15.4}Infinite Series}{439}{section.15.4}
+\contentsline {section}{\numberline {4.4}Infinite Series}{87}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.4.1}Formulae}{440}{subsection.15.4.1}
+\contentsline {subsection}{\numberline {4.4.1}Formulae}{88}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.4.2}Infinite}{440}{subsection.15.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Infinite}{88}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.4.3}Exercises}{440}{subsection.15.4.3}
+\contentsline {subsection}{\numberline {4.4.3}Exercises}{88}{subsection.4.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {15.5}Pi Notations and Power Series}{442}{section.15.5}
+\contentsline {section}{\numberline {4.5}Pi Notations and Power Series}{90}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.5.1}Exercises}{443}{subsection.15.5.1}
+\contentsline {subsection}{\numberline {4.5.1}Exercises}{91}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {15.6}Review}{443}{section.15.6}
+\contentsline {section}{\numberline {4.6}Review}{91}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.6.1}Chapter Review}{443}{subsection.15.6.1}
+\contentsline {subsection}{\numberline {4.6.1}Chapter Review}{91}{subsection.4.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.6.2}Chapter Test}{443}{subsection.15.6.2}
+\contentsline {subsection}{\numberline {4.6.2}Chapter Test}{91}{subsection.4.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {16}Radices}{445}{chapter.16}
-\ttl@stoptoc {chapters@16}
-\ttl@starttoc {chapters@17}
+\contentsline {chapter}{\numberline {5}Radices}{93}{chapter.5}
+\ttl@stoptoc {chapters@5}
+\ttl@starttoc {chapters@6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {16.1}Base 10}{447}{section.16.1}
+\contentsline {section}{\numberline {5.1}Base 10}{95}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.1.1}Problems}{447}{subsection.16.1.1}
+\contentsline {subsection}{\numberline {5.1.1}Problems}{95}{subsection.5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.1.2}Bases}{447}{subsection.16.1.2}
+\contentsline {subsection}{\numberline {5.1.2}Bases}{95}{subsection.5.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.1.3}New Symbols}{447}{subsection.16.1.3}
+\contentsline {subsection}{\numberline {5.1.3}New Symbols}{95}{subsection.5.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.1.4}Exercises}{447}{subsection.16.1.4}
+\contentsline {subsection}{\numberline {5.1.4}Exercises}{95}{subsection.5.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {16.2}Powers of 2}{448}{section.16.2}
+\contentsline {section}{\numberline {5.2}Powers of 2}{96}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.2.1}Problems}{448}{subsection.16.2.1}
+\contentsline {subsection}{\numberline {5.2.1}Problems}{96}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.2.2}Binary, Quaternary, Octal }{449}{subsection.16.2.2}
+\contentsline {subsection}{\numberline {5.2.2}Binary, Quaternary, Octal }{97}{subsection.5.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.2.3}Exercise}{449}{subsection.16.2.3}
+\contentsline {subsection}{\numberline {5.2.3}Exercise}{97}{subsection.5.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Ternary}{449}{subsubsection*.195}
+\contentsline {subsubsection}{Ternary}{97}{subsubsection*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {16.3}Duodecimal and Sexagesimal}{450}{section.16.3}
+\contentsline {section}{\numberline {5.3}Duodecimal and Sexagesimal}{98}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.3.1}Exercises}{450}{subsection.16.3.1}
+\contentsline {subsection}{\numberline {5.3.1}Exercises}{98}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {16.4}Phi and 2i}{451}{section.16.4}
+\contentsline {section}{\numberline {5.4}Phi and 2i}{99}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.4.1}Exercises}{451}{subsection.16.4.1}
+\contentsline {subsection}{\numberline {5.4.1}Exercises}{99}{subsection.5.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {16.5}Diophantine Equations}{452}{section.16.5}
+\contentsline {section}{\numberline {5.5}Diophantine Equations}{100}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.5.1}Euclid's Algorithm}{452}{subsection.16.5.1}
+\contentsline {subsection}{\numberline {5.5.1}Euclid's Algorithm}{100}{subsection.5.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.5.2}Exercises}{452}{subsection.16.5.2}
+\contentsline {subsection}{\numberline {5.5.2}Exercises}{100}{subsection.5.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {16.6}Review}{453}{section.16.6}
+\contentsline {section}{\numberline {5.6}Review}{101}{section.5.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.6.1}Chapter Review}{453}{subsection.16.6.1}
+\contentsline {subsection}{\numberline {5.6.1}Chapter Review}{101}{subsection.5.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.6.2}Chapter Test}{453}{subsection.16.6.2}
+\contentsline {subsection}{\numberline {5.6.2}Chapter Test}{101}{subsection.5.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.6.3}Cumulative Review}{453}{subsection.16.6.3}
+\contentsline {subsection}{\numberline {5.6.3}Cumulative Review}{101}{subsection.5.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.6.4}Cumulative Test}{453}{subsection.16.6.4}
+\contentsline {subsection}{\numberline {5.6.4}Cumulative Test}{101}{subsection.5.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\@mypartnumtocformat {V}{Appendices}}{455}{part.5}
+\contentsline {part}{\@mypartnumtocformat {V}{Appendices}}{103}{part.5}
 \ttl@stoptoc {default@4}
 \ttl@starttoc {default@5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Prerequisites}{457}{appendix.A}
-\ttl@stoptoc {chapters@17}
-\ttl@starttoc {chapters@18}
+\contentsline {chapter}{\numberline {A}Prerequisites}{105}{appendix.A}
+\ttl@stoptoc {chapters@6}
+\ttl@starttoc {chapters@7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Sets}{459}{section.A.1}
+\contentsline {section}{\numberline {A.1}Sets}{107}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}Union and Intersection}{460}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.1}Union and Intersection}{108}{subsection.A.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.2}Exercises}{461}{subsection.A.1.2}
+\contentsline {subsection}{\numberline {A.1.2}Exercises}{109}{subsection.A.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Kinds of Numbers}{462}{section.A.2}
+\contentsline {section}{\numberline {A.2}Kinds of Numbers}{110}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Irrationals}{463}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.1}Irrationals}{111}{subsection.A.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Exercises}{463}{subsection.A.2.2}
+\contentsline {subsection}{\numberline {A.2.2}Exercises}{111}{subsection.A.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Number Line}{464}{section.A.3}
+\contentsline {section}{\numberline {A.3}Number Line}{112}{section.A.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.1}Negative Numbers}{464}{subsection.A.3.1}
+\contentsline {subsection}{\numberline {A.3.1}Negative Numbers}{112}{subsection.A.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.2}Absolute Value}{464}{subsection.A.3.2}
+\contentsline {subsection}{\numberline {A.3.2}Absolute Value}{112}{subsection.A.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.3}Inequalities}{465}{subsection.A.3.3}
+\contentsline {subsection}{\numberline {A.3.3}Inequalities}{113}{subsection.A.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.4}Exercises}{465}{subsection.A.3.4}
+\contentsline {subsection}{\numberline {A.3.4}Exercises}{113}{subsection.A.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Analytic Geometry}{467}{section.A.4}
+\contentsline {section}{\numberline {A.4}Analytic Geometry}{115}{section.A.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.4.1}Cartesian Plane}{467}{subsection.A.4.1}
+\contentsline {subsection}{\numberline {A.4.1}Cartesian Plane}{115}{subsection.A.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Quadrants}{467}{subsubsection*.217}
+\contentsline {subsubsection}{Quadrants}{115}{subsubsection*.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.4.2}Triangles}{467}{subsection.A.4.2}
+\contentsline {subsection}{\numberline {A.4.2}Triangles}{115}{subsection.A.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.4.3}Functions and Relations}{468}{subsection.A.4.3}
+\contentsline {subsection}{\numberline {A.4.3}Functions and Relations}{116}{subsection.A.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.4.4}Exercises}{468}{subsection.A.4.4}
+\contentsline {subsection}{\numberline {A.4.4}Exercises}{116}{subsection.A.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Properties and Operators}{469}{section.A.5}
+\contentsline {section}{\numberline {A.5}Properties and Operators}{117}{section.A.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.5.1}Closure}{469}{subsection.A.5.1}
+\contentsline {subsection}{\numberline {A.5.1}Closure}{117}{subsection.A.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.5.2}Identity and Invertibility}{469}{subsection.A.5.2}
+\contentsline {subsection}{\numberline {A.5.2}Identity and Invertibility}{117}{subsection.A.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.5.3}Associativity}{470}{subsection.A.5.3}
+\contentsline {subsection}{\numberline {A.5.3}Associativity}{118}{subsection.A.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.5.4}Commutativity}{470}{subsection.A.5.4}
+\contentsline {subsection}{\numberline {A.5.4}Commutativity}{118}{subsection.A.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.5.5}Distributivity}{470}{subsection.A.5.5}
+\contentsline {subsection}{\numberline {A.5.5}Distributivity}{118}{subsection.A.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.6}Factoring and Primes}{471}{section.A.6}
+\contentsline {section}{\numberline {A.6}Factoring and Primes}{119}{section.A.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.6.1}Patterns of Distribution}{471}{subsection.A.6.1}
+\contentsline {subsection}{\numberline {A.6.1}Patterns of Distribution}{119}{subsection.A.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.6.2}Factoring Quadratics}{472}{subsection.A.6.2}
+\contentsline {subsection}{\numberline {A.6.2}Factoring Quadratics}{120}{subsection.A.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Split the middle}{472}{paragraph*.227}
+\contentsline {subsubsection}{Split the middle}{120}{subsubsection*.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.6.3}Complete the Square and the Quadratic Formula}{472}{subsection.A.6.3}
+\contentsline {subsection}{\numberline {A.6.3}Complete the Square and the Quadratic Formula}{120}{subsection.A.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.6.4}Exercises}{474}{subsection.A.6.4}
+\contentsline {subsection}{\numberline {A.6.4}Exercises}{122}{subsection.A.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.7}Matrices}{476}{section.A.7}
+\contentsline {section}{\numberline {A.7}Matrices}{124}{section.A.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Matrix}{476}{paragraph*.238}
+\contentsline {paragraph}{Matrix}{124}{paragraph*.60}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Size, Entries}{476}{paragraph*.239}
+\contentsline {paragraph}{Size, Entries}{124}{paragraph*.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.7.1}Addition and Scalars}{476}{subsection.A.7.1}
+\contentsline {subsection}{\numberline {A.7.1}Addition and Scalars}{124}{subsection.A.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.7.2}Matrix Multiplication}{476}{subsection.A.7.2}
+\contentsline {subsection}{\numberline {A.7.2}Matrix Multiplication}{124}{subsection.A.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.7.3}Square Matrices}{477}{subsection.A.7.3}
+\contentsline {subsection}{\numberline {A.7.3}Square Matrices}{125}{subsection.A.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.7.4}Gaussian Elimination}{477}{subsection.A.7.4}
+\contentsline {subsection}{\numberline {A.7.4}Gaussian Elimination}{125}{subsection.A.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Matrices}{479}{appendix.B}
-\ttl@stoptoc {chapters@18}
-\ttl@starttoc {chapters@19}
+\contentsline {chapter}{\numberline {B}Matrices}{127}{appendix.B}
+\ttl@stoptoc {chapters@7}
+\ttl@starttoc {chapters@8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Transformations}{482}{section.B.1}
+\contentsline {section}{\numberline {B.1}Transformations}{130}{section.B.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.1}Shifts}{483}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {B.1.1}Shifts}{131}{subsection.B.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.2}Reflections}{483}{subsection.B.1.2}
+\contentsline {subsection}{\numberline {B.1.2}Reflections}{131}{subsection.B.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.3}Rotations}{483}{subsection.B.1.3}
+\contentsline {subsection}{\numberline {B.1.3}Rotations}{131}{subsection.B.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.4}Derivatives}{483}{subsection.B.1.4}
+\contentsline {subsection}{\numberline {B.1.4}Derivatives}{131}{subsection.B.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.5}Exercises}{483}{subsection.B.1.5}
+\contentsline {subsection}{\numberline {B.1.5}Exercises}{131}{subsection.B.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Walks}{485}{section.B.2}
+\contentsline {section}{\numberline {B.2}Walks}{133}{section.B.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.1}Adjacency Maps}{486}{subsection.B.2.1}
+\contentsline {subsection}{\numberline {B.2.1}Adjacency Maps}{134}{subsection.B.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.2}Unidirectional Lines}{486}{subsection.B.2.2}
+\contentsline {subsection}{\numberline {B.2.2}Unidirectional Lines}{134}{subsection.B.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.3}Exercises}{486}{subsection.B.2.3}
+\contentsline {subsection}{\numberline {B.2.3}Exercises}{134}{subsection.B.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}Vector-Spaces}{487}{section.B.3}
+\contentsline {section}{\numberline {B.3}Vector-Spaces}{135}{section.B.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.3.1}Null Space}{487}{subsection.B.3.1}
+\contentsline {subsection}{\numberline {B.3.1}Null Space}{135}{subsection.B.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.3.2}Dependent Systems}{487}{subsection.B.3.2}
+\contentsline {subsection}{\numberline {B.3.2}Dependent Systems}{135}{subsection.B.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.3.3}Exercises}{487}{subsection.B.3.3}
+\contentsline {subsection}{\numberline {B.3.3}Exercises}{135}{subsection.B.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.4}Determinants}{488}{section.B.4}
+\contentsline {section}{\numberline {B.4}Determinants}{136}{section.B.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.4.1}Eigenvalues}{488}{subsection.B.4.1}
+\contentsline {subsection}{\numberline {B.4.1}Eigenvalues}{136}{subsection.B.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.4.2}Eigenvectors}{488}{subsection.B.4.2}
+\contentsline {subsection}{\numberline {B.4.2}Eigenvectors}{136}{subsection.B.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.4.3}Exercises}{488}{subsection.B.4.3}
+\contentsline {subsection}{\numberline {B.4.3}Exercises}{136}{subsection.B.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.5}Fractals}{490}{section.B.5}
+\contentsline {section}{\numberline {B.5}Fractals}{138}{section.B.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.5.1}Text}{491}{subsection.B.5.1}
+\contentsline {subsection}{\numberline {B.5.1}Text}{139}{subsection.B.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.5.2}Exercises}{493}{subsection.B.5.2}
+\contentsline {subsection}{\numberline {B.5.2}Exercises}{141}{subsection.B.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.6}Review}{494}{section.B.6}
+\contentsline {section}{\numberline {B.6}Review}{142}{section.B.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.6.1}Chapter Review}{494}{subsection.B.6.1}
+\contentsline {subsection}{\numberline {B.6.1}Chapter Review}{142}{subsection.B.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.6.2}Chapter Test}{494}{subsection.B.6.2}
+\contentsline {subsection}{\numberline {B.6.2}Chapter Test}{142}{subsection.B.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Vectors}{495}{appendix.C}
-\ttl@stoptoc {chapters@19}
-\ttl@starttoc {chapters@20}
+\contentsline {chapter}{\numberline {C}Vectors}{143}{appendix.C}
+\ttl@stoptoc {chapters@8}
+\ttl@starttoc {chapters@9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}Addition and Scalars}{498}{section.C.1}
+\contentsline {section}{\numberline {C.1}Addition and Scalars}{146}{section.C.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.1.1}Unit Vectors}{499}{subsection.C.1.1}
+\contentsline {subsection}{\numberline {C.1.1}Unit Vectors}{147}{subsection.C.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.1.2}Magnitude}{499}{subsection.C.1.2}
+\contentsline {subsection}{\numberline {C.1.2}Magnitude}{147}{subsection.C.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.1.3}Octants}{499}{subsection.C.1.3}
+\contentsline {subsection}{\numberline {C.1.3}Octants}{147}{subsection.C.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.2}Dot Products}{501}{section.C.2}
+\contentsline {section}{\numberline {C.2}Dot Products}{149}{section.C.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.2.1}angles}{502}{subsection.C.2.1}
+\contentsline {subsection}{\numberline {C.2.1}angles}{150}{subsection.C.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.2.2}projection}{502}{subsection.C.2.2}
+\contentsline {subsection}{\numberline {C.2.2}projection}{150}{subsection.C.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.2.3}Components}{502}{subsection.C.2.3}
+\contentsline {subsection}{\numberline {C.2.3}Components}{150}{subsection.C.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.3}Plane, Lines, Parametric}{504}{section.C.3}
+\contentsline {section}{\numberline {C.3}Plane, Lines, Parametric}{152}{section.C.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.3.1}Normal vectors}{505}{subsection.C.3.1}
+\contentsline {subsection}{\numberline {C.3.1}Normal vectors}{153}{subsection.C.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.3.2}plane equations}{505}{subsection.C.3.2}
+\contentsline {subsection}{\numberline {C.3.2}plane equations}{153}{subsection.C.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.4}Cross Products}{507}{section.C.4}
+\contentsline {section}{\numberline {C.4}Cross Products}{155}{section.C.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.4.1}Right Hand Rule}{508}{subsection.C.4.1}
+\contentsline {subsection}{\numberline {C.4.1}Right Hand Rule}{156}{subsection.C.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.5}Quaternions}{509}{section.C.5}
+\contentsline {section}{\numberline {C.5}Quaternions}{157}{section.C.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.5.1}Non-Commutative}{509}{subsection.C.5.1}
+\contentsline {subsection}{\numberline {C.5.1}Non-Commutative}{157}{subsection.C.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.6}Review}{509}{section.C.6}
+\contentsline {section}{\numberline {C.6}Review}{157}{section.C.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.6.1}Chapter Review}{509}{subsection.C.6.1}
+\contentsline {subsection}{\numberline {C.6.1}Chapter Review}{157}{subsection.C.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.6.2}Chapter Test}{509}{subsection.C.6.2}
+\contentsline {subsection}{\numberline {C.6.2}Chapter Test}{157}{subsection.C.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}Conics}{511}{appendix.D}
-\ttl@stoptoc {chapters@20}
-\ttl@starttoc {chapters@21}
+\contentsline {chapter}{\numberline {D}Conics}{159}{appendix.D}
+\ttl@stoptoc {chapters@9}
+\ttl@starttoc {chapters@10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.1}Introduction to Conics}{513}{section.D.1}
+\contentsline {section}{\numberline {D.1}Introduction to Conics}{161}{section.D.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.1.1}Mirror, Mirror, in R3}{513}{subsection.D.1.1}
+\contentsline {subsection}{\numberline {D.1.1}Mirror, Mirror, in R3}{161}{subsection.D.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.1.2}3D Geometry}{514}{subsection.D.1.2}
+\contentsline {subsection}{\numberline {D.1.2}3D Geometry}{162}{subsection.D.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.1.3}Graphing form}{514}{subsection.D.1.3}
+\contentsline {subsection}{\numberline {D.1.3}Graphing form}{162}{subsection.D.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Circles}{514}{subsubsection*.240}
+\contentsline {subsubsection}{Circles}{162}{subsubsection*.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Ellipses}{514}{subsubsection*.241}
+\contentsline {subsubsection}{Ellipses}{162}{subsubsection*.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Parabola}{515}{subsubsection*.242}
+\contentsline {subsubsection}{Parabola}{163}{subsubsection*.66}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.1.4}Hyperbolas}{515}{subsection.D.1.4}
+\contentsline {subsection}{\numberline {D.1.4}Hyperbolas}{163}{subsection.D.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.1.5}Exercises}{515}{subsection.D.1.5}
+\contentsline {subsection}{\numberline {D.1.5}Exercises}{165}{subsection.D.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.2}Algebra Manipulations}{517}{section.D.2}
+\contentsline {section}{\numberline {D.2}Algebra Manipulations}{167}{section.D.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.2.1}Algebra General Form}{518}{subsection.D.2.1}
+\contentsline {subsection}{\numberline {D.2.1}Algebra General Form}{168}{subsection.D.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.2.2}Using a Calculator}{518}{subsection.D.2.2}
+\contentsline {subsection}{\numberline {D.2.2}Using a Calculator}{168}{subsection.D.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.2.3}Discriminant}{518}{subsection.D.2.3}
+\contentsline {subsection}{\numberline {D.2.3}Discriminant}{168}{subsection.D.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.2.4}Completing the Square}{518}{subsection.D.2.4}
+\contentsline {subsection}{\numberline {D.2.4}Completing the Square}{168}{subsection.D.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.2.5}Cartesian Forms}{518}{subsection.D.2.5}
+\contentsline {subsection}{\numberline {D.2.5}Cartesian Forms}{168}{subsection.D.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.2.6}Parametric Forms}{518}{subsection.D.2.6}
+\contentsline {subsection}{\numberline {D.2.6}Parametric Forms}{168}{subsection.D.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.2.7}Polar Forms}{518}{subsection.D.2.7}
+\contentsline {subsection}{\numberline {D.2.7}Polar Forms}{168}{subsection.D.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.3}Rotated Conics}{519}{section.D.3}
+\contentsline {section}{\numberline {D.3}Rotated Conics}{169}{section.D.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.3.1}Rotated Polar Conics}{519}{subsection.D.3.1}
+\contentsline {subsection}{\numberline {D.3.1}Rotated Polar Conics}{169}{subsection.D.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.3.2}Cartesian Rotation Equations}{519}{subsection.D.3.2}
+\contentsline {subsection}{\numberline {D.3.2}Cartesian Rotation Equations}{169}{subsection.D.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.3.3}Parametric Rotation by Matrix}{519}{subsection.D.3.3}
+\contentsline {subsection}{\numberline {D.3.3}Parametric Rotation by Matrix}{169}{subsection.D.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.4}Eccentricity}{520}{section.D.4}
+\contentsline {section}{\numberline {D.4}Eccentricity}{170}{section.D.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.4.1}Range of Eccentricity}{520}{subsection.D.4.1}
+\contentsline {subsection}{\numberline {D.4.1}Range of Eccentricity}{170}{subsection.D.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.4.2}Foci}{520}{subsection.D.4.2}
+\contentsline {subsection}{\numberline {D.4.2}Foci}{170}{subsection.D.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.4.3}Directrices}{520}{subsection.D.4.3}
+\contentsline {subsection}{\numberline {D.4.3}Directrices}{170}{subsection.D.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.4.4}Distance Formulae}{520}{subsection.D.4.4}
+\contentsline {subsection}{\numberline {D.4.4}Distance Formulae}{170}{subsection.D.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.5}3D Conics}{522}{section.D.5}
+\contentsline {section}{\numberline {D.5}3D Conics}{172}{section.D.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.5.1}2.5D}{523}{subsection.D.5.1}
+\contentsline {subsection}{\numberline {D.5.1}2.5D}{173}{subsection.D.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.5.2}$x, y, z$}{523}{subsection.D.5.2}
+\contentsline {subsection}{\numberline {D.5.2}$x, y, z$}{173}{subsection.D.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.5.3}$r, \theta , z$}{523}{subsection.D.5.3}
+\contentsline {subsection}{\numberline {D.5.3}$r, \theta , z$}{173}{subsection.D.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.5.4}$\rho , \phi , \theta $}{523}{subsection.D.5.4}
+\contentsline {subsection}{\numberline {D.5.4}$\rho , \phi , \theta $}{173}{subsection.D.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.6}Chapter Review}{523}{section.D.6}
+\contentsline {section}{\numberline {D.6}Chapter Review}{173}{section.D.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {E}Solutions}{525}{appendix.E}
-\ttl@stoptoc {chapters@21}
-\ttl@starttoc {chapters@22}
+\contentsline {chapter}{\numberline {E}Solutions}{175}{appendix.E}
+\ttl@stoptoc {chapters@10}
+\ttl@starttoc {chapters@11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E.1}Unit 1}{525}{section.E.1}
+\contentsline {section}{\numberline {E.1}Unit 1}{175}{section.E.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {E.1.1}Chapter 1}{525}{subsection.E.1.1}
+\contentsline {subsection}{\numberline {E.1.1}Chapter 1}{175}{subsection.E.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\IeC {\textsection }1.5}{525}{subsubsection*.243}
+\contentsline {subsubsection}{\IeC {\textsection }1.5}{175}{subsubsection*.69}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {E.1.2}Chapter 2}{527}{subsection.E.1.2}
+\contentsline {subsection}{\numberline {E.1.2}Chapter 2}{177}{subsection.E.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\IeC {\textsection }2.1}{527}{subsubsection*.244}
+\contentsline {subsubsection}{\IeC {\textsection }2.1}{177}{subsubsection*.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {E.1.3}Chapter 3}{527}{subsection.E.1.3}
+\contentsline {subsection}{\numberline {E.1.3}Chapter 3}{177}{subsection.E.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\IeC {\textsection }3.1}{527}{subsubsection*.245}
+\contentsline {subsubsection}{\IeC {\textsection }3.1}{177}{subsubsection*.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E.2}Unit 2}{527}{section.E.2}
+\contentsline {section}{\numberline {E.2}Unit 2}{177}{section.E.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {E.2.1}Chapter 5}{527}{subsection.E.2.1}
+\contentsline {subsection}{\numberline {E.2.1}Chapter 5}{177}{subsection.E.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\IeC {\textsection }5.1}{527}{subsubsection*.246}
+\contentsline {subsubsection}{\IeC {\textsection }5.1}{177}{subsubsection*.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {E.2.2}Chapter 7}{527}{subsection.E.2.2}
+\contentsline {subsection}{\numberline {E.2.2}Chapter 7}{177}{subsection.E.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\IeC {\textsection }7.1}{527}{subsubsection*.247}
+\contentsline {subsubsection}{\IeC {\textsection }7.1}{177}{subsubsection*.73}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\IeC {\textsection }7.3}{527}{subsubsection*.248}
+\contentsline {subsubsection}{\IeC {\textsection }7.3}{177}{subsubsection*.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {E.2.3}Chapter 8}{527}{subsection.E.2.3}
+\contentsline {subsection}{\numberline {E.2.3}Chapter 8}{177}{subsection.E.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\IeC {\textsection }8.2}{527}{subsubsection*.249}
+\contentsline {subsubsection}{\IeC {\textsection }8.2}{177}{subsubsection*.75}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\@mypartnumtocformat {VI}{Addenda}}{529}{part.6}
+\contentsline {part}{\@mypartnumtocformat {VI}{Addenda}}{179}{part.6}
 \ttl@stoptoc {default@5}
 \ttl@starttoc {default@6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{531}{appendix*.250}
-\ttl@stoptoc {chapters@22}
-\ttl@starttoc {chapters@23}
+\contentsline {chapter}{Bibliography}{181}{appendix*.76}
+\ttl@stoptoc {chapters@11}
+\ttl@starttoc {chapters@12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E.3}Books}{531}{section.E.3}
+\contentsline {section}{\numberline {E.3}Books}{181}{section.E.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E.4}Articles}{531}{section.E.4}
+\contentsline {section}{\numberline {E.4}Articles}{181}{section.E.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E.5}Media}{531}{section.E.5}
+\contentsline {section}{\numberline {E.5}Media}{181}{section.E.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E.6}Internet}{533}{section.E.6}
+\contentsline {section}{\numberline {E.6}Internet}{183}{section.E.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossary}{535}{appendix*.251}
+\contentsline {chapter}{Glossary}{185}{appendix*.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Glossary}{535}{section*.252}
+\contentsline {subsubsection}{Glossary}{185}{section*.78}
 \contentsfinish 

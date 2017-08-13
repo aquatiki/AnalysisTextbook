@@ -362,7 +362,7 @@
 \fi
 
 
-\newcounter{problem}[section]
+\newcounter{problem}[subsection]
 
 \newenvironment{example}
     {\cbcolor{BarColor}\par \vspace{10pt} \begin{changebar}
@@ -384,7 +384,7 @@
 \newcommand{\LabSection}[1]{%
 \subsection{#1}%
 %\addcontentsline{toc}{subsection}{#1}%
-\WriteSec{Section \thesection\ Lab (#1)}%
+\WriteSec{\thesection\ -\ #1}%
 }
 
 \newcommand{\ExSection}{%
@@ -419,23 +419,23 @@
  \newwrite\solutions
  \immediate\openout\solutions=\jobname.sln
  \newcommand{\WritePLine}[2]{
-    \immediate\write\solutions{\string\subsection*{#1 {\string\footnotesize \string\hyperref[#2]{(#2)} \string\normalsize}}}				%changed to sub
-    \immediate\write\solutions{ \string\addcontentsline{toc}{subsection}{#1 (#2)}}%	 sub
+    \immediate\write\solutions{\string\subsubsection*{#1 {\string\footnotesize \string\hyperref[#2]{(#2)} \string\normalsize}}}				%changed to sub
+%    \immediate\write\solutions{ \string\addcontentsline{toc}{subsection}{#1 (#2)}}%	 sub
     \immediate\write\solutions{ \string\markboth{\leftmark}{Solutions: #1}}
-    \immediate\write\solutions{ \string\begin{itemize}}
-    \immediate\write\solutions{ \string\item[]}
+%    \immediate\write\solutions{ \string\begin{itemize}}
+ %   \immediate\write\solutions{ \string\item[]}
     \immediate\write\solutions{ \string\InputIfFileExists{solutions/#2}{}{No Solution File Found}}
-    \immediate\write\solutions{ \string\end{itemize} \string\hrule}
+ %   \immediate\write\solutions{ \string\end{itemize} \string\hrule}
     }
 
  \newcommand{\WriteSec}[1]{
-    \immediate\write\solutions{\string\section*{#1}}
-    \immediate\write\solutions{\string\addcontentsline{toc}{section}{#1}}
+    \immediate\write\solutions{\string\subsection{#1}}
+%    \immediate\write\solutions{\string\addcontentsline{toc}{section}{#1}}
     }
 
  \newcommand{\WriteChap}[1]{
-    \immediate\write\solutions{\string\chapter*{#1}}
-    \immediate\write\solutions{\string\addcontentsline{toc}{chapter}{#1}}
+    \immediate\write\solutions{\string\section{#1}}
+%    \immediate\write\solutions{\string\addcontentsline{toc}{chapter}{#1}}
     }
 
 \usepackage{tocloft}
