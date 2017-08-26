@@ -1,18 +1,952 @@
 \section{Introduction}
+\section{Functions}
+\subsection{1.1\ -\ Patterns All Around Us}
+\subsubsection*{L1 {\footnotesize\hyperref[0101LabPick]{(0101LabPick)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: L1}
+ \InputIfFileExists{solutions/0101LabPick}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[0101LabMeasure]{(0101LabMeasure)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: L2}
+ \InputIfFileExists{solutions/0101LabMeasure}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[0101LabVar]{(0101LabVar)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: L3}
+ \InputIfFileExists{solutions/0101LabVar}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[0101LabPlot]{(0101LabPlot)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: L4}
+ \InputIfFileExists{solutions/0101LabPlot}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[0101LabFunction]{(0101LabFunction)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: L5}
+ \InputIfFileExists{solutions/0101LabFunction}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[0101LabDR]{(0101LabDR)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: L6}
+ \InputIfFileExists{solutions/0101LabDR}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[0101LabExtra]{(0101LabExtra)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: L7}
+ \InputIfFileExists{solutions/0101LabExtra}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[0101LabPoint]{(0101LabPoint)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: L8}
+ \InputIfFileExists{solutions/0101LabPoint}{}{No Solution File Found}
+\subsection{1.4\ -\ Through the Looking Glass}
+\subsubsection*{L1 {\footnotesize\hyperref[0104LabTable]{(0104LabTable)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: L1}
+ \InputIfFileExists{solutions/0104LabTable}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[0104LabSquared]{(0104LabSquared)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: L2}
+ \InputIfFileExists{solutions/0104LabSquared}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[0104LabEven]{(0104LabEven)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: L3}
+ \InputIfFileExists{solutions/0104LabEven}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[0104LabCubed]{(0104LabCubed)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: L4}
+ \InputIfFileExists{solutions/0104LabCubed}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[0104LabOdd]{(0104LabOdd)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: L5}
+ \InputIfFileExists{solutions/0104LabOdd}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[0104LabDescribe]{(0104LabDescribe)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: L6}
+ \InputIfFileExists{solutions/0104LabDescribe}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[0104LabSentences]{(0104LabSentences)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: L7}
+ \InputIfFileExists{solutions/0104LabSentences}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[0104LabBeauty]{(0104LabBeauty)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: L8}
+ \InputIfFileExists{solutions/0104LabBeauty}{}{No Solution File Found}
+\subsubsection*{L9 {\footnotesize\hyperref[0104LabPoint]{(0104LabPoint)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: L9}
+ \InputIfFileExists{solutions/0104LabPoint}{}{No Solution File Found}
+\subsection{Section 1.5\ Exercises}
+\subsubsection*{P1 {\footnotesize\hyperref[0105Quad1]{(0105Quad1)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: P1}
+ \InputIfFileExists{solutions/0105Quad1}{}{No Solution File Found}
+\subsubsection*{P2 {\footnotesize\hyperref[0105Quad2]{(0105Quad2)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: P2}
+ \InputIfFileExists{solutions/0105Quad2}{}{No Solution File Found}
+\subsubsection*{P3 {\footnotesize\hyperref[0105Arch]{(0105Arch)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: P3}
+ \InputIfFileExists{solutions/0105Arch}{}{No Solution File Found}
+\subsubsection*{P4 {\footnotesize\hyperref[0105ModelDay]{(0105ModelDay)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: P4}
+ \InputIfFileExists{solutions/0105ModelDay}{}{No Solution File Found}
+\subsubsection*{P5 {\footnotesize\hyperref[0105Hourly]{(0105Hourly)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: P5}
+ \InputIfFileExists{solutions/0105Hourly}{}{No Solution File Found}
+\subsubsection*{P6 {\footnotesize\hyperref[0105traffic]{(0105traffic)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: P6}
+ \InputIfFileExists{solutions/0105traffic}{}{No Solution File Found}
+\subsubsection*{P7 {\footnotesize\hyperref[0105LM1]{(0105LM1)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: P7}
+ \InputIfFileExists{solutions/0105LM1}{}{No Solution File Found}
+\subsubsection*{P8 {\footnotesize\hyperref[0105LM2]{(0105LM2)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: P8}
+ \InputIfFileExists{solutions/0105LM2}{}{No Solution File Found}
+\subsubsection*{P9 {\footnotesize\hyperref[0105high]{(0105high)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: P9}
+ \InputIfFileExists{solutions/0105high}{}{No Solution File Found}
+\subsubsection*{P10 {\footnotesize\hyperref[0105sun]{(0105sun)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: P10}
+ \InputIfFileExists{solutions/0105sun}{}{No Solution File Found}
+\subsubsection*{P11 {\footnotesize\hyperref[0105newton]{(0105newton)} \normalsize}}
+ \markboth{Chapter\ 1\ \ Functions}{Solutions: P11}
+ \InputIfFileExists{solutions/0105newton}{}{No Solution File Found}
+\section{Limits}
+\subsection{2.1\ -\ Removing the Hole}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[lab:L8]{(lab:L8)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: L8}
+ \InputIfFileExists{solutions/lab:L8}{}{No Solution File Found}
+\subsubsection*{L9 {\footnotesize\hyperref[lab:L9]{(lab:L9)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: L9}
+ \InputIfFileExists{solutions/lab:L9}{}{No Solution File Found}
+\subsubsection*{L10 {\footnotesize\hyperref[lab:L10]{(lab:L10)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: L10}
+ \InputIfFileExists{solutions/lab:L10}{}{No Solution File Found}
+\subsubsection*{L11 {\footnotesize\hyperref[lab:L11]{(lab:L11)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: L11}
+ \InputIfFileExists{solutions/lab:L11}{}{No Solution File Found}
+\subsection{Section 2.1\ Exercises}
+\subsubsection*{P1 {\footnotesize\hyperref[0201Remove1]{(0201Remove1)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: P1}
+ \InputIfFileExists{solutions/0201Remove1}{}{No Solution File Found}
+\subsubsection*{P2 {\footnotesize\hyperref[0201Remove2]{(0201Remove2)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: P2}
+ \InputIfFileExists{solutions/0201Remove2}{}{No Solution File Found}
+\subsection{2.5\ -\ Extremely Average}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 2\ \ Limits}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\section{Parents}
+\subsection{3.1\ -\ In Pieces}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[lab:L8]{(lab:L8)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L8}
+ \InputIfFileExists{solutions/lab:L8}{}{No Solution File Found}
+\subsection{Section 3.1\ Exercises}
+\subsubsection*{P1 {\footnotesize\hyperref[0301ParaPerpA]{(0301ParaPerpA)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P1}
+ \InputIfFileExists{solutions/0301ParaPerpA}{}{No Solution File Found}
+\subsubsection*{P2 {\footnotesize\hyperref[0301ParaPerpB]{(0301ParaPerpB)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P2}
+ \InputIfFileExists{solutions/0301ParaPerpB}{}{No Solution File Found}
+\subsubsection*{P3 {\footnotesize\hyperref[0301GrapherA]{(0301GrapherA)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P3}
+ \InputIfFileExists{solutions/0301GrapherA}{}{No Solution File Found}
+\subsubsection*{P4 {\footnotesize\hyperref[0301GrapherB]{(0301GrapherB)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P4}
+ \InputIfFileExists{solutions/0301GrapherB}{}{No Solution File Found}
+\subsubsection*{P5 {\footnotesize\hyperref[0301GrapherC]{(0301GrapherC)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P5}
+ \InputIfFileExists{solutions/0301GrapherC}{}{No Solution File Found}
+\subsubsection*{P6 {\footnotesize\hyperref[0301:GrapherD]{(0301:GrapherD)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P6}
+ \InputIfFileExists{solutions/0301:GrapherD}{}{No Solution File Found}
+\subsubsection*{P7 {\footnotesize\hyperref[0301TFA]{(0301TFA)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P7}
+ \InputIfFileExists{solutions/0301TFA}{}{No Solution File Found}
+\subsubsection*{P8 {\footnotesize\hyperref[0301TFB]{(0301TFB)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P8}
+ \InputIfFileExists{solutions/0301TFB}{}{No Solution File Found}
+\subsubsection*{P9 {\footnotesize\hyperref[0301TFC]{(0301TFC)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P9}
+ \InputIfFileExists{solutions/0301TFC}{}{No Solution File Found}
+\subsubsection*{P10 {\footnotesize\hyperref[0301TFD]{(0301TFD)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: P10}
+ \InputIfFileExists{solutions/0301TFD}{}{No Solution File Found}
+\subsection{3.2\ -\ Zoomed Straight}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L3}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L7}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L8}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L9 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L9}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsection{3.3\ -\ Another Definition of Parabolas}
+\subsubsection*{L1 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L1}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L2}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L3}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L4}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L5}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L6}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L7}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L8}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L9 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L9}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L10 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L10}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L11 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L11}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsection{3.4\ -\ Classic Ladder Problem}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[lab:L8]{(lab:L8)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L8}
+ \InputIfFileExists{solutions/lab:L8}{}{No Solution File Found}
+\subsubsection*{L9 {\footnotesize\hyperref[lab:L9]{(lab:L9)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L9}
+ \InputIfFileExists{solutions/lab:L9}{}{No Solution File Found}
+\subsubsection*{L10 {\footnotesize\hyperref[lab:L10]{(lab:L10)} \normalsize}}
+ \markboth{Chapter\ 3\ \ Parents}{Solutions: L10}
+ \InputIfFileExists{solutions/lab:L10}{}{No Solution File Found}
+\section{Transformations}
+\subsection{4.1\ -\ I'm Batman}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[lab:L8]{(lab:L8)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L8}
+ \InputIfFileExists{solutions/lab:L8}{}{No Solution File Found}
+\subsubsection*{L9 {\footnotesize\hyperref[lab:L9]{(lab:L9)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L9}
+ \InputIfFileExists{solutions/lab:L9}{}{No Solution File Found}
+\subsubsection*{L10 {\footnotesize\hyperref[lab:L10]{(lab:L10)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L10}
+ \InputIfFileExists{solutions/lab:L10}{}{No Solution File Found}
+\subsubsection*{L11 {\footnotesize\hyperref[lab:L11]{(lab:L11)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L11}
+ \InputIfFileExists{solutions/lab:L11}{}{No Solution File Found}
+\subsection{Section 4.1\ Exercises}
+\subsubsection*{P1 {\footnotesize\hyperref[0401ClassA]{(0401ClassA)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: P1}
+ \InputIfFileExists{solutions/0401ClassA}{}{No Solution File Found}
+\subsubsection*{P2 {\footnotesize\hyperref[0401ClassB]{(0401ClassB)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: P2}
+ \InputIfFileExists{solutions/0401ClassB}{}{No Solution File Found}
+\subsubsection*{P3 {\footnotesize\hyperref[0401X]{(0401X)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: P3}
+ \InputIfFileExists{solutions/0401X}{}{No Solution File Found}
+\subsubsection*{P4 {\footnotesize\hyperref[0401Para]{(0401Para)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: P4}
+ \InputIfFileExists{solutions/0401Para}{}{No Solution File Found}
+\subsubsection*{P5 {\footnotesize\hyperref[0401Cube]{(0401Cube)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: P5}
+ \InputIfFileExists{solutions/0401Cube}{}{No Solution File Found}
+\subsubsection*{P6 {\footnotesize\hyperref[0401Sym]{(0401Sym)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: P6}
+ \InputIfFileExists{solutions/0401Sym}{}{No Solution File Found}
+\subsubsection*{P7 {\footnotesize\hyperref[0401Football]{(0401Football)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: P7}
+ \InputIfFileExists{solutions/0401Football}{}{No Solution File Found}
+\subsubsection*{P8 {\footnotesize\hyperref[0401Chain]{(0401Chain)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: P8}
+ \InputIfFileExists{solutions/0401Chain}{}{No Solution File Found}
+\subsection{4.2\ -\ x, y, ...t?}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[lab:L8]{(lab:L8)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L8}
+ \InputIfFileExists{solutions/lab:L8}{}{No Solution File Found}
+\subsubsection*{L9 {\footnotesize\hyperref[lab:L9]{(lab:L9)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L9}
+ \InputIfFileExists{solutions/lab:L9}{}{No Solution File Found}
+\subsection{4.4\ -\ ``Upside Down''}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 4\ \ Transformations}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\section{Powers}
+\subsection{5.1\ -\ Work Smarter, Not Harder}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[lab:L8]{(lab:L8)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L8}
+ \InputIfFileExists{solutions/lab:L8}{}{No Solution File Found}
+\subsubsection*{L9 {\footnotesize\hyperref[lab:L9]{(lab:L9)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L9}
+ \InputIfFileExists{solutions/lab:L9}{}{No Solution File Found}
+\subsubsection*{L10 {\footnotesize\hyperref[lab:L10]{(lab:L10)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L10}
+ \InputIfFileExists{solutions/lab:L10}{}{No Solution File Found}
+\subsubsection*{L11 {\footnotesize\hyperref[lab:L11]{(lab:L11)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L11}
+ \InputIfFileExists{solutions/lab:L11}{}{No Solution File Found}
+\subsection{Section 5.1\ Exercises}
+\subsubsection*{P1 {\footnotesize\hyperref[0501xA]{(0501xA)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: P1}
+ \InputIfFileExists{solutions/0501xA}{}{No Solution File Found}
+\subsubsection*{P2 {\footnotesize\hyperref[0501xB]{(0501xB)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: P2}
+ \InputIfFileExists{solutions/0501xB}{}{No Solution File Found}
+\subsection{5.2\ -\ The Power of Powers}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[lab:L8]{(lab:L8)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L8}
+ \InputIfFileExists{solutions/lab:L8}{}{No Solution File Found}
+\subsubsection*{L9 {\footnotesize\hyperref[lab:L9]{(lab:L9)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L9}
+ \InputIfFileExists{solutions/lab:L9}{}{No Solution File Found}
+\subsubsection*{L10 {\footnotesize\hyperref[lab:L10]{(lab:L10)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L10}
+ \InputIfFileExists{solutions/lab:L10}{}{No Solution File Found}
+\subsubsection*{L11 {\footnotesize\hyperref[lab:L11]{(lab:L11)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L11}
+ \InputIfFileExists{solutions/lab:L11}{}{No Solution File Found}
+\subsubsection*{L12 {\footnotesize\hyperref[lab:L12]{(lab:L12)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L12}
+ \InputIfFileExists{solutions/lab:L12}{}{No Solution File Found}
+\subsubsection*{L13 {\footnotesize\hyperref[lab:L13]{(lab:L13)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L13}
+ \InputIfFileExists{solutions/lab:L13}{}{No Solution File Found}
+\subsubsection*{L14 {\footnotesize\hyperref[lab:L14]{(lab:L14)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L14}
+ \InputIfFileExists{solutions/lab:L14}{}{No Solution File Found}
+\subsubsection*{L15 {\footnotesize\hyperref[lab:L15]{(lab:L15)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L15}
+ \InputIfFileExists{solutions/lab:L15}{}{No Solution File Found}
+\subsubsection*{L16 {\footnotesize\hyperref[lab:L16]{(lab:L16)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L16}
+ \InputIfFileExists{solutions/lab:L16}{}{No Solution File Found}
+\subsection{5.3\ -\ With Great Power}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[lab:L8]{(lab:L8)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L8}
+ \InputIfFileExists{solutions/lab:L8}{}{No Solution File Found}
+\subsubsection*{L9 {\footnotesize\hyperref[lab:L9]{(lab:L9)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L9}
+ \InputIfFileExists{solutions/lab:L9}{}{No Solution File Found}
+\subsubsection*{L10 {\footnotesize\hyperref[lab:L10]{(lab:L10)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L10}
+ \InputIfFileExists{solutions/lab:L10}{}{No Solution File Found}
+\subsubsection*{L11 {\footnotesize\hyperref[lab:L11]{(lab:L11)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L11}
+ \InputIfFileExists{solutions/lab:L11}{}{No Solution File Found}
+\subsubsection*{L12 {\footnotesize\hyperref[lab:L12]{(lab:L12)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L12}
+ \InputIfFileExists{solutions/lab:L12}{}{No Solution File Found}
+\subsubsection*{L13 {\footnotesize\hyperref[lab:L13]{(lab:L13)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L13}
+ \InputIfFileExists{solutions/lab:L13}{}{No Solution File Found}
+\subsection{5.4\ -\ Truth to Power}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[lab:L8]{(lab:L8)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L8}
+ \InputIfFileExists{solutions/lab:L8}{}{No Solution File Found}
+\subsubsection*{L9 {\footnotesize\hyperref[lab:L9]{(lab:L9)} \normalsize}}
+ \markboth{Chapter\ 5\ \ Powers}{Solutions: L9}
+ \InputIfFileExists{solutions/lab:L9}{}{No Solution File Found}
+\section{Polynomials}
+\subsection{6.1\ -\ In the End}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[lab:L8]{(lab:L8)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L8}
+ \InputIfFileExists{solutions/lab:L8}{}{No Solution File Found}
+\subsubsection*{L9 {\footnotesize\hyperref[lab:L9]{(lab:L9)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L9}
+ \InputIfFileExists{solutions/lab:L9}{}{No Solution File Found}
+\subsubsection*{L10 {\footnotesize\hyperref[lab:L10]{(lab:L10)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L10}
+ \InputIfFileExists{solutions/lab:L10}{}{No Solution File Found}
+\subsection{6.3\ -\ Twists and Turns}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[lab:L8]{(lab:L8)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L8}
+ \InputIfFileExists{solutions/lab:L8}{}{No Solution File Found}
+\subsubsection*{L9 {\footnotesize\hyperref[lab:L9]{(lab:L9)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L9}
+ \InputIfFileExists{solutions/lab:L9}{}{No Solution File Found}
+\subsubsection*{L10 {\footnotesize\hyperref[lab:L10]{(lab:L10)} \normalsize}}
+ \markboth{Chapter\ 6\ \ Polynomials}{Solutions: L10}
+ \InputIfFileExists{solutions/lab:L10}{}{No Solution File Found}
+\section{Logarithms}
+\subsection{7.1\ -\ 3-in-1}
+\subsubsection*{L1 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L1}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L2}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L3}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L4}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L5}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L6}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L7}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[]{()} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L8}
+ \InputIfFileExists{solutions/}{}{No Solution File Found}
+\subsection{Section 7.1\ Exercises}
+\subsubsection*{P1 {\footnotesize\hyperref[0701Identity]{(0701Identity)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: P1}
+ \InputIfFileExists{solutions/0701Identity}{}{No Solution File Found}
+\subsubsection*{P2 {\footnotesize\hyperref[0701Graph]{(0701Graph)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: P2}
+ \InputIfFileExists{solutions/0701Graph}{}{No Solution File Found}
+\subsection{7.2\ -\ Money Matters}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[lab:L8]{(lab:L8)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L8}
+ \InputIfFileExists{solutions/lab:L8}{}{No Solution File Found}
+\subsubsection*{L9 {\footnotesize\hyperref[lab:L9]{(lab:L9)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L9}
+ \InputIfFileExists{solutions/lab:L9}{}{No Solution File Found}
+\subsection{7.3\ -\ Triangular Tables}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsection{Section 7.3\ Exercises}
+\subsubsection*{P1 {\footnotesize\hyperref[0703All6]{(0703All6)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: P1}
+ \InputIfFileExists{solutions/0703All6}{}{No Solution File Found}
+\subsubsection*{P2 {\footnotesize\hyperref[0703:LogProofs]{(0703:LogProofs)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: P2}
+ \InputIfFileExists{solutions/0703:LogProofs}{}{No Solution File Found}
+\subsubsection*{P3 {\footnotesize\hyperref[0703SolveLogs]{(0703SolveLogs)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: P3}
+ \InputIfFileExists{solutions/0703SolveLogs}{}{No Solution File Found}
+\subsubsection*{P4 {\footnotesize\hyperref[0703SimplifyLogs]{(0703SimplifyLogs)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: P4}
+ \InputIfFileExists{solutions/0703SimplifyLogs}{}{No Solution File Found}
+\subsubsection*{P5 {\footnotesize\hyperref[0703DescribeDifference]{(0703DescribeDifference)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: P5}
+ \InputIfFileExists{solutions/0703DescribeDifference}{}{No Solution File Found}
+\subsubsection*{P6 {\footnotesize\hyperref[0703DescribeCalclog]{(0703DescribeCalclog)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: P6}
+ \InputIfFileExists{solutions/0703DescribeCalclog}{}{No Solution File Found}
+\subsection{7.4\ -\ Log Infection}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 7\ \ Logarithms}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\section{Infinities}
+\subsection{8.1\ -\ Magic Number}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[lab:L8]{(lab:L8)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L8}
+ \InputIfFileExists{solutions/lab:L8}{}{No Solution File Found}
+\subsubsection*{L9 {\footnotesize\hyperref[lab:L9]{(lab:L9)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L9}
+ \InputIfFileExists{solutions/lab:L9}{}{No Solution File Found}
+\subsubsection*{L10 {\footnotesize\hyperref[lab:L10]{(lab:L10)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L10}
+ \InputIfFileExists{solutions/lab:L10}{}{No Solution File Found}
+\subsection{8.2\ -\ It Don't Stop}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\subsection{Section 8.2\ Exercises}
+\subsubsection*{P1 {\footnotesize\hyperref[0802Hotel]{(0802Hotel)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: P1}
+ \InputIfFileExists{solutions/0802Hotel}{}{No Solution File Found}
+\subsubsection*{P2 {\footnotesize\hyperref[0802BFF]{(0802BFF)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: P2}
+ \InputIfFileExists{solutions/0802BFF}{}{No Solution File Found}
+\subsubsection*{P3 {\footnotesize\hyperref[0802Grandi]{(0802Grandi)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: P3}
+ \InputIfFileExists{solutions/0802Grandi}{}{No Solution File Found}
+\subsubsection*{P4 {\footnotesize\hyperref[0802Gabriel]{(0802Gabriel)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: P4}
+ \InputIfFileExists{solutions/0802Gabriel}{}{No Solution File Found}
+\subsubsection*{P5 {\footnotesize\hyperref[0802Primes]{(0802Primes)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: P5}
+ \InputIfFileExists{solutions/0802Primes}{}{No Solution File Found}
+\subsubsection*{P6 {\footnotesize\hyperref[0802Power]{(0802Power)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: P6}
+ \InputIfFileExists{solutions/0802Power}{}{No Solution File Found}
+\subsubsection*{P7 {\footnotesize\hyperref[0802Aleph2]{(0802Aleph2)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: P7}
+ \InputIfFileExists{solutions/0802Aleph2}{}{No Solution File Found}
+\subsection{8.3\ -\ Inverse of e}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[lab:L8]{(lab:L8)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L8}
+ \InputIfFileExists{solutions/lab:L8}{}{No Solution File Found}
+\subsection{8.4\ -\ Limits by Derivative}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[lab:L8]{(lab:L8)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L8}
+ \InputIfFileExists{solutions/lab:L8}{}{No Solution File Found}
+\subsection{8.5\ -\ To Infinity, and Beyond}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 8\ \ Infinities}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\section{Circles}
+\section{Identities}
+\subsection{10.3\ -\ Cosine, cosine, sine, sine}
+\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+ \markboth{Chapter\ 10\ \ Identities}{Solutions: L1}
+ \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \markboth{Chapter\ 10\ \ Identities}{Solutions: L2}
+ \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \markboth{Chapter\ 10\ \ Identities}{Solutions: L3}
+ \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \markboth{Chapter\ 10\ \ Identities}{Solutions: L4}
+ \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \markboth{Chapter\ 10\ \ Identities}{Solutions: L5}
+ \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \markboth{Chapter\ 10\ \ Identities}{Solutions: L6}
+ \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \markboth{Chapter\ 10\ \ Identities}{Solutions: L7}
+ \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[lab:L8]{(lab:L8)} \normalsize}}
+ \markboth{Chapter\ 10\ \ Identities}{Solutions: L8}
+ \InputIfFileExists{solutions/lab:L8}{}{No Solution File Found}
+\subsubsection*{L9 {\footnotesize\hyperref[lab:L9]{(lab:L9)} \normalsize}}
+ \markboth{Chapter\ 10\ \ Identities}{Solutions: L9}
+ \InputIfFileExists{solutions/lab:L9}{}{No Solution File Found}
+\subsubsection*{L10 {\footnotesize\hyperref[lab:L10]{(lab:L10)} \normalsize}}
+ \markboth{Chapter\ 10\ \ Identities}{Solutions: L10}
+ \InputIfFileExists{solutions/lab:L10}{}{No Solution File Found}
+\subsubsection*{L11 {\footnotesize\hyperref[lab:L11]{(lab:L11)} \normalsize}}
+ \markboth{Chapter\ 10\ \ Identities}{Solutions: L11}
+ \InputIfFileExists{solutions/lab:L11}{}{No Solution File Found}
+\section{Triangles}
 \section{Polar}
 \section{Regressions}
 \section{Probabilities}
 \section{Sequences}
 \section{Radices}
-\subsection{Section 5.1\ Exercises}
+\subsection{Section 16.1\ Exercises}
 \subsubsection*{P1 {\footnotesize\hyperref[probP1]{(probP1)} \normalsize}}
- \markboth{Chapter\ 5\ \ Radices}{Solutions: P1}
+ \markboth{Chapter\ 16\ \ Radices}{Solutions: P1}
  \InputIfFileExists{solutions/probP1}{}{No Solution File Found}
 \subsubsection*{P2 {\footnotesize\hyperref[probP2]{(probP2)} \normalsize}}
- \markboth{Chapter\ 5\ \ Radices}{Solutions: P2}
+ \markboth{Chapter\ 16\ \ Radices}{Solutions: P2}
  \InputIfFileExists{solutions/probP2}{}{No Solution File Found}
 \subsubsection*{P3 {\footnotesize\hyperref[probP3]{(probP3)} \normalsize}}
- \markboth{Chapter\ 5\ \ Radices}{Solutions: P3}
+ \markboth{Chapter\ 16\ \ Radices}{Solutions: P3}
  \InputIfFileExists{solutions/probP3}{}{No Solution File Found}
 \section{Prerequisites}
 \subsection{Section A.1\ Exercises}

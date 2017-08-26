@@ -1,0 +1,9 @@
+\begin{tikzpicture}[scale=0.3]
+	\draw [help lines] (-10, 0) grid (10, 10);
+	\draw [thick,<->] (-10.2, 0) -- (10.2, 0) node {$x$};
+	\draw [thick,<->] (0, -0.2) -- (0, 10.2) node{$y$};
+        \draw[domain=-10:10,<->,thick,samples=300] plot (\x,{\x*\x/10});
+	\draw[domain=-3.17:3.17,<->,thick,samples=300] plot (\x,{\x*\x*\x*\x/10});
+	\draw[domain=-2.16:2.16,<->,thick] plot (\x,{\x*\x*\x*\x*\x*\x/10});
+	\draw[domain=-1.78:1.78,<->,thick] plot (\x,{\x*\x*\x*\x*\x*\x*\x*\x/10});
+\end{tikzpicture}

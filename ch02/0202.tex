@@ -7,20 +7,20 @@
 
 In the last section, you experiment with finding the values that \emph{would have}
 occurred in a series of functions, if there had not been a \textbf{discontinuity} at a given
-point.  The value that the function approaches is called a \textbf{limit}.  Because all the
+point.  The value that such a function approaches is called a \textbf{limit}.  Because all the
 examples to date have been \textbf{removable discontinuities}, it has simply been a matter
-of algebra manipulation to produce a \emph{nearly} identical version of the function, but
+of algebraic manipulation to produce a \emph{nearly} identical version of the function, but
 simply one without the hole.
 
 In the beginning, it was sufficient to define limits as casually as we have done, which is why
-2.1 is laid out the way it is.  Later, mathematicians named Cauchy and Weierstrauss created
-much more rigorous definitions to meet demand.  Let us built up such rigor.
+§2.1 is laid out the way it is.  Historically, mathematicians named Cauchy and Weierstrauss created
+much more rigorous definitions to meet the demands of mathematicians.  Let us built up such rigor.
 \marginfig[-1in]{\chapdir/pics/tricky}{The function appears to be a decreasing exponential ... or does it?}
 
 \index{TI-8*!zoom box}
-Here is a negative example: $f(x)=\dfrac{|x-3|\cdot1.2^x}{(x-3)\cdot12^x}+2$.  Enter the 
+Here is a negative example: $f(x)=\dfrac{(3-x)\cdot1.2^x}{|x-3|\cdot12^x}+2$.  Enter the 
 function as $Y_1$ and begin with ZOOM-STANDARD.  You should have a decreasing
-exponential function, with a horizontal asymptote at $y=2$.  Now you should become
+exponential function, with a horizontal asymptote at $y=2$.  But you should become
 suspicious.  What did the $x-3$ terms produce?  Is there something going on at $x=3$,
 when both terms are 0 and the entire function is $\frac{0}{0}$?  If you consult the
 TABLE, you will see there is an ERROR at 3.  Let us investigate.
@@ -28,13 +28,14 @@ TABLE, you will see there is an ERROR at 3.  Let us investigate.
 Practice using the ZOOM-BOX feature, drawing new windows around (3,2) until the 
 discontinuity becomes clear.  Here is our window and graph:
 
-insert figure Xmin=2.999 Xmax=3.001 Xscl=5E-4 Ymin=1.9985 Ymax=2.0015 
+\inlinefig{\chapdir/pics/0202tickyB}{The same function, over the domain $[2.995,3.005]$
+and the range $[1.995,2.005]$, with grid-dots every 0.001.}
 
 
 How can we avoid being fooled like this?  What does it mean to say ``the limit as
 $f(x)$ approaches $c$ is $L$''?
 
-\marginfig[-1in]{\chapdir/pics/epsilondelta.png}{Whenever a point $x$ is within $\delta$ units of $c$, $f(x)$ is within $\epsilon$ units of $L$ \cite{epsilondelta}.}
+\marginfig[-0.5in]{\chapdir/pics/epsilondelta.png}{Whenever a point $x$ is within $\delta$ units of $c$, $f(x)$ is within $\epsilon$ units of $L$ \cite{epsilondelta}.}
 
 
 
@@ -51,8 +52,8 @@ $x$ is with $\delta$ units of $c$ but $x\ne c$, that $f(x)$ is with $\epsilon$ u
 
 In less compact terms, this means for \emph{any} radius $\delta$ around $c$, there is exists
 a radius $\epsilon$ around $L$ that $f(x)$ stays with in.  This definition, developed by
-Cauchy, is the successor to Leibniz's idea of ``infinitesimals''\footnote{
-See \cite{Alexander12}.}.
+Cauchy, is the successor to Leibniz's idea of ``infinitesimals.''\footnote{
+See chapter 8 for an exploration of infinitesimals.\cite{Alexander12}}
 
 
 \subsubsection{Continuity}
@@ -67,10 +68,10 @@ $f(x)$ is continuous at point $a$, if and only if:\index{continuity}
 \end{enumerate}
 A function that is continuous at every point in its domain is said to be a \textbf{continuous
 function}.  Continuous functions whose domain is all Real numbers are said to be ``continuous
-over the Reals'' or ``continuous for Reals''.
+over the Reals'' or ``continuous for Reals.''
 
 
-\begin{example}{Discontinuous}
+\begin{example}{Discontinuity}
 	\exProblem
 Is the function $f(x)=\frac{1}{x}$ continuous for Reals?
 

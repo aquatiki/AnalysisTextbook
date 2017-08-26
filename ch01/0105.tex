@@ -13,7 +13,7 @@ For now, we simply seek to make equations from sets of ordered pairs.
 \index{regression}
 
 \index{TI-8*!data entry}
-Your TI-8* has \emph{some} capacity as a spreadsheet.  You may entered tabular data, 
+Your TI-8* has \emph{some} capacity as a spreadsheet.  You may enter tabular data, 
 graph, and analyze the results on this little computer!  Most things you will need start by
 pressing the \Touche[style=function,principal={stat},raise=-5pt] button.
 This information is stored in lists, like \texttt{L$_1$}, \texttt{L$_2$}, \texttt{L$_3$}, etc.  
@@ -54,7 +54,7 @@ and scroll through the menu:
 \subsubsection{Windows}\index{TI-8*!window}
 One of the trickier things to manage on the TI-8* is the \texttt{WINDOW}.  The Cartesian plane is 
 a big place, and finding your place in it can be harder still.  Having a grasp
-on concepts like \gls{domain} and \gls{range} is once again worth it's weight in gold.
+on concepts like \gls{domain} and \gls{range} is once again worth its weight in gold.
 
 
 First of all, the TI-8* does try to help you out by offering several automatic options, which 
@@ -72,14 +72,14 @@ the \texttt{Xscl} and \texttt{Yscl} respectively (the little tick marks).
 Of course, the procedure outlined in the last paragraph will not work for most function definitions,
 since they will go on forever, often in both domain and range.  This means you just have to know
 what are the salient features of a given kind of graph, and how to bring them into view.  For example,
-a quadratic function's most important point the vertex, the place where it changes from increasing
+a quadratic function's most important point is the vertex, the place where it changes from increasing
 to decreasing or visa versa.  Most of the time, this is involves a process of guess-and-check,
-combined with every-honing instincts.
+combined with instinct, which you will improve over time.
 
 \subsubsection{Table}\index{TI-8*!table}
 \Touche[style=second] \Touche[style=graph,principal={graph},position=0.9,fontsize=7pt,raise=-5pt] is
-the very helpful \texttt{TABLE} of data.  This is especially useful at comparing multiple functions on 
-the same inputs.  The default to start at $x=1$ and increment by one from there on up.
+the very helpful \texttt{TABLE} of data.  This is especially useful for comparing multiple functions on 
+the same inputs.  The default is to start at $x=1$ and step by one from there on up.
 To customize the table, you must press \Touche[style=second] 
 \Touche[style=graph,principal=window,position=0.9,fontsize=7pt,second=tblset,raise=-10pt].  
 You can either make the table 
@@ -89,10 +89,10 @@ same amount every time (\texttt{AUTO}), or you can manually enter values for the
 
 
 \paragraph{Linear Regression}
-In you are given only two points and told to make a line through them both, then the problem is 
-very easy system of two equations, and can be immediately solved via the RREF of a 2x3 matrix.
-However, most scientific and real-life data is ``fuzzy'', and no line can go through all the data points.
-In such situations, it is best to enter all the data and let the machines find the ``line of best fit''.  In 
+If you are given only two points and told to make a line through them both, then the problem is 
+a very easy system of two equations, and can be immediately solved via the RREF of a 2x3 matrix.
+However, most scientific and real-life data is ``fuzzy,'' and no line can go through all the data points.
+In such situations, it is best to enter all the data and let the machine find the ``line of best fit''.  In 
 simple cases, it is simply a matter of constructing the line where half the data is below and half is 
 above.  But as data multiplies, this becomes harder and harder.\index{regression!linear}
 
@@ -136,7 +136,8 @@ against the data.
 \end{example}
 
 \paragraph{Quadratic Regression}\index{regression!quadratic}
-When the data rise and falls (or falls and rises), it is possible that a quadratic equation would be a better fit.
+When the data rises and falls (or falls and rises), it is possible that a 
+quadratic equation would be a better fit.
 Visualize the data and then consider running QuadReg and generating an equation of the form $ax^2+bx+c$.
 Perfect data can be solved simply with a 3x4 matrix.
 
@@ -146,8 +147,10 @@ ExpReg and LnReg are great tools, if you know how to choose between them.
 \includegraphics[scale=0.8]{\chapdir/pics/expln.png}\index{regression!logarithmic}
 
 Exponential functions have a horizontal asymptote at $y=0$ if un-translated.  Logarithmic functions
-has a vertical asymptote at $x=0$ if un-translated.  Most practical situations, it is always possible to tell if
-there is a limiting $x$ or $y$ value.  If there are multiple asymptotes, it is probably a power function.
+has a vertical asymptote at $x=0$, if un-translated.  In most practical situations, 
+it is possible to tell if
+there is a limiting $x$ or $y$ value.  If there are multiple asymptotes, it is probably a logistic function
+(something we will study much later).
 
 \paragraph{Sinusoidal Regression}\index{regression!sinusoidal}
 While we have not formally introduced period functions yet, it is relatively easy to run a SinReg in the calculator

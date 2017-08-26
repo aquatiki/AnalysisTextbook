@@ -7,13 +7,23 @@
 
 In human observations, there is almost nothing which follows one equation for the 
 entirety of its domain.  The only constant in the universe is change!  For example, 
-population of the world, the stock market, or even one stock might generally follow one
+the population of the world, the stock market, or even one stock might generally follow one
 equation for a significant stretch of time, but not forever.  So it is that most functions are 
 defined in pieces, and are therefore called piece-wise functions.
 
 For example, the absolute value function which you have been using for some time now is
 actually a piecewise function.\index{Absolute Value!piece-wise}
 
+$$
+|x|=
+\begin{cases}
+x, x\ge 0\\
+-x,x<0
+\end{cases}
+$$
+
+In light of this reality, it would behoove us to think more carefully about limits, recognizing that
+we might be evaluating at the seems between cases.  
 We should formally define the nomenclature of a ``sided'' limit:
 
 \begin{derivation}{Right-sided limit}\index{limit!right-sided}
@@ -32,7 +42,7 @@ $$\lim_{x \to c^-}f(x) = L$$
 \end{derivation}
 
 
-\personfeature[-3in]{\chapdir/pics/George_Boole_color}{George
+\personfeature[-4in]{\chapdir/pics/George_Boole_color}{George
     Boole}{1815-1864, French}{was an English mathematician
     who said, ``No general method for the solution of questions 
     in the theory of probabilities can be established which does 
@@ -60,7 +70,7 @@ $$
 If we wanted to graph the sections separately, we could make $Y_1=(X^2)/(X\ge{}1)$ and
 $Y_2=(X)/(X<1)$.  (The equality and inequality signs are under 2ND-MATH --- TEST.)  This will 
 allow you to make the different sections different colors or different shading, but that might be
-what you want.  To graph everything in $Y_1$, use $(X^2)*(X\ge{}1)+(X)*(X<1)$.
+what you want.  To graph everything in $Y_1$, use $(X^2)/(X\ge{}1)+(X)/(X<1)$.
 
 
 
@@ -68,7 +78,7 @@ what you want.  To graph everything in $Y_1$, use $(X^2)*(X\ge{}1)+(X)*(X<1)$.
 \reminder{\lefthand}{The different TI-8* behave differently around holes.  Newer calculators will attempt to make a hole apparent, while older models do not show it.
 
 Only the new models draw points visibly, but even then they are very small.  We recommend
-against even trying to represent them in the TI-8*.}
+against even trying to represent them in the TI-8*s.}
 
 
 All together, there are five kinds of discontinuities.  We are only responsible to rigorously prove
@@ -76,13 +86,25 @@ instanes of the first two and the last:
 
 \subsubsection{Removable}
 Here the limit exist.  The graph has a hole in it, which may or may not be defined as a point somewhere unexpected.
+
+\inlinefig{\chapdir/pics/Removable-discontinuity.png}{The limits is removable.  The function jumps to a value.}
+
 \subsubsection{Jump}
 The limits does not exist.  The graph is not continuous, but ``leaps'' from one output to another without passing in between, at one or more points.
+
+\inlinefig{\chapdir/pics/Discontinuity_jump.png}{The limit does not exist and there is an unavoidable jump.}
+
 \subsubsection{Infinite} 
 The limit may or may not exist.  The function itself goes up and/or down without limit.  The most common example is a vertical asymptote.
+
+\inlinefig{\chapdir/pics/infinite}{At 1, the limit exists, because both sides are going to (positive) infinity.  At -1, the limit does not exist, because the two sides disagree.}
+
 \subsubsection{Oscillating} 
 The limit does not exist.  The graph varies between outputs in way that never resolves.
+
+\inlinefig{\chapdir/pics/The_function_sin1_over_x.png}{No matter how much we zoom in to the function $\sin{\frac{1}{x}}$ around (0,0), it will only increase in complexity.}
+
 \subsubsection{Domain} 
 The limits does not exist because on one side, the function ceases to exist.
 
-
+\inlinefig{\chapdir/pics/CorolarLocalizareRadacina.jpg}{The limit does not exist at $a$ or $b$ because one side of the function there does not exist.}

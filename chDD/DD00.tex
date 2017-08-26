@@ -10,7 +10,6 @@ Rotated, Eccentricity
 \newpage
 \invisiblesection{Introduction to Conics}
 \marginlessinput{\chapdir/DD01p}
-%Extrapolate to infinite plane intersecting infinite (double) cone.  Discover circles, ellipses, parabola, hyperbola and record angles relative to cone.  Graph $x^2+y^2=1$, $x^2/4+y^2=1$, $x+y^2=1$, $x^2-y^2=1$.
 \newpage
 \input{\chapdir/DD01}
 \newpage
@@ -22,26 +21,190 @@ in Kuta
 \section{Algebra Manipulations}
 \noindent\makebox[\textwidth]{\includegraphics[width=\paperwidth]{chDD/DD02p.pdf}}
 \subsection{Parametric Forms}
-Conic sections lend themselves incredibly well to a variety of forms.  We saw in the last section that the Cartesian form
-\subsection{Polar Forms}
+Conic sections lend themselves incredibly well to a variety of forms.  We saw in the last 
+section that the Cartesian forms used for graphing are very versatile, always showing
+a center $(h,k)$, as well as some other feature(s).  These attributes are all preserved when
+we switch from graphing a relation with $x$ and $y$, to a set of functions with $x$ and $y$
+both in terms of $t$.  
+
+\begin{derivation}{Parametric Equations Ellipses}
+\begin{equation}
+	\begin{cases}
+	x = a\sin(t) + h \\
+	y = b\sin(t) + k\\
+	\end{cases}
+	\quad \text{or} \quad
+	\begin{cases}
+	x = b\sin(t) + h \\
+	y = a\sin(t) + k\\
+	\end{cases}
+\end{equation}
+\end{derivation}
+
+As we saw in the Lab, these forms are completely interchangeable with the Cartesian equations,
+by the Pythagorean Trigonometric Identities.  Because one is the sum of squares, and the other two
+are the difference of squares, the latter are completely identical, but, as a rule, we only every use
+tangent and secant.
+
+\begin{derivation}{Parametric Equations of Hyperbolas}
+\begin{equation}
+	\begin{cases}
+	x = a\sec(t) + h\\
+	y = b\tan(t) + k\\
+	\end{cases}
+	\quad \text{or} \quad
+	\begin{cases}
+	x = b\tan{t} + h\\
+	y = a\sec(t) + k\\
+	\end{cases}
+\end{equation}
+\end{derivation}
+
 \subsection{Algebra General Form}
-\subsection{Using a Calculator}
-\subsection{Discriminant}
-\subsection{Completing the Square}
-\subsection{Cartesian Forms}
+The unity of conics sections is deep and wide.  Not only do they have a common geometric
+origin, but they also all share the same algebraic origin, as the next order of general equations
+after lines.  You will recall that there is a general form of linear equations, $Ax + By + C = 0$.
+The general form of quadratic equations is similar: $Ax^2 + Bxy + Cy^2 + Dx + Ey + F=0$.
+
+\subsubsection{Using a Calculator}
+These conic sections are not functions (having multiple outputs per input), but only just.
+There are never more than two $y$ values for any $x$ input, so they can be graphed on
+your TI-8* by entering two equations.  To do that, we need to solve for $y$ first.
+
+While there are two variable present in these equations, we are only interested in one of them
+at a time, so we may regard the general form as a quadratic in $y$ with difficult coefficients:
+
+\begin{equation*}
+(C)y^2 + (Bx + E)y + (Ax^2  + Dx + F) = 0
+\end{equation*}
+
+By application of the Quadratic Formula, we can produce two equations for $y$:
+
+\begin{equation}
+y = \frac{-Bx - E \pm \sqrt{(Bx + E)^2 - 4\cdot{}C(Ax^2 + Dx + F)}}{2C}
+\end{equation}
+
+\subsubsection{Discriminant}
+The presence of a $B$ term makes a conic \emph{much} more complicated, namely by 
+rotating it.  We will consider rotation in the next section, but there is a formula which
+applies to conics --- no matter how complicated --- to determine their classification.
+To understand where it comes from, consider that only $A$, $B$, and $C$ contribute
+to the overall shape (differing from the general linear form).  If we divide
+$Ax^2 + Bxy + Cy^2 = 0$ by $x^2$, we see that it is a quadratic in $\left(\frac{y}{x}\right)$.
+The number of solution to that equation dictates what shape the graph will be.
+\begin{enumerate}
+\item If $B^2 - 4AC > 0$, then it is a hyperbola.
+\item If $B^2 - 4AC = 0$, then it is a parabola.
+\item If $B^2 - 4AC < 0$, then it is a eclipse.
+\end{enumerate}
+
+
 
 \newpage
 \section{Rotated Conics}
-\subsection{Rotated Polar Conics}
 \subsection{Cartesian Rotation Equations}
+
 \subsection{Parametric Rotation by Matrix}
+As we saw in §B.1, there exists a simple linear transformation to rotate any $2\times 1$ 
+matrix by angle $\theta$:
+\begin{equation*}
+\begin{bmatrix}
+	\cos\theta & -\sin\theta \\
+	\sin\theta & \cos\theta \\
+\end{bmatrix}
+\end{equation*}
+
+\begin{example}
+\exProblem
+Rotate the parametric equations $x=\sec{t}, y=\tan{t}$ by $\frac{\tau}{8}$, simplify, and convert to
+Cartesian.
+
+\exSolution
+We begin with the given equations, 
+$$
+\begin{bmatrix} x \\ y \end{bmatrix}
+=
+\begin{bmatrix} \sec{t} \\ \tan{t} \end{bmatrix}
+$$
+and left-multiply by
+$$
+\begin{bmatrix} \cos\frac{\tau}{8} & -\sin\frac{\tau}{8} \\
+\sin\frac{\tau}{8} & \cos\frac{\tau}{8} \end{bmatrix}
+=
+\begin{bmatrix} \frac{\sqrt{2}}{2} & -\frac{\sqrt{2}}{2} \\
+\frac{\sqrt{2}}{2} & \frac{\sqrt{2}}{2} \end{bmatrix}
+$$
+which gives us 
+$$
+\begin{bmatrix} x \\ y \end{bmatrix}
+=
+\begin{bmatrix}
+\frac{\sqrt{2}}{2}\sec{t} - \frac{\sqrt{2}}{2}\tan{t} \\
+\frac{\sqrt{2}}{2}\sec{t} + \frac{\sqrt{2}}{2}\tan{t}
+\end{bmatrix}
+$$
+This requires some strategic thinking on our part.  Adding or subtracting the equations would can
+a term, but not yield anything which could be further reduced.  \emph{Multiplying} them, however,
+produces a difference of trigonometric squares, which is precisely the identity we are hoping to use.
+This means $xy = \frac{2}{4}\sec^2{t} - \frac{2}{4}\tan^2{t}$.  By factoring out the half, we can use
+the identity $\sec^2{t}-\tan^2{t}=1$, and get that $xy=\frac{1}{2}$.
+\end{example}
+
 
 \newpage
 \section{Eccentricity}
-\subsection{Range of Eccentricity}
 \subsection{Foci}
+For simplicity's sake, let us consider conics about the origin.  The circle is clearly a special case,
+``the set of all points a constant distance (the \textbf{radius}) from the center.''  As we consider how to 
+build an ellipse, it can be sketched as ``the set of all points who sum of their distances from 
+two points (called the \textbf{foci} --- the plural of \textbf{focus}) is a constant.''
+
+Now, we can clearly move the foci and yet keep the long-ends of an ellipse in place.  This
+suggest comparing the ratio of the distance from the center to the foci ($c$), to the distance
+from the center to the longer edge ($a$).  This ratio is called the conics \textbf{eccentricity}.
+For circles, it is 0.  For ellipses, it is in the range $(0,1)$.  At 1, the focus is on top of the major
+axis, and the shape is a parabola.    If we push onward, we come to the weird world of
+hyperbolas, where eccentricity is $>1$.  They can be defined by foci as ``the set of all points
+who difference of their distances from two points (called the \textbf{foci}) is a constant.''
+
+\subsubsection{Formulae}
+So, to summarize, circle either have no foci, or else we might regard them as both being at
+the center.  Ellipses have two foci, $c$ away from the center.  To find $c$, we use the
+formula:
+\begin{equation}
+a^2 = b^2 + c^2
+\end{equation}
+As we saw back in §3.2, parabolas have but one focus, and it is $4p$ units away from the
+vertex/center.  Hyperbola also have the foci inside their curves, but for them, $c$ is the
+greatest length, following the formula
+\begin{equation}
+a^2 + b^2 = c^2
+\end{equation}
+
 \subsection{Directrices}
-\subsection{Distance Formulae}
+There is one other feature of conics we have yet to discuss, but which was mentioned back
+in §3.2: a directrix.  You recall that we can also define a parabola as ``the set of all points
+who distance from a point (the focus) and a line (the directrix) is a constant.''  Does such a line
+exist for the other conics?  Indeed it does, and it can be defined by the very constant we have
+already found, the eccentricity.
+
+Every conic section may be defined as ``the set of all points who distance from a point
+(a focus) equals the distance from a line (a directrix) times the eccentricity.''  This leads to
+the formula for the distance from the center to the directrix/directrices ($d$) as:
+\begin{equation}
+d = \frac{a^2}{c}
+\end{equation}
+
+\subsection{Polar Forms}
+In addition to the Cartesian and Parametric definitions of conics, there are also polar
+forms.  Polar equations tend to be very neat when a particular feature (usually, but not
+always the center) is at the pole, and horrific when it is not.  Polar equations of conics are
+no different, and so we only use the form where a focus is at the pole.  With that constraint,
+we can define the all at once as
+\begin{equation}
+r = \frac{ed}{1\pm e\cos\theta}
+\end{equation}
+and cosine could be sine.
 
 \newpage
 \section{3D Conics}
