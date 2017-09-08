@@ -1,8 +1,75 @@
 %!TEX root =  ../main.tex
 
 \subsection{Reference Triangle Within}
+Consider any reference triangle with legs $x$ and $y$ and $r$, and angles $\frac{\tau}{4}$
+and $\theta$.  The other angle must be $\frac{\tau}{4} - \theta$.  What are $\sin\theta$ and
+$\cos\theta$?  What are $\sin(\frac{\tau}{4}-\theta)$ and $\cos(\frac{\tau}{4}-\theta)$?
+
+insert diagram
+
+Now, at last, we are prepared to answer why half of the six trigonometric functions have the
+prefix ``co-''.  It stands for complement!
+
+six co-definitions
+
+
+We have repeatedly seen that sine is the signed height of the reference triangle within the unit
+circle, while cosine is the signed width.  Because these lengths are within the unit circle (a
+circle of radius 1), they must be in a Pythagorean relationship.  This reference triangle within 
+the unit circle provides an excellent visual to accompany the identity, $\sin^2\theta+\cos^2\theta
+= 1$.  But through simple algebra manipulation -- dividing by $\sin^2\theta$ or $\cos^2\theta$ ---
+it is easy to turn this identity into $1 + \tan^2\theta = \sec^2\theta$, or the more obscure
+$\csc^2\theta + 1 = \cot^2\theta$.  What do they represent?
+
 \subsection{Reference Triangles Without}
-\subsection{Full Geometry}
-\subsection{Algebra Ratios}
-\subsection{Time Savers}
-\subsection{Conjugates}
+We have previously defined tangent as sine over cosine, which means we can set up the proportion:
+
+\begin{equation}
+\frac{\sin\theta}{\cos\theta} = \frac{\tan\theta}{1}
+\end{equation}
+
+This is not only algebra, but can be represented with similar triangles.  ``Sine is to cosine as tangent is to
+1'', is the height of one triangle compared to its width, keeping a common angle and still being right in
+another triangle whose height is tangent and width is 1.  This is a right triangle extending outside
+the unit circle, but whole bottom edge is a radius thereof.
+
+insert diagram
+
+Similarly, there are two more proportions we must examine:
+\begin{equation}
+\frac{\cos\theta}{\sin\theta} = \frac{\cot\theta}{1}
+\end{equation}
+This is a way of saying the width vs. height of one triangle is cosine vs. sine, and that a similar right
+triangle (with angle in common) has width cotangent and height 1.  
+
+insert diagram
+
+Exercise: show that this get the same length as 1 over tangent equals cotangent over 1.
+
+There is also
+\begin{equation}
+\frac{1}{\cos\theta} = \frac{\sec\theta}{1}
+\end{equation}
+
+Geometrically this means, if we draw a triangle with hypotenuse 1 and adjacent of cosine, then there must exist a unique, similar triangle with hypotenuse secant and adjacent 1.
+
+
+\subsection{Relative}
+It should be apparent now that trigonometry is very different from algebra.  Every expression can be 
+written in an infinite number of ways.  Every term is equal to 1 times itself (the Identity of Multiplication),
+but 1 equals $\sin^2\theta + \cos^2\theta$ or $\sec^2\theta-\tan^2\theta$.  We practice turning 
+trigonometry expressions into specific forms so that we will be fluent in simplify complicated 
+expressions in the real world.
+
+The co-function identities (above) show us what to do with $90^\circ/\frac{\tau}{4}$s inside of
+trig functions, but what about other quadrants and negatives?  There are always lots of options
+for how you might think about such things, so we will consider two ways to think about
+simplifying $\sin(-x)$ and $\cos(-x)$.
+
+Graphically, you can see that $y=\sin(x)$ is an odd function.  On the unit circle, if we begin at
+standard position, we see that turning a positive angle yields a certain height above the $x$-axis,
+while turning that same angle \emph{down} yields the opposite height.  Hence, $\sin(-x)=-\sin(x)$.
+$y=\cos(-x)$ is an even function, begin symmetric about the $y$-axis.  On the unit circle, the 
+horizontal displacement caused by any angle is the same as its negative angle.  Hence,
+$\cos(-x)=\cos(x)$.
+

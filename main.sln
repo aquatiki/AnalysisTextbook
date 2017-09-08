@@ -89,39 +89,39 @@
  \InputIfFileExists{solutions/0105newton}{}{No Solution File Found}
 \section{Limits}
 \subsection{2.1\ -\ Removing the Hole}
-\subsubsection*{L1 {\footnotesize\hyperref[lab:L1]{(lab:L1)} \normalsize}}
+\subsubsection*{L1 {\footnotesize\hyperref[0201Lab1]{(0201Lab1)} \normalsize}}
  \markboth{Chapter\ 2\ \ Limits}{Solutions: L1}
- \InputIfFileExists{solutions/lab:L1}{}{No Solution File Found}
-\subsubsection*{L2 {\footnotesize\hyperref[lab:L2]{(lab:L2)} \normalsize}}
+ \InputIfFileExists{solutions/0201Lab1}{}{No Solution File Found}
+\subsubsection*{L2 {\footnotesize\hyperref[0201Lab2]{(0201Lab2)} \normalsize}}
  \markboth{Chapter\ 2\ \ Limits}{Solutions: L2}
- \InputIfFileExists{solutions/lab:L2}{}{No Solution File Found}
-\subsubsection*{L3 {\footnotesize\hyperref[lab:L3]{(lab:L3)} \normalsize}}
+ \InputIfFileExists{solutions/0201Lab2}{}{No Solution File Found}
+\subsubsection*{L3 {\footnotesize\hyperref[0201Lab3]{(0201Lab3)} \normalsize}}
  \markboth{Chapter\ 2\ \ Limits}{Solutions: L3}
- \InputIfFileExists{solutions/lab:L3}{}{No Solution File Found}
-\subsubsection*{L4 {\footnotesize\hyperref[lab:L4]{(lab:L4)} \normalsize}}
+ \InputIfFileExists{solutions/0201Lab3}{}{No Solution File Found}
+\subsubsection*{L4 {\footnotesize\hyperref[0201Lab4]{(0201Lab4)} \normalsize}}
  \markboth{Chapter\ 2\ \ Limits}{Solutions: L4}
- \InputIfFileExists{solutions/lab:L4}{}{No Solution File Found}
-\subsubsection*{L5 {\footnotesize\hyperref[lab:L5]{(lab:L5)} \normalsize}}
+ \InputIfFileExists{solutions/0201Lab4}{}{No Solution File Found}
+\subsubsection*{L5 {\footnotesize\hyperref[0201Lab5]{(0201Lab5)} \normalsize}}
  \markboth{Chapter\ 2\ \ Limits}{Solutions: L5}
- \InputIfFileExists{solutions/lab:L5}{}{No Solution File Found}
-\subsubsection*{L6 {\footnotesize\hyperref[lab:L6]{(lab:L6)} \normalsize}}
+ \InputIfFileExists{solutions/0201Lab5}{}{No Solution File Found}
+\subsubsection*{L6 {\footnotesize\hyperref[0201Lab6]{(0201Lab6)} \normalsize}}
  \markboth{Chapter\ 2\ \ Limits}{Solutions: L6}
- \InputIfFileExists{solutions/lab:L6}{}{No Solution File Found}
-\subsubsection*{L7 {\footnotesize\hyperref[lab:L7]{(lab:L7)} \normalsize}}
+ \InputIfFileExists{solutions/0201Lab6}{}{No Solution File Found}
+\subsubsection*{L7 {\footnotesize\hyperref[0201Lab7]{(0201Lab7)} \normalsize}}
  \markboth{Chapter\ 2\ \ Limits}{Solutions: L7}
- \InputIfFileExists{solutions/lab:L7}{}{No Solution File Found}
-\subsubsection*{L8 {\footnotesize\hyperref[lab:L8]{(lab:L8)} \normalsize}}
+ \InputIfFileExists{solutions/0201Lab7}{}{No Solution File Found}
+\subsubsection*{L8 {\footnotesize\hyperref[0201Lab8]{(0201Lab8)} \normalsize}}
  \markboth{Chapter\ 2\ \ Limits}{Solutions: L8}
- \InputIfFileExists{solutions/lab:L8}{}{No Solution File Found}
-\subsubsection*{L9 {\footnotesize\hyperref[lab:L9]{(lab:L9)} \normalsize}}
+ \InputIfFileExists{solutions/0201Lab8}{}{No Solution File Found}
+\subsubsection*{L9 {\footnotesize\hyperref[0201Lab9]{(0201Lab9)} \normalsize}}
  \markboth{Chapter\ 2\ \ Limits}{Solutions: L9}
- \InputIfFileExists{solutions/lab:L9}{}{No Solution File Found}
-\subsubsection*{L10 {\footnotesize\hyperref[lab:L10]{(lab:L10)} \normalsize}}
+ \InputIfFileExists{solutions/0201Lab9}{}{No Solution File Found}
+\subsubsection*{L10 {\footnotesize\hyperref[0201LabA]{(0201LabA)} \normalsize}}
  \markboth{Chapter\ 2\ \ Limits}{Solutions: L10}
- \InputIfFileExists{solutions/lab:L10}{}{No Solution File Found}
-\subsubsection*{L11 {\footnotesize\hyperref[lab:L11]{(lab:L11)} \normalsize}}
+ \InputIfFileExists{solutions/0201LabA}{}{No Solution File Found}
+\subsubsection*{L11 {\footnotesize\hyperref[0201LabB]{(0201LabB)} \normalsize}}
  \markboth{Chapter\ 2\ \ Limits}{Solutions: L11}
- \InputIfFileExists{solutions/lab:L11}{}{No Solution File Found}
+ \InputIfFileExists{solutions/0201LabB}{}{No Solution File Found}
 \subsection{Section 2.1\ Exercises}
 \subsubsection*{P1 {\footnotesize\hyperref[0201Remove1]{(0201Remove1)} \normalsize}}
  \markboth{Chapter\ 2\ \ Limits}{Solutions: P1}

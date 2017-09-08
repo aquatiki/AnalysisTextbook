@@ -22,7 +22,7 @@ $$
 x  = \begin{cases} \frac{\tau}{12} & \pm k\tau\\
 \frac{11\tau}{12} & \pm k\tau \end{cases} 
 $$
-where $k \in \mathbb{W}$Or the more general solution for $\sin\theta=x$:
+where $k \in \mathbb{W}$.  Or the more general solution for $\sin\theta=x$:
 \begin{equation}
 \theta  = \begin{cases} \sin^{-1}(x) & \pm k\tau\\
 \frac{\tau}{2} - \sin^{-1}(x) & \pm k\tau \end{cases} 
@@ -86,8 +86,16 @@ the origin is identical if rotated $\frac{\tau}{2}$.
 
 \begin{example}
 	\exProblem
+Factor and solve $\tan^2\theta - 2\tan\theta - 3 = 0$ for all it solutions.
 
 	\exSolution
+If it is not obvious that this is a quadratic in tangent, we can substitute $u = \tan\theta$ to
+get $u^2 - 2u - 3 = 0$, and un-substitute later.  This factors easily into $(u-3)(u+1)=0$, which
+means $u = \{3, -1\}$.  Asking when tangent equals -1 is the same as asking, ``For what
+angles is the slope -1?''  These are all the angles beginning with a $\frac{\tau}{8}$ reference
+angle in the second quadrant, and every half-rotation after that, i.e. $\frac{3\tau}{8}+\frac{\tau}{2}k$.
+The angle of a slope of 3 is not a rational number, but the TI-8* says it is approximately
+1.25, so we can write $1.25 + \frac{\tau}{2}k$.
 \end{example}
 
 
